@@ -1,39 +1,15 @@
 {
-  "spider": "https://www.252035.xyz/p/pg.jar",
+  "spider": "./spider.jar",
   "sites": [
 
-    {
-      "key": "优酷视频",
-      "name": "🎬优酷｜视频",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/YKSP.js",
-      "changeable": 0
-    },
-    {
-      "key": "腾讯视频",
-      "name": "🎬腾讯｜视频",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/TXSP.js",
-      "changeable": 0
-    },
-    {
-      "key": "爱奇艺",
-      "name": "🎬爱奇艺｜视频",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/AQY.js",
-      "changeable": 0
-    },
-    {
-      "key": "芒果视频",
-      "name": "🎬芒果｜视频",
-      "type": 3,
-      "api": "https://gitee.com/PizazzXS/another-d/raw/master/js/drpy2.min.js",
-      "ext": "https://gitee.com/PizazzXS/another-d/raw/master/movie/js/MGSP.js",
-      "changeable": 0
-    } 
+
+ {
+            "key": "豆瓣",
+            "name": "豆瓣｜首页",
+            "type": 3,
+            "api": "csp_Douban",
+            "searchable": 0
+        }
    
   ],
   
@@ -513,4 +489,5 @@
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "logo": "https://gitee.com/xuelong88/logo/raw/master/pg.gif"
+
 }
