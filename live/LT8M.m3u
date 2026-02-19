@@ -1,0 +1,205 @@
+#EXTM3U 
+#EXTINF:-1 tvg-name="CCTV1" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV1.png" group-title="",CCTV1
+rtsp://10.254.192.94/PLTV/88888888/224/3221225621/10000100000000060000000000009742_0.smil
+#EXTINF:-1 tvg-name="CCTV2" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV2.png" group-title="",CCTV2
+rtsp://10.254.192.94/PLTV/88888888/224/3221225622/10000100000000060000000000009740_0.smil
+#EXTINF:-1 tvg-name="CCTV3" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV3.png" group-title="",CCTV3
+rtsp://10.254.192.94/PLTV/88888888/224/3221225846/10000100000000060000000000154432_0.smil
+#EXTINF:-1 tvg-name="CCTV4" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV4.png" group-title="",CCTV4
+rtsp://10.254.192.94/PLTV/88888888/224/3221226537/184048377.smil
+#EXTINF:-1 tvg-name="CCTV5" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV5.png" group-title="",CCTV5
+rtsp://10.254.192.94/PLTV/88888888/224/3221225840/10000100000000060000000000154411_0.smil
+#EXTINF:-1 tvg-name="CCTV6" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV6.png" group-title="",CCTV6
+rtsp://10.254.192.94/PLTV/88888888/224/3221225841/10000100000000060000000000154410_0.smil
+#EXTINF:-1 tvg-name="CCTV7" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV7.png" group-title="",CCTV7
+rtsp://10.254.192.94/PLTV/88888888/224/3221225624/10000100000000060000000000009735_0.smil
+#EXTINF:-1 tvg-name="CCTV8" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV8.png" group-title="",CCTV8
+rtsp://10.254.192.94/PLTV/88888888/224/3221225842/10000100000000060000000000154409_0.smil
+#EXTINF:-1 tvg-name="CCTV9" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV9.png" group-title="",CCTV9
+rtsp://10.254.192.94/PLTV/88888888/224/3221225625/10000100000000060000000000009739_0.smil
+#EXTINF:-1 tvg-name="CCTV10" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV10.png" group-title="",CCTV10
+rtsp://10.254.192.94/PLTV/88888888/224/3221225626/10000100000000060000000000009738_0.smil
+#EXTINF:-1 tvg-name="CCTV11" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV11.png" group-title="",CCTV11
+rtsp://10.254.192.94/PLTV/88888888/224/3221226437/10000100000000060000000002779152_0.smil
+#EXTINF:-1 tvg-name="CCTV12" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV12.png" group-title="",CCTV12
+rtsp://10.254.192.94/PLTV/88888888/224/3221225627/10000100000000060000000000009737_0.smil
+#EXTINF:-1 tvg-name="CCTV13" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV13.png" group-title="",CCTV13
+rtsp://10.254.192.94/PLTV/88888888/224/3221226521/10000100000000060000000004577862_0.smil
+#EXTINF:-1 tvg-name="CCTV14" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV14.png" group-title="",CCTV14
+rtsp://10.254.192.94/PLTV/88888888/224/3221225628/10000100000000060000000000009736_0.smil
+#EXTINF:-1 tvg-name="CCTV15" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV15.png" group-title="",CCTV15
+rtsp://10.254.192.94/PLTV/88888888/224/3221226463/10000100000000060000000002779151_0.smil
+#EXTINF:-1 tvg-name="CCTV5+" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV5+.png" group-title="",CCTV5+
+rtsp://10.254.192.94/PLTV/88888888/224/3221225623/10000100000000060000000000009741_0.smil
+#EXTINF:-1 tvg-name="CCTV17" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV17.png" group-title="",CCTV17
+rtsp://10.254.192.94/PLTV/88888888/224/3221226451/10000100000000060000000002754622_0.smil
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="http://epg.myhone.dpdns.org/tv/CCTV4K.png" group-title="",CCTV4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226611/334810787.smil
+#EXTINF:-1 tvg-name="河南卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/河南卫视.png" group-title="",河南卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225819/10000100000000060000000000154392_0.smil
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/湖南卫视.png" group-title="",湖南卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225630/10000100000000060000000000009766_0.smil
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/江苏卫视.png" group-title="",江苏卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225631/10000100000000060000000000009763_0.smil
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/浙江卫视.png" group-title="",浙江卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225632/10000100000000060000000000009761_0.smil
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/北京卫视.png" group-title="",北京卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225629/10000100000000060000000000009767_0.smil
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/东方卫视.png" group-title="",东方卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225633/10000100000000060000000000009762_0.smil
+#EXTINF:-1 tvg-name="天津卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/天津卫视.png" group-title="",天津卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225634/10000100000000060000000000009760_0.smil
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/山东卫视.png" group-title="",山东卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225636/10000100000000060000000000009758_0.smil
+#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/安徽卫视.png" group-title="",安徽卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225645/10000100000000060000000000009757_0.smil
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/深圳卫视.png" group-title="",深圳卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225640/10000100000000060000000000009764_0.smil
+#EXTINF:-1 tvg-name="江西卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/江西卫视.png" group-title="",江西卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226534/10000100000000060000000004577301_0.smil
+#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/湖北卫视.png" group-title="",湖北卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225638/10000100000000060000000000009759_0.smil
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/四川卫视.png" group-title="",四川卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226487/10000100000000060000000004577300_0.smil
+#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/黑龙江卫视.png" group-title="",黑龙江卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225643/10000100000000060000000000009765_0.smil
+#EXTINF:-1 tvg-name="云南卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/云南卫视.png" group-title="",云南卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226492/10000100000000060000000004577299_0.smil
+#EXTINF:-1 tvg-name="贵州卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/贵州卫视.png" group-title="",贵州卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226516/10000100000000060000000004577298_0.smil
+#EXTINF:-1 tvg-name="辽宁卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/辽宁卫视.png" group-title="",辽宁卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225908/10000100000000060000000000273214_0.smil
+#EXTINF:-1 tvg-name="东南卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/东南卫视.png" group-title="",东南卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226483/10000100000000060000000002828395_0.smil
+#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/重庆卫视.png" group-title="",重庆卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226539/10000100000000060000000004577297_0.smil
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/广东卫视.png" group-title="",广东卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225907/10000100000000060000000000273215_0.smil
+#EXTINF:-1 tvg-name="广西卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/广西卫视.png" group-title="",广西卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225655/10000100000000060000000000009790_0.smil
+#EXTINF:-1 tvg-name="河北卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/河北卫视.png" group-title="",河北卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226497/10000100000000060000000004577296_0.smil
+#EXTINF:-1 tvg-name="吉林卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/吉林卫视.png" group-title="",吉林卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226502/10000100000000060000000004577295_0.smil
+#EXTINF:-1 tvg-name="山西卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/山西卫视.png" group-title="",山西卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225666/10000100000000060000000000009778_0.smil
+#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/陕西卫视.png" group-title="",陕西卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225667/10000100000000060000000000009788_0.smil
+#EXTINF:-1 tvg-name="甘肃卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/甘肃卫视.png" group-title="",甘肃卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225671/10000100000000060000000000009783_0.smil
+#EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/宁夏卫视.png" group-title="",宁夏卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225673/10000100000000060000000000009792_0.smil
+#EXTINF:-1 tvg-name="青海卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/青海卫视.png" group-title="",青海卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225674/10000100000000060000000000009781_0.smil
+#EXTINF:-1 tvg-name="内蒙古卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/内蒙古卫视.png" group-title="",内蒙古卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225676/10000100000000060000000000009779_0.smil
+#EXTINF:-1 tvg-name="厦门卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/厦门卫视.png" group-title="",厦门卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225678/10000100000000060000000000009830_0.smil
+#EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="http://epg.myhone.dpdns.org/tv/金鹰纪实.png" group-title="",金鹰纪实
+rtsp://10.254.192.94/PLTV/88888888/224/3221225899/10000100000000060000000000188018_0.smil
+#EXTINF:-1 tvg-name="兵团卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/兵团卫视.png" group-title="",兵团卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221225683/10000100000000060000000000009832_0.smil
+#EXTINF:-1 tvg-name="卡酷少儿" tvg-logo="http://epg.myhone.dpdns.org/tv/卡酷少儿.png" group-title="",卡酷少儿
+rtsp://10.254.192.94/PLTV/88888888/224/3221225680/10000100000000060000000000009826_0.smil
+#EXTINF:-1 tvg-name="金鹰卡通" tvg-logo="http://epg.myhone.dpdns.org/tv/金鹰卡通.png" group-title="",金鹰卡通
+rtsp://10.254.192.94/PLTV/88888888/224/3221226468/10000100000000060000000002837571_0.smil
+#EXTINF:-1 tvg-name="嘉佳卡通" tvg-logo="http://epg.myhone.dpdns.org/tv/嘉佳卡通.png" group-title="",嘉佳卡通
+rtsp://10.254.192.94/PLTV/88888888/224/3221225669/10000100000000060000000000009825_0.smil
+#EXTINF:-1 tvg-name="三沙卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/三沙卫视.png" group-title="",三沙卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226464/10000100000000060000000002828394_0.smil
+#EXTINF:-1 tvg-name="海南卫视" tvg-logo="http://epg.myhone.dpdns.org/tv/海南卫视.png" group-title="",海南卫视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226485/10000100000000060000000004577294_0.smil
+#EXTINF:-1 tvg-name="北京卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/北京卫视.png" group-title="",北京卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226612/401383125.smil
+#EXTINF:-1 tvg-name="东方卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/东方卫视.png" group-title="",东方卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226617/416656552.smil
+#EXTINF:-1 tvg-name="江苏卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/江苏卫视.png" group-title="",江苏卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226630/416656642.smil
+#EXTINF:-1 tvg-name="浙江卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/浙江卫视.png" group-title="",浙江卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226635/416656559.smil
+#EXTINF:-1 tvg-name="山东卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/山东卫视.png" group-title="",山东卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226622/416656605.smil
+#EXTINF:-1 tvg-name="湖南卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/湖南卫视.png" group-title="",湖南卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226614/416656566.smil
+#EXTINF:-1 tvg-name="四川卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/四川卫视.png" group-title="",四川卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226619/416656656.smil
+#EXTINF:-1 tvg-name="深圳卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/深圳卫视.png" group-title="",深圳卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226626/408619920.smil
+#EXTINF:-1 tvg-name="广东卫视4K" tvg-logo="http://epg.myhone.dpdns.org/tv/广东卫视.png" group-title="",广东卫视4K
+rtsp://10.254.192.94/PLTV/88888888/224/3221226609/408619922.smil
+#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="http://epg.myhone.dpdns.org/tv/CHC家庭影院.png" group-title="",CHC家庭影院
+rtsp://10.254.192.94/PLTV/88888888/224/3221226467/10000100000000060000000003445718_0.smil
+#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="http://epg.myhone.dpdns.org/tv/CHC动作电影.png" group-title="",CHC动作电影
+rtsp://10.254.192.94/PLTV/88888888/224/3221226499/10000100000000060000000003445719_0.smil
+#EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="http://epg.myhone.dpdns.org/tv/CHC影迷电影.png" group-title="",CHC影迷电影
+rtsp://10.254.192.94/PLTV/88888888/224/3221226494/10000100000000060000000003445720_0.smil、
+#EXTINF:-1 tvg-name="经典电影" tvg-logo="http://epg.myhone.dpdns.org/tv/经典电影.png" group-title="",经典电影
+rtsp://10.254.192.94/PLTV/88888888/224/3221225959/10000100000000060000000000273311_0.smil
+#EXTINF:-1 tvg-name="IPTV谍战剧场" tvg-logo="http://epg.myhone.dpdns.org/tv/IPTV谍战剧场.png" group-title="",IPTV谍战剧场
+rtsp://10.254.192.94/PLTV/88888888/224/3221225971/10000100000000060000000000273220_0.smil
+#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="http://epg.myhone.dpdns.org/tv/IPTV相声小品.png" group-title="",IPTV相声小品
+rtsp://10.254.192.94/PLTV/88888888/224/3221225974/10000100000000060000000000273217_0.smil
+#EXTINF:-1 tvg-name="爱上-4k" tvg-logo="http://epg.myhone.dpdns.org/tv/爱上-4k.png" group-title="",爱上-4k
+rtsp://10.254.192.94/PLTV/88888888/224/3221225901/10000100000000060000000000193174_0.smil
+#EXTINF:-1 tvg-name="河南移动电视" tvg-logo="http://epg.myhone.dpdns.org/tv/河南移动电视.png" group-title="",河南移动电视
+rtsp://10.254.192.94/PLTV/88888888/224/3221226555/186808475.smil
+#EXTINF:-1 tvg-name="河南都市" tvg-logo="http://epg.myhone.dpdns.org/tv/河南都市.png" group-title="",河南都市
+rtsp://10.254.192.94/PLTV/88888888/224/3221225836/10000100000000060000000000154415_0.smil
+#EXTINF:-1 tvg-name="河南民生" tvg-logo="http://epg.myhone.dpdns.org/tv/河南民生.png" group-title="",河南民生
+rtsp://10.254.192.94/PLTV/88888888/224/3221225838/10000100000000060000000000154414_0.smil
+#EXTINF:-1 tvg-name="河南法治" tvg-logo="http://epg.myhone.dpdns.org/tv/河南法治.png" group-title="",河南法治
+rtsp://10.254.192.94/PLTV/88888888/224/3221225818/10000100000000060000000000154393_0.smil
+#EXTINF:-1 tvg-name="河南电视剧" tvg-logo="http://epg.myhone.dpdns.org/tv/河南电视剧.png" group-title="",河南电视剧
+rtsp://10.254.192.94/PLTV/88888888/224/3221225837/10000100000000060000000000154413_0.smil
+#EXTINF:-1 tvg-name="河南新闻" tvg-logo="http://epg.myhone.dpdns.org/tv/河南新闻.png" group-title="",河南新闻
+rtsp://10.254.192.94/PLTV/88888888/224/3221225817/10000100000000060000000000154394_0.smil
+#EXTINF:-1 tvg-name="河南公共" tvg-logo="http://epg.myhone.dpdns.org/tv/河南公共.png" group-title="",河南公共
+rtsp://10.254.192.94/PLTV/88888888/224/3221225824/10000100000000060000000000154387_0.smil
+#EXTINF:-1 tvg-name="河南乡村" tvg-logo="http://epg.myhone.dpdns.org/tv/河南乡村.png" group-title="",河南乡村
+rtsp://10.254.192.94/PLTV/88888888/224/3221225816/10000100000000060000000000154395_0.smil
+#EXTINF:-1 tvg-name="许昌农业科教" tvg-logo="http://epg.myhone.dpdns.org/tv/许昌农业科教.png" group-title="",许昌农业科教
+rtsp://10.254.192.94/PLTV/88888888/224/3221225849/10000100000000060000000000154440_0.smil
+#EXTINF:-1 tvg-name="中国教育-1" tvg-logo="http://epg.myhone.dpdns.org/tv/中国教育-1.png" group-title="",中国教育-1
+rtsp://10.254.192.94/PLTV/88888888/224/3221225900/10000100000000060000000000188019_0.smil
+#EXTINF:-1 tvg-name="中国教育-2" tvg-logo="http://epg.myhone.dpdns.org/tv/中国教育-2.png" group-title="",中国教育-2
+rtsp://10.254.192.94/PLTV/88888888/224/3221225906/10000100000000060000000000273211_0.smil
+#EXTINF:-1 tvg-name="中国教育-4" tvg-logo="http://epg.myhone.dpdns.org/tv/中国教育-4.png" group-title="",中国教育-4
+rtsp://10.254.192.94/PLTV/88888888/224/3221225898/10000100000000060000000000188017_0.smil
+#EXTINF:-1 tvg-name="山东教育" tvg-logo="http://epg.myhone.dpdns.org/tv/山东教育.png" group-title="",山东教育
+rtsp://10.254.192.94/PLTV/88888888/224/3221225905/10000100000000060000000000274123_0.smil
+#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="http://epg.myhone.dpdns.org/tv/北京纪实科教.png" group-title="",北京纪实科教
+rtsp://10.254.192.94/PLTV/88888888/224/3221226620/385398376.smil
+#EXTINF:-1 tvg-name="新动漫" tvg-logo="http://epg.myhone.dpdns.org/tv/新动漫.png" group-title="",新动漫
+rtsp://10.254.192.94/PLTV/88888888/224/3221226460/10000100000000060000000003445716_0.smil
+#EXTINF:-1 tvg-name="音乐现场" tvg-logo="http://epg.myhone.dpdns.org/tv/音乐现场.png" group-title="",音乐现场
+rtsp://10.254.192.94/PLTV/88888888/224/3221225969/10000100000000060000000000273222_0.smil
+#EXTINF:-1 tvg-name="军事" tvg-logo="http://epg.myhone.dpdns.org/tv/军事.png" group-title="",军事
+rtsp://10.254.192.94/PLTV/88888888/224/3221225963/10000100000000060000000000273229_0.smil
+#EXTINF:-1 tvg-name="美妆" tvg-logo="http://epg.myhone.dpdns.org/tv/美妆.png" group-title="",美妆
+rtsp://10.254.192.94/PLTV/88888888/224/3221225962/10000100000000060000000000273230_0.smil
+#EXTINF:-1 tvg-name="地理" tvg-logo="http://epg.myhone.dpdns.org/tv/地理.png" group-title="",地理
+rtsp://10.254.192.94/PLTV/88888888/224/3221225961/10000100000000060000000000273231_0.smil
+#EXTINF:-1 tvg-name="精选" tvg-logo="http://epg.myhone.dpdns.org/tv/精选.png" group-title="",精选
+rtsp://10.254.192.94/PLTV/88888888/224/3221226462/10000100000000060000000003268581_0.smil
+#EXTINF:-1 tvg-name="IPTV野外" tvg-logo="http://epg.myhone.dpdns.org/tv/IPTV野外.png" group-title="",IPTV野外
+rtsp://10.254.192.94/PLTV/88888888/224/3221225972/10000100000000060000000000273219_0.smil
+#EXTINF:-1 tvg-name="IPTV法治" tvg-logo="http://epg.myhone.dpdns.org/tv/IPTV法治.png" group-title="",IPTV法治
+rtsp://10.254.192.94/PLTV/88888888/224/3221225973/10000100000000060000000000273218_0.smil
+#EXTINF:-1 tvg-name="少儿动画" tvg-logo="http://epg.myhone.dpdns.org/tv/少儿动画.png" group-title="",少儿动画
+rtsp://10.254.192.94/PLTV/88888888/224/3221225970/10000100000000060000000000273221_0.smil
+#EXTINF:-1 tvg-name="热播剧场" tvg-logo="http://epg.myhone.dpdns.org/tv/热播剧场.png" group-title="",热播剧场
+rtsp://10.254.192.94/PLTV/88888888/224/3221225960/10000100000000060000000000273310_0.smil
+#EXTINF:-1 tvg-name="魅力时尚" tvg-logo="http://epg.myhone.dpdns.org/tv/魅力时尚.png" group-title="",魅力时尚
+rtsp://10.254.192.94/PLTV/88888888/224/3221226424/10000100000000060000000000756291_0.smil
+#EXTINF:-1 tvg-name="爱综艺" tvg-logo="http://epg.myhone.dpdns.org/tv/爱综艺.png" group-title="",爱综艺
+rtsp://10.254.192.94/PLTV/88888888/224/3221226431/10000100000000060000000000756292_0.smil
+#EXTINF:-1 tvg-name="爱电影" tvg-logo="http://epg.myhone.dpdns.org/tv/爱电影.png" group-title="",爱电影
+rtsp://10.254.192.94/PLTV/88888888/224/3221225659/10000100000000060000000000009726_0.smil
+#EXTINF:-1 tvg-name="爱大剧" tvg-logo="http://epg.myhone.dpdns.org/tv/爱大剧.png" group-title="",爱大剧
+rtsp://10.254.192.94/PLTV/88888888/224/3221225660/10000100000000060000000000009725_0.smil
+#EXTINF:-1 tvg-name="爱体育" tvg-logo="http://epg.myhone.dpdns.org/tv/爱体育.png" group-title="",爱体育
+rtsp://10.254.192.94/PLTV/88888888/224/3221225909/10000100000000060000000000273213_0.smil
+#EXTINF:-1 tvg-name="河南梨园" tvg-logo="http://epg.myhone.dpdns.org/tv/河南梨园.png" group-title="",河南梨园
+rtsp://10.254.192.94/PLTV/88888888/224/3221225822/10000100000000060000000000154389_0.smil
+#EXTINF:-1 tvg-name="郑州影视戏曲" tvg-logo="http://epg.myhone.dpdns.org/tv/郑州影视戏曲.png" group-title="",郑州影视戏曲
+rtsp://10.254.192.94/PLTV/88888888/224/3221225832/10000100000000060000000000154399_0.smil
