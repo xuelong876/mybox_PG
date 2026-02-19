@@ -1,38 +1,38 @@
 #EXTM3U
-#EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV1.png" group-title="高码率",CCTV1
+#EXTINF:-1  tvg-name="CCTV-1" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-1.png" group-title="高码率",CCTV-1
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226917/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV2" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV2.png" group-title="高码率",CCTV2
+#EXTINF:-1  tvg-name="CCTV-2" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-2.png" group-title="高码率",CCTV-2
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226970/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV3" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV3.png" group-title="高码率",CCTV3
+#EXTINF:-1  tvg-name="CCTV-3" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-3.png" group-title="高码率",CCTV-3
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226960/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV4" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV4.png" group-title="高码率",CCTV4
+#EXTINF:-1  tvg-name="CCTV-4" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-4.png" group-title="高码率",CCTV-4
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226923/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV5" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV5.png" group-title="高码率",CCTV5
+#EXTINF:-1  tvg-name="CCTV-5" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-5.png" group-title="高码率",CCTV-5
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8?fmt=ts2hls
 
-#EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV6.png" group-title="高码率",CCTV6
+#EXTINF:-1  tvg-name="CCTV-6" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-6.png" group-title="高码率",CCTV-6
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV7" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV7.png" group-title="高码率",CCTV7
+#EXTINF:-1  tvg-name="CCTV-7" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-7.png" group-title="高码率",CCTV-7
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226935/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV8" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV8.png" group-title="高码率",CCTV8
+#EXTINF:-1  tvg-name="CCTV-8" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-8.png" group-title="高码率",CCTV-8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226972/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV9" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV9.png" group-title="高码率",CCTV9
+#EXTINF:-1  tvg-name="CCTV-9" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-9.png" group-title="高码率",CCTV-9
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226941/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV10" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV10.png" group-title="高码率",CCTV10
+#EXTINF:-1  tvg-name="CCTV-10" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-10.png" group-title="高码率",CCTV-10
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV11" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV11.png" group-title="高码率",CCTV11
+#EXTINF:-1  tvg-name="CCTV-11" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-11.png" group-title="高码率",CCTV-11
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226956/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV12" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV12.png" group-title="高码率",CCTV12
+#EXTINF:-1  tvg-name="CCTV-12" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-12.png" group-title="高码率",CCTV-12
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226950/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV13" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV13.png" group-title="高码率",CCTV13
+#EXTINF:-1  tvg-name="CCTV-13" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-13.png" group-title="高码率",CCTV-13
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226919/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV14" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV14.png" group-title="高码率",CCTV14
+#EXTINF:-1  tvg-name="CCTV-14" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-14.png" group-title="高码率",CCTV-14
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226958/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV15" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV15.png" group-title="高码率",CCTV15
+#EXTINF:-1  tvg-name="CCTV-15" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-15.png" group-title="高码率",CCTV-15
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226524/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV5+" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV5+.png" group-title="高码率",CCTV5+
+#EXTINF:-1  tvg-name="CCTV-5+" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-5+.png" group-title="高码率",CCTV-5+
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226978/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="CCTV17" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV17.png" group-title="高码率",CCTV17
+#EXTINF:-1  tvg-name="CCTV-17" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-17.png" group-title="高码率",CCTV-17
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?fmt=ts2hls
 
 
@@ -132,7 +132,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/index.m3u8
 
 
-#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-K.png" "group-title="高码率",CCTV4K
+#EXTINF:-1 tvg-name="CCTV-4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV--K.png" "group-title="高码率",CCTV-4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/index.m3u8
 
 
