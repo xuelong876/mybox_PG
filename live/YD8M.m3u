@@ -132,7 +132,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/index.m3u8
 
 
-#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-K.png" "group-title="高码率",CCTV4K
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV-4K.png" "group-title="高码率",CCTV4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/index.m3u8
 
 
