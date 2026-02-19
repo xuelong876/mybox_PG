@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U   
 #EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV1.png" group-title="高码率",CCTV1
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226917/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="CCTV2" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV2.png" group-title="高码率",CCTV2
@@ -9,7 +9,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226960/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226923/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="CCTV5" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV5.png" group-title="高码率",CCTV5
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226921/1.m3u8?fmt=ts2hls
-
 #EXTINF:-1  tvg-name="CCTV6" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV6.png" group-title="高码率",CCTV6
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226937/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="CCTV7" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV7.png" group-title="高码率",CCTV7
@@ -34,14 +33,10 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226524/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226978/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="CCTV17" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV17.png" group-title="高码率",CCTV17
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226954/1.m3u8?fmt=ts2hls
-
-
-
 #EXTINF:-1  tvg-name="东方卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/东方卫视.png" group-title="高码率",东方卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227018/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="东南卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/东南卫视.png" group-title="高码率",东南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226423/index.m3u8
-
 #EXTINF:-1  tvg-name="湖南卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/湖南卫视.png" group-title="高码率",湖南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226961/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="浙江卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/浙江卫视.png" group-title="高码率",浙江卫视
@@ -50,7 +45,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227020/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227008/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="江苏卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/江苏卫视.png" group-title="高码率",江苏卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226983/1.m3u8?fmt=ts2hls
-
 #EXTINF:-1  tvg-name="黑龙江卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/黑龙江卫视.png" group-title="高码率",黑龙江卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227012/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="湖北卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/湖北卫视.png" group-title="高码率",湖北卫视
@@ -63,42 +57,32 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227006/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226975/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="重庆卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/重庆卫视.png" group-title="高码率",重庆卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226420/index.m3u8
-
 #EXTINF:-1  tvg-name="天津卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/天津卫视.png" group-title="高码率",天津卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227209/index.m3u8
 #EXTINF:-1  tvg-name="河南卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南卫视.png" group-title="高码率",河南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226938/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="广西卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/广西卫视.png" group-title="高码率",广西卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226977/1.m3u8?fmt=ts2hls
-
 #EXTINF:-1  tvg-name="北京纪实科教" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/北京卫视.png" group-title="高码率",北京纪实科教
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227408/index.m3u8
 #EXTINF:-1  tvg-name="金鹰纪实" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/湖南卫视.png" group-title="高码率",金鹰纪实
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226889/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="金鹰卡通" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/湖南卫视.png" group-title="高码率",金鹰卡通
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226965/1.m3u8?fmt=ts2hls
-
 #EXTINF:-1  tvg-name="东方财经" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/东方卫视.png" group-title="高码率",东方财经
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226843/1.m3u8?fmt=ts2hls
-
-#EXTINF:-1 tvg-name="法治天地" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/法治天地.png" group-title="高码率",法治天地
+#EXTINF:-1  tvg-name="法治天地" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/法治天地.png" group-title="高码率",法治天地
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?fmt=ts2hls
-
 #EXTINF:-1  tvg-name="海南卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/海南卫视.png" group-title="高码率",海南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226973/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="云南卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/云南卫视.png" group-title="高码率",云南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227211/index.m3u8
 #EXTINF:-1  tvg-name="吉林卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/吉林卫视.png" group-title="高码率",吉林卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8    
-
-
-
 #EXTINF:-1  tvg-name="河北卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河北卫视.png" group-title="高码率",河北卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226967/1.m3u8?fmt=ts2hls
-
 #EXTINF:-1  tvg-name="贵州卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/贵州卫视.png" group-title="高码率",贵州卫视
 http://vod.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226969/10000100000000060000000008223465_0.smil/index.m3u8?fmt=ts2hls&servicetype=1  
-
 #EXTINF:-1  tvg-name="北京卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/北京卫视4K.png" group-title="高码率",北京卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227411/index.m3u8
 #EXTINF:-1  tvg-name="北京卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/北京卫视4K.png" group-title="高码率",北京卫视4K
@@ -107,13 +91,10 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226677/index.m3u8
  http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227425/index.m3u8
 #EXTINF:-1  tvg-name="东方卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/东方卫视4K.png" group-title="高码率",东方卫视4K
  http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227427/index.m3u8
-
-
 #EXTINF:-1  tvg-name="广东卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/广东卫视4K.png" group-title="高码率",广东卫视4k
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227415/index.m3u8
 #EXTINF:-1  tvg-name="深圳卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/深圳卫视4K.png" group-title="高码率",深圳卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227428/index.m3u8
-
 #EXTINF:-1  tvg-name="江苏卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/江苏卫视4K.png" group-title="高码率",江苏卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227436/index.m3u8
 #EXTINF:-1  tvg-name="浙江卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/浙江卫视4K.png" group-title="高码率",浙江卫视4K
@@ -124,51 +105,46 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227442/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227444/index.m3u8
 #EXTINF:-1  tvg-name="广东卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/广东卫视4K.png" group-title="高码率",广东卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227415/index.m3u8
-#EXTINF:-1  tvg-name="河南卫视" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南卫视4K.png" group-title="高码率",河南卫视4K
+#EXTINF:-1  tvg-name="河南卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南卫视4K.png" group-title="高码率",河南卫视4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226936/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="河南卫视4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南卫视4K.png" "group-title="高码率",河南卫视4K 
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
 #EXTINF:-1  tvg-name="求索记录4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/求索记录4K.png" group-title="高码率",求索记录4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/index.m3u8
-
-
-#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV4k.png" "group-title="高码率",CCTV4K
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV4K.png" "group-title="高码率",CCTV4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/index.m3u8
-
-
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV4K.png" "group-title="高码率",CCTV4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227426/index.m3u8
+#EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CCTV4K.png" "group-title="高码率",CCTV4K
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227354/index.m3u8
 #EXTINF:-1 tvg-name="欢笑剧场4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/欢笑剧场4K.png" "group-title="高码率",欢笑剧场4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226323/index.m3u8
 #EXTINF:-1  tvg-name="欢笑剧场4K" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/欢笑剧场4K.png" group-title="高码率",欢笑剧场4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226882/1.m3u8?fmt=ts2hls
-
-
-#EXTINF:-1 tvg-name="河南电视剧" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南电视剧.png" group-title="高码率",河南电视剧
+#EXTINF:-1  tvg-name="河南电视剧" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南电视剧.png" group-title="高码率",河南电视剧
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226942/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-name="河南都市" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南都市.png" group-title="高码率",河南都市
+#EXTINF:-1  tvg-name="河南都市" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南都市.png" group-title="高码率",河南都市
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226911/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-name="都市剧场" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/都市剧场.png" group-title="高码率",都市剧场
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-name="河南法治" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南法治.png" group-title="高码率",河南法治
+#EXTINF:-1  tvg-name="河南法治" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南法治.png" group-title="高码率",河南法治
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226940/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-name="河南民生" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南民生.png" group-title="高码率",河南民生
+#EXTINF:-1  tvg-name="河南民生" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南民生.png" group-title="高码率",河南民生
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226913/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-name="河南新闻" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南新闻.png" group-title="高码率",河南新闻
+#EXTINF:-1  tvg-name="河南新闻" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南新闻.png" group-title="高码率",河南新闻
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226915/1.m3u8?fmt=ts2hls
-#EXTINF:-1 tvg-name="河南公共" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南公共.png" group-title="高码率",河南公共
+#EXTINF:-1  tvg-name="河南公共" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/河南公共.png" group-title="高码率",河南公共
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="动漫秀场" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动漫秀场.png" group-title="高码率",动漫秀场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="乐游" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/乐游.png" group-title="高码率",乐游
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226877/1.m3u8?fmt=ts2hls
-
-
+#EXTINF:-1  tvg-name="都市剧场" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/都市剧场.png" group-title="高码率",都市剧场
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
 #EXTINF:-1 tvg-name="三门峡" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/三门峡.png" "group-title="高码率",三门峡
 http://vod.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227034/10000100000000060000000008223613_0.smil/index.m3u8?fmt=ts2hls&servicetype=1 
 #EXTINF:-1 tvg-name="晴彩中原" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/晴彩中原.png" "group-title="高码率",晴彩中原
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8   
 #EXTINF:-1 tvg-name="移动戏曲" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/移动戏曲.png" "group-title="高码率",移动戏曲
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8   
- 
+http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8    
 #EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/梨园频道.png" "group-title="高码率",梨园频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/index.m3u8   
 #EXTINF:-1 tvg-name="影视戏曲" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/影视戏曲.png" "group-title="高码率",影视戏曲
