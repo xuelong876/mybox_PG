@@ -15,7 +15,7 @@
     {
       "name": "河南移动4m",
       "type": 0,
-      "url": "",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u"，
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
@@ -495,3 +495,4 @@
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "logo": "https://gitee.com/xuelong88/logo/raw/master/pg.gif"
 }
+
