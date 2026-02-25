@@ -145,29 +145,29 @@ http://vod.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227034/10000100000000060
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8   
 #EXTINF:-1 tvg-name="移动戏曲" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/移动戏曲.png" "group-title="高码率",移动戏曲
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8 
-#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" ,家庭影院
+#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" "group-title="高码率" ,家庭影院
 http://182.127.2.111:40000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" ,家庭影院
+#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" "group-title="高码率" ,家庭影院
 http://182.127.31.231:40000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" ,家庭影院
+#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" "group-title="高码率" ,家庭影院
 http://www.siyao.xin:4000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" ,家庭影院
+#EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" "group-title="高码率" ,家庭影院
 http://123.10.76.190:808/hls/99/index.m3u8
-#EXTINF:-1 tvg-id="高清影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/高清影院.png" ,高清影院
+#EXTINF:-1 tvg-name="高清影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/高清影院.png" "group-title="高码率" ,高清影院
 http://123.10.76.190:808/hls/98/index.m3u8
-#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" ,动作电影
+#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" "group-title="高码率" ,动作电影
 http://182.127.2.111:40000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" ,动作电影
+#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" "group-title="高码率" ,动作电影
 http://182.127.31.231:40000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" ,动作电影
+#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" "group-title="高码率" ,动作电影
 http://www.siyao.xin:4000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" ,IPTV相声小品
+#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" "group-title="高码率" ,IPTV相声小品
 http://182.127.2.111:40000/rtp/225.1.2.169:11032
-#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" ,IPTV相声小品
+#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" "group-title="高码率" ,IPTV相声小品
 http://182.127.31.231:40000/rtp/225.1.2.169:11032
-#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" ,IPTV相声小品
+#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" "group-title="高码率" ,IPTV相声小品
 http://www.siyao.xin:4000/rtp/225.1.2.169:11032
-#EXTINF:-1 tvg-name="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" ,IPTV相声小品
+#EXTINF:-1 tvg-id="IPTV相声小品" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png" "group-title="高码率" ,IPTV相声小品
 http://123.10.76.190:808/hls/81/index.m3u8
    
 #EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/梨园频道.png" "group-title="高码率",梨园频道
