@@ -153,7 +153,7 @@ http://182.127.31.231:40000/rtp/225.1.2.214:11422
 http://www.siyao.xin:4000/rtp/225.1.2.214:11422
 #EXTINF:-1 tvg-name="家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/家庭影院.png" "group-title="高码率" ,家庭影院
 http://123.10.76.190:808/hls/99/index.m3u8
-#EXTINF:-1 tvg-name="动作影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" "group-title="高码率" ,动作影院
+#EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" "group-title="高码率" ,动作电影
 http://123.10.76.190:808/hls/97/index.m3u8
 #EXTINF:-1 tvg-name="动作电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/动作电影.png" "group-title="高码率" ,动作电影
 http://182.127.2.111:40000/rtp/225.1.2.215:11428
