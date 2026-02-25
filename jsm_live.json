@@ -1,15 +1,13 @@
 {
-  "spider": "./spider.jar",
+  "spider": "https://cnb.cool/fish2018/pg/-/git/raw/master/pg.jar",
   "sites": [
-
-
- {
-            "key": "豆瓣",
-            "name": "豆瓣｜首页",
-            "type": 3,
-            "api": "csp_Douban",
-            "searchable": 0
-        }
+    {
+      "key": "豆瓣",
+      "name": "豆瓣｜首页",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+  }
    
   ],
   
@@ -17,20 +15,29 @@
     {
       "name": "河南移动4m",
       "type": 0,
-      "url": "./live/yd4m.txt",
+      "url": "",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+      "logo": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
     {
       "name": "河南移动8m",
       "type": 0,
-      "url": "./live/yd8m.txt",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+    },
+    {
+      "name": "河南移动组播",
+      "type": 0,
+      "url": "https://taoiptv.com/lives/41025.m3u?token=6626de1e0b8b2ccc",
+      "playerType": 2,
+      "ua": "okhttp/3.12.13",
+      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
     {
       "name": "河南联通单播",
@@ -38,33 +45,53 @@
       "url": "./live/LTnwdb2509.txt",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+      "logo": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
+
     {
-      "name": "南阳联通组播",
+      "name": "河南联通酒店",
       "type": 0,
-      "url": "./live/LTnyzb2510.txt",
-      "playerType": 1,
+      "url": "https://taoiptv.com/lives/41014.m3u?token=6626de1e0b8b2ccc",
+      "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
     {
-      "name": "安阳酒店联通",
+      "name": "河南联通组播",
       "type": 0,
-      "url": "./live/LTanyangJD2601.txt",
-      "playerType": 1,
+      "url": "https://taoiptv.com/lives/44021.m3u?token=6626de1e0b8b2ccc",
+      "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
+    {
+      "name": "河南电信酒店",
+      "type": 0,
+      "url": "https://taoiptv.com/lives/41013.m3u?token=6626de1e0b8b2ccc",
+      "playerType": 2,
+      "ua": "okhttp/3.12.13",
+      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+    },
+    {
+      "name": "河南电信组播",
+      "type": 0,
+      "url": "https://taoiptv.com/lives/41013.m3u?token=6626de1e0b8b2ccc",
+      "playerType": 2,
+      "ua": "okhttp/3.12.13",
+      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+    },
+  
     {
       "name": "最强国内直播(合并版)",
       "type": 0,
       "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
       "ua": "okhttp/3.15",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
       "catchup": {
         "type": "append",
@@ -76,7 +103,7 @@
       "type": 0,
       "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
       "ua": "okhttp/3.15",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
       "catchup": {
         "type": "append",
@@ -87,36 +114,14 @@
       "name": "AI直播",
       "type": 0,
       "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}",
       "logo": "https://live.fanmingming.cn/tv/{name}.png",
       "playerType": 2,
       "timeout": 10
     },
-    {
-      "name": "郑州电信直播",
-      "type": 0,
-      "url": "./live/zzdx.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-    },
-    {
-      "name": "南阳电信直播",
-      "type": 0,
-      "url": "./live/nydx.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-    },
-    {
-      "name": "快直播(python)",
-      "type": 3,
-      "api": "./live/kzb.py",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-      "ext": {}
-    },
+
+
+
     {
       "name": "自启动Custom",
       "boot": true,
@@ -126,7 +131,7 @@
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
     {
       "group": "redirect",
@@ -489,5 +494,4 @@
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "logo": "https://gitee.com/xuelong88/logo/raw/master/pg.gif"
-
 }
