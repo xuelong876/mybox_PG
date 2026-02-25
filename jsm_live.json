@@ -42,10 +42,10 @@
     {
       "name": "河南联通单播",
       "type": 0,
-      "url": "./live/LTnwdb2509.txt",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
-      "logo": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
+      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
 
