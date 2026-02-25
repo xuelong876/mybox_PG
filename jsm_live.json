@@ -33,7 +33,7 @@
     {
       "name": "河南移动组播",
       "type": 0,
-      "url": "https://taoiptv.com/lives/41025.m3u?token=6626de1e0b8b2ccc",
+      "url": "https://taoiptv.com/lives/41025..txt?token=6626de1e0b8b2ccc",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -52,7 +52,7 @@
     {
       "name": "河南联通酒店",
       "type": 0,
-      "url": "https://taoiptv.com/lives/41014.m3u?token=6626de1e0b8b2ccc",
+      "url": "https://taoiptv.com/lives/41014..txt?token=6626de1e0b8b2ccc",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -61,7 +61,7 @@
     {
       "name": "河南联通组播",
       "type": 0,
-      "url": "https://taoiptv.com/lives/44021.m3u?token=6626de1e0b8b2ccc",
+      "url": "https://taoiptv.com/lives/44021..txt?token=6626de1e0b8b2ccc",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -70,7 +70,7 @@
     {
       "name": "河南电信酒店",
       "type": 0,
-      "url": "https://taoiptv.com/lives/41013.m3u?token=6626de1e0b8b2ccc",
+      "url": "https://taoiptv.com/lives/41013..txt?token=6626de1e0b8b2ccc",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -79,7 +79,7 @@
     {
       "name": "河南电信组播",
       "type": 0,
-      "url": "https://taoiptv.com/lives/41013.m3u?token=6626de1e0b8b2ccc",
+      "url": "https://taoiptv.com/lives/41013..txt?token=6626de1e0b8b2ccc",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -495,6 +495,3 @@
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img",
   "logo": "https://gitee.com/xuelong88/logo/raw/master/pg.gif"
 }
-
-
-
