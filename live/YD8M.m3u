@@ -146,11 +146,11 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8
 #EXTINF:-1 tvg-name="移动戏曲" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/移动戏曲.png" "group-title="高码率",移动戏曲
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8 
 
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/经典电影.png" group-title="高码率",经典电影
+#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV电影.png" group-title="高码率",经典电影
 http://fsy.cchui.fun:8188/rtp/225.1.4.175:1233
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/经典电影.png" group-title="高码率",经典电影
+#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV电影.png" group-title="高码率",经典电影
 http://fsywrt.cchui.fun:8188/rtp/225.1.4.175:1233
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/经典电影.png" group-title="高码率",经典电影
+#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/IPTV电影.png" group-title="高码率",经典电影
 http://fwswrt.cchui.fun:8188/rtp/225.1.4.175:1233
 
 #EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://gitee.com/xuelong88/logo/raw/master/CHC家庭影院.png" group-title="高码率",CHC家庭影院
