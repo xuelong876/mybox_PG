@@ -133,7 +133,7 @@ rtsp://10.254.192.94/PLTV/88888888/224/3221226467/100001000000000600000000034457
 rtsp://10.254.192.94/PLTV/88888888/224/3221226499/10000100000000060000000003445719_0.smil
 #EXTINF:-1 tvg-name="CHC影迷电影" tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CHC影迷电影.png" ,CHC影迷电影
 rtsp://10.254.192.94/PLTV/88888888/224/3221226494/10000100000000060000000003445720_0.smil、
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/经典电影.png" ,经典电影
+#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV电影.png" ,经典电影
 rtsp://10.254.192.94/PLTV/88888888/224/3221225959/10000100000000060000000000273311_0.smil
 #EXTINF:-1 tvg-name="IPTV谍战剧场" tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV谍战剧场.png" ,IPTV谍战剧场
 rtsp://10.254.192.94/PLTV/88888888/224/3221225971/10000100000000060000000000273220_0.smil
