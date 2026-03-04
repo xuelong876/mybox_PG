@@ -1,0 +1,143 @@
+
+●酷九功能：
+	●支持多种视频格式。
+	●支持图标显示。
+	●支持EPG显示。
+	●支持七天回看（需频道源支持）。
+	●支持24小时时移（需频道源支持）。
+	●支持自定义回看参数。
+	●EPG兼容DIYP，百川，超级TV及XML(支持gz压缩文件)格式。
+	●支持音频轨道，视频轨道和字幕轨道切换（需频道源支持）。
+	●支持JS脚本功能。
+	●支持远程输入。
+	●支持频道搜索。
+	●支持webview。
+	●支持读取U盘内app名称文件夹中的localData和logo文件夹（源和图标配置等）。
+	●支持txt及APP内对分组配置解码方式、画面比例、headers、js路径、回看参数，host，回放偏移值，IjkAnalyzeduration，时移结束时间增加值。
+
+●酷9标准版仅支持安卓5.0以上设备，lite版支持安卓4.3以上设备。
+  ●目录说明
+	backup 储存数据备份文件。
+	download 正在使用的网络列表下载文件。
+	js js脚本文件。
+	epgCache EPG缓存目录。
+	localData 本地列表文件。
+	logo 图标文件和epg_data.json配置文件，可配置图标和EPG id。
+	webviewJscode 自定义播放webview时的js代码，通过修改webview_jscode.js进行播放处理，
+●播放格式(webview://+地址)，
+	示例：webview://http*。
+		 configuration Configuration.json配置，可配置启动图url，退出图url，升级地址等。
+    操作说明
+	app界面：触摸屏幕左或右边部分为弹出频道列表；TV设备遥控按键Ok或Enter键弹出频道列表；触摸屏幕中间部分为弹出底部信息栏；长按屏幕右部分为弹出设置列表，
+	长按屏幕左部分为弹出搜索界面；屏幕右上下滑动为切换频道，左部分上下滑动为音量调整；屏幕左右滑动为切换线路（回看或视频片段时弹出进度条界面）；
+	列表界面：触摸屏长按单个节目添加收藏/取消收藏，TV设备遥控按菜单键收藏/取消收藏；
+	订阅界面：地址列表中，长按地址可进入编辑状态，点击可切换地址，编辑状态下按删除按钮或确定按钮为完成编辑；触摸二维码可跳转至远程页面；
+	媒体信息：长按对应信息可复制对应内容；
+●配置说明
+	解码方式：根据记忆解码开关，开启为单独设置，关闭为全局生效；EPG配置需选择解析方式，默认DIYP解析（推荐使用XmlTv格式EPG地址和解析）；EPG地址需配置对应的解析方式，
+	否则不能加载；
+	EPG缓存：EPG地址配置后选择对应的解析方式，加载后会自动缓存，xml文件下载后一次性解析并保存；缓存自动清除6天前的，（非xml文件）明天后天及精彩节目epg不缓存；
+	EPG数据凌晨后启动会自动更新一次，根据缓存设置时间会进行二次更新；epg_data.json配置文件存放在assets中，可拷贝至logo文件夹中自定义配置；
+	读取图标顺序：本地json配置文件>本地图标文件>m3u列表中logo地址>assets文件配置；
+	epgid：获取epg需要的id名称（epg_data.json文件）；
+	logo：本地图标名称或图标路径（epg_data.json文件）；logo内容为http开头地址则读取网络图标，与本地图标名称一致时读取本地图标；
+	name：需要获取的图标或epg的频道名称，不区分大小写（epg_data.json文件）；
+	app更新：assets文件夹拷贝升级文件update.json文件至服务器，Configuration.json文件配置升级文件地址；
+	本地源路径格式一(局域网)：http://127.0.0.1:9978/file/你的文件路径/文件名及文件后缀（端口号可能变动）；
+	本地源路径格式二(本地)：file:///storage/emulated/0/你的文件路径/文件名及文件后缀（/storage/emulated/0设备不同可能有变）；
+	EPG地址和列表地址设置headers
+	格式：地址#headers#json格式headers；A
+	如：http://ku9.com#headers#{"User-Agent":"Player"}，#headers#为分隔符；
+　　　●Headers配置
+	json格式示例：{"User-Agent":"Player"}；
+　　　●分组配置：支持对分组单独设置解码方式、画面比例、headers、js路径，回看参数，host，回放偏移值，Ijk_Analyzeduration，时移结束时间增加值；
+	txt文本内配置格式：分组1,#genre#,DE=解码#SC=画面比例#HEADERS=请求头#JS=Js路径#PB=回放参数#HOST=Host#PBO=回放偏移值#IJKAD=Ijk_Analyzeduration#TSO=时移结束时间增加值；
+	参数配置如：
+	DE=1#SC=3#HEADERS=http://ku9.com#{"User-Agent":"Player"}#JS=http://ku9/com/tv.js#PB=playseek={start}-{end}#HOST=127.0.0.1#PBO=10#IJKAD=2000000#TSO=3600，
+	   AZ#为分隔符；
+	播放时优先使用分组配置的参数（js中如返回的有headers或host，会调用返回的），分组配置参数部分先后顺序和配置个数，按“名称=参数值”格式填写即可，不同参数之间用#号分开，
+	js路径为标准网络路径和本地file:///storage/emulated/0/及http://127.0.0.1:9978/file/路径；
+●回看参数配置：
+	参数1：start开始时间，end结束时间；参数二：日期格式；参数三：时区；
+	格式示例：生成13位时间戳playseek={start}-{end}；生成10位时间戳playseek={start|10}-{end|10}；设置日期playseek={start|yyyyMMddHHmmss}-{end|yyyyMMddHHmmss}；
+	设置时区playseek={start|yyyyMMddHHmmss|Asia/Shanghai}-{end|yyyyMMddHHmmss|Asia/Shanghai}；
+	"playseek="字符及"{start|…}-{end|…}"连接符号可自定义，如：playseek={start}-{end}、playback={start}&{end}、
+	   (和上面同一行)http://tv/com?playseek&{start}@{end}，starttime={start|yyyyMMdd'T'HHmmss'.00Z'|Asia/Shanghai}&endtime={end|yyyyMMdd'T'HHmmss'.00Z'|Asia/Shanghai}；
+	   
+●app支持多种回看格式，比较复杂的可使用js脚本实现自定义回看格式；
+
+  ●回放偏移值配置： 默认为0，单位秒，可设置回放开始偏移时间，需要增加时间填正数，需要减少时间填负数，注意是开始时间；
+	示例：默认值为0；设置偏移值20表示回放开始时间增加20s，设置偏移值-20表示回放开始时间减少20s；
+  ●时移结束时间增加值配置：
+	默认为0，单位秒，可延长时移结束时间，需要增加时间填正数，需要减少时间填负数，注意是时移时的结束时间；
+	示例：默认值为0；设置值20表示时移结束时间增加20s，设置值-20表示时移结束时间减少20s；
+	提示：列表中复制按钮可复制配置内容，删除按钮为清除分组配置恢复文本配置参数，若文本没有配置，调用默认设置，遇到增加或减少分组时配置失效问题建议在txt文本中配置，
+	    app内分组配置仅为辅助作用；
+  ●注意：本地txt分组配置需要分组名和文本名称一致配置才会生效，比如cc.txt文本中，配置格式：cc,#genre#,DE=解码#SC=画面比例#HEADERS=请求头#JS=Js路径#PB=回放参数
+	     #HOST=Host#PBO=回放偏移值#IJKAD=Ijk_Analyzeduration#TSO=时移结束时间增加值；
+●脚本说明
+	频道地址格式1 http:///ku9/js/.?id= 字符/ku9/js/为识别格式，***为任意字符；
+	频道地址格式2网络路径 http:////k-web/ku9/js/.?id=***，/k-web/前为任意网络路径：如http://ku/99；
+	频道地址格式3 指定json文件 http:////.?id=***&/ku9-json/，地址为具体json路径地址，通过获取json文件中的信息如：
+	                                                  { "url"："http：//123“ , ”headers":"123", "host":"127.0.0.1" }，远程设置相关参数；
+	如需要识别为可时移地址，可在/k-Web/后面添加可时移字符，如：http:////k-web/PLTV/ku9/js/.?id=***；
+	识别为网络路径需要/ku9/js/字符和/k-web/字符同时存在，本地路径只识别/ku9/js/，注意：/ku9/js/字符和/k-web/只作为识别字符，并不加入到真实地址中，解析后会被忽略；
+	支持返回内容为m3u8切片播放；
+	函数调用： ku9.内置函数名(参数1,参数2….)；
+	示例：ku9.get( url )；
+	
+●酷9APP使用台标映射文件：把epg_data.json文件（见附件）放到安卓设备内存里面的\酷9\logo文件夹中。epg_data.json里面映射了频道名称和台标的网络地址，
+   用了这个映射文件就不必往logo文件夹内复制台标图片。台标实时从网上下载，且不会缓存到本地。
+●酷9内置台标映射文件：使用安卓程序“MT管理器”打开脱壳版酷9，把epg_data.json放到assets文件夹内替换掉原来的
+	{
+	  "tvid": "614",            # 酷九无效  
+	  "epgid": "CCTV1",        # 需要映射的频道名称 必须和列表频道名字一样
+	  "name": "CCTV1,CCTV-1",  #用来模糊匹配直播源里面的频道名称
+	  "status": "1",            # 酷九无效
+	  "note": "CCTV-1综合",        # 映射的名称（显示名称）
+	  "logo": "https://gitee.com/***/tv/raw/master/logo/CCTV1.png"  #网络地址，本地是写图标名，如CCTV1.png
+	},
+●DIYP影音内置台标文件：把台标图片和名称映射的BenchMark.txt一起放入BenchMark文件夹，用安卓程序“MT管理器”打开DIYP影音，将BenchMark文件夹整体复制到assets文件夹内，
+                      即可实现台标内置。DIYP内置台标后程序体积变大，建议只内置用到的台标。
+    ●备注： BenchMark.txt文件内，比如”CCTV1#CCTV-1,CCTV1高清,CCTV1综合”这条映射规则中，#号前面的CCTV1表示台标图片的名字（忽略后缀），#号后面的CCTV-1,CCTV1高清,CCTV1综合，
+                         表示模糊匹配直播地址的频道名称，只要频道名称在这三个之中，都对应显示CCTV1.png台标。
+    ●Configuration.json文件的位置：使用MT管理器打开酷9APP，进入assets文件夹，将其释放到安卓内存中的\酷9\configuration文件夹中
+    （直接用MT管理器修改assets文件夹里面的Configuration.json是无效的，必须把它释放出来）。或者下载附件，把里面的Configuration.json它复制到\酷9\configuration文件夹。
+          注：不同版本酷9，这个json文件里面的内容不尽相同，高版本的酷9可能会增加一些参数，所以尽量不要混用。
+
+		{
+		"Configuration": {
+		"#1": "启动图片路径，支持本地和网络",
+		"loginPng": "/storage/emulated/0/酷9/9-.png",
+		"#2": "退出图片路径，支持本地和网络",
+		"exitPng": "https://ExitImageUrl",
+		"#3": "app升级配置文件路径",
+		"updateUrl": "http://ku9/app/update.json",
+		"#4": "是否隐藏加载数据文字提示及动画，false显示，true隐藏",
+		"hideLoginText": false,
+		"#5": "启动数据提示文字",
+		"loginText": "正在加载数据，请稍后...",
+		"#6": "启动加载文字颜色",
+		"loginTextColor": "#FFFFFFFF",
+		"#7": "启动加载动画颜色",
+		"progressBarColor": "#FFFFFFFF",
+		"#8": "网速及时间背景颜色",
+		"speed_timeColor": "#26000000",
+		"#9": "网速及时间背景圆角大小",
+		"speed_timeRadius": 10,
+		"#10": "IJK analyzeduration值",
+		"IJK_analyzeduration": 2000000 （2秒）   0.5秒就是500000
+		}
+
+
+●函数详情可参考assets文件夹内Script.js文件示例。
+●支持X5内核，支持web播放
+●支持本地文件播放，防止接口失效（放置在文件夹内）
+●需安卓5.0以上版本
+●频道列表支持三种格式：
+	http://源   常用
+	video://网页 嗅探网页内源
+	webview://网页 浏览器播放（自动最大化）
+●软件下载地址
+	百度链接: https://pan.baidu.com/s/1si3UDxU_tb7PCLbz6fD_aA?pwd=pf53 提取码: pf53
+	夸克链接：https://pan.quark.cn/s/548ea795eeff
