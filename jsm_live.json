@@ -20,7 +20,7 @@
     },
 
     {
-      "name": "联通单播",
+      "name": "联通内网",
       "type": 0,
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
       "playerType": 1,
@@ -32,7 +32,7 @@
     {
       "name": "联通Hotel",
       "type": 0,
-      "url": "https://taoiptv.com/lives/41014.m3u?token=6626de1e0b8b2ccc",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LTHotel.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -40,7 +40,8 @@
     },
 
     {
-      "name": "电信酒店",
+      "name": "电信Hotel",
+
       "type": 0,
       "url": "https://taoiptv.com/lives/41023.m3u?token=6626de1e0b8b2ccc",
       "playerType": 2,
