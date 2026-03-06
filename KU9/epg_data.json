@@ -132,487 +132,368 @@
       "note": "CGTN",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/cgtn.png"
     },
-
+  
     {
       "epgid": "东方卫视",
       "name": "东方卫视",
       "note": "东方卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/东方卫视.png"
     },
-    {
+{
       "epgid": "东南卫视",
       "name": "东南卫视",
       "note": "东南卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/东南卫视.png"
     },
-    {
+{
       "epgid": "湖南卫视",
       "name": "湖南卫视",
       "note": "湖南卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/湖南卫视.png"
     },
-    {
+{
       "epgid": "浙江卫视",
       "name": "浙江卫视",
       "note": "浙江卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/浙江卫视.png"
     },
-    {
+{
       "epgid": "山东卫视",
       "name": "山东卫视",
       "note": "山东卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/山东卫视.png"
     },
-    {
+{
       "epgid": "江苏卫视",
       "name": "江苏卫视",
       "note": "江苏卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/江苏卫视.png"
     },
-    {
+{
       "epgid": "黑龙江卫视",
       "name": "黑龙江卫视",
       "note": "黑龙江卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/黑龙江卫视.png"
     },
-    {
+{
       "epgid": "湖北卫视",
       "name": "湖北卫视",
       "note": "湖北卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/湖北卫视.png"
     },
-    {
+{
       "epgid": "江西卫视",
       "name": "江西卫视",
       "note": "江西卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/江西卫视.png"
     },
-    {
+{
       "epgid": "辽宁卫视",
       "name": "辽宁卫视",
       "note": "辽宁卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/辽宁卫视.png"
     },
-    {
+{
       "epgid": "安徽卫视",
       "name": "安徽卫视",
       "note": "安徽卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/安徽卫视.png"
     },
-    {
+{
       "epgid": "重庆卫视",
       "name": "重庆卫视",
       "note": "重庆卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/重庆卫视.png"
     },
-    {
+{
       "epgid": "天津卫视",
       "name": "天津卫视",
       "note": "天津卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/天津卫视.png"
     },
-    {
+{
       "epgid": "河南卫视",
       "name": "河南卫视",
       "note": "河南卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南卫视.png"
     },
-    {
+{
       "epgid": "广西卫视",
       "name": "广西卫视",
       "note": "广西卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/广西卫视.png"
     },
-    {
+{
       "epgid": "北京纪实科教",
       "name": "北京纪实科教，科教纪实",
       "note": "北京纪实科教",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/北京纪实科教.png"
     },
-    {
+{
       "epgid": "金鹰纪实",
       "name": "金鹰纪实",
       "note": "金鹰纪实",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/金鹰纪实.png"
     },
-    {
+{
       "epgid": "金鹰卡通",
       "name": "金鹰卡通",
       "note": "金鹰卡通",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/金鹰卡通.png"
     },
-    {
+{
       "epgid": "东方财经",
       "name": "东方财经",
       "note": "东方财经",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/东方财经.png"
     },
-    {
+{
       "epgid": "法治天地",
       "name": "法治天地",
       "note": "法治天地",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/法治天地.png"
     },
-    {
+{
       "epgid": "海南卫视",
       "name": "海南卫视",
       "note": "海南卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/海南卫视.png"
     },
-    {
+{
       "epgid": "云南卫视",
       "name": "云南卫视",
       "note": "云南卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/云南卫视.png"
     },
-    {
+{
       "epgid": "吉林卫视",
       "name": "吉林卫视",
       "note": "吉林卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/吉林卫视.png"
     },
-    {
+{
       "epgid": "河北卫视",
       "name": "河北卫视",
       "note": "河北卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河北卫视.png"
     },
-    {
+{
       "epgid": "贵州卫视",
       "name": "贵州卫视",
       "note": "贵州卫视",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/贵州卫视.png"
     },
-    {
+{
       "epgid": "北京卫视4K",
       "name": "北京卫视4K",
       "note": "北京卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/北京卫视4K.png"
     },
-    {
+{
       "epgid": "湖南卫视4K",
       "name": "湖南卫视4K",
       "note": "湖南卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/湖南卫视4K.png"
     },
-    {
+{
       "epgid": "东方卫视4K",
       "name": "东方卫视4K",
       "note": "东方卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/东方卫视4K.png"
     },
-    {
+{
       "epgid": "广东卫视4k",
       "name": "广东卫视4k",
       "note": "广东卫视4k",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/广东卫视4k.png"
     },
-    {
+{
       "epgid": "深圳卫视4K",
       "name": "深圳卫视4K",
       "note": "深圳卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/深圳卫视4K.png"
     },
-    {
+{
       "epgid": "江苏卫视4K",
       "name": "江苏卫视4K",
       "note": "江苏卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/江苏卫视4K.png"
     },
-    {
+{
       "epgid": "浙江卫视4K",
       "name": "浙江卫视4K",
       "note": "浙江卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/浙江卫视4K.png"
     },
-    {
+{
       "epgid": "山东卫视4K",
       "name": "山东卫视4K",
       "note": "山东卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/山东卫视4K.png"
     },
-    {
+{
       "epgid": "四川卫视4K",
       "name": "四川卫视4K",
       "note": "四川卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/四川卫视4K.png"
     },
-    {
+{
       "epgid": "河南卫视4K",
       "name": "河南卫视4K",
       "note": "河南卫视4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南卫视4K.png"
     },
-    {
+{
       "epgid": "求索记录4K",
       "name": "求索记录4K",
       "note": "求索记录4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/求索记录4K.png"
     },
-    {
+{
       "epgid": "CCTV4K",
       "name": "CCTV4K,CCTV-4K 超高清,CCTV 4K",
       "note": "CCTV4K超高清",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/CCTV4K.png"
     },
-    {
+{
       "epgid": "欢笑剧场4K",
       "name": "欢笑剧场4K",
       "note": "欢笑剧场4K",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/欢笑剧场4K.png"
     },
-    {
+{
       "epgid": "河南电视剧",
       "name": "河南电视剧,电视剧频道",
       "note": "河南电视剧",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南电视剧.png"
     },
-    {
+{
       "epgid": "河南都市",
       "name": "河南都市,都市频道",
 
       "note": "河南都市",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南都市.png"
     },
-    {
+{
       "epgid": "河南法治",
       "name": "河南法治,法治频道",
 
       "note": "河南法治",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南法治.png"
     },
-    {
+{
       "epgid": "河南民生",
       "name": "河南民生,民生频道",
 
       "note": "河南民生",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南民生.png"
     },
-    {
+{
       "epgid": "河南新闻",
       "name": "河南新闻,新闻频道",
+
 
       "note": "河南新闻",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南新闻.png"
     },
-    {
+{
       "epgid": "河南公共",
       "name": "河南公共,公共频道",
+
+
 
       "note": "河南公共",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/河南公共.png"
     },
-    {
+{
       "epgid": "动漫秀场",
       "name": "动漫秀场,动漫频道",
 
       "note": "动漫秀场",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/动漫秀场.png"
     },
-    {
+{
       "epgid": "乐游",
       "name": "乐游,乐游频道",
 
       "note": "乐游",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/乐游.png"
     },
-    {
+{
       "epgid": "都市剧场",
       "name": "都市剧场,都市频道",
 
       "note": "都市剧场",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/都市剧场.png"
     },
-    {
+{
       "epgid": "三门峡",
       "name": "三门峡",
       "note": "三门峡",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/三门峡.png"
     },
-    {
+{
       "epgid": "晴彩中原",
       "name": "晴彩中原,晴彩中原频道",
 
       "note": "晴彩中原",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/晴彩中原.png"
     },
-    {
+{
       "epgid": "移动戏曲",
       "name": "移动戏曲,戏曲频道",
       "note": "移动戏曲",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/移动戏曲.png"
     },
-    {
+{
       "epgid": "经典电影",
       "name": "经典电影,电影频道",
 
       "note": "经典电影",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/经典电影.png"
     },
-    {
+{
       "epgid": "CHC家庭影院",
-      "name": "CHC家庭影院,家庭影院频道,家庭影院",
+      "name": "CHC家庭影院,家庭影院频道",
 
       "note": "CHC家庭影院",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/CHC家庭影院.png"
     },
-    {
+{
       "epgid": "CHC动作电影",
-      "name": "CHC动作电影,动作电影频道,动作电影",
+      "name": "CHC动作电影,动作电影频道",
 
       "note": "CHC动作电影",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/CHC动作电影.png"
     },
-    {
+{
       "epgid": "IPTV相声小品",
       "name": "IPTV相声小品,相声小品频道",
 
       "note": "IPTV相声小品",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/IPTV相声小品.png"
     },
-    {
+{
       "epgid": "IPTV谍战剧场",
       "name": "IPTV谍战剧场,谍战剧场频道",
 
       "note": "IPTV谍战剧场",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/IPTV谍战剧场.png"
     },
-    {
+{
       "epgid": "梨园频道",
       "name": "梨园频道,",
 
       "note": "梨园频道",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/梨园频道.png"
     },
-    {
-      "epgid": "梨园",
-      "name": "梨园频道,梨园",
-
-      "note": "梨园频道",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/梨园频道.png"
-    },
-    {
+{
       "epgid": "影视戏曲",
       "name": "影视戏曲,戏曲频道",
 
       "note": "影视戏曲",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/影视戏曲.png"
     },
-
-    {
-      "epgid": "北京卫视",
-      "name": "北京卫视",
-      "note": "北京卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/北京卫视.png"
-    },
-    {
-      "epgid": "广东卫视",
-      "name": "广东卫视",
-      "note": "广东卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/广东卫视.png"
-    },
-    {
-      "epgid": "深圳卫视",
-      "name": "深圳卫视",
-      "note": "深圳卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/深圳卫视.png"
-    },
-    {
-      "epgid": "甘肃卫视",
-      "name": "甘肃卫视",
-      "note": "甘肃卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/甘肃卫视.png"
-    },
-    {
-      "epgid": "内蒙古卫视",
-      "name": "内蒙古卫视",
-      "note": "内蒙古卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/内蒙古卫视.png"
-    },
-    {
-      "epgid": "宁夏卫视",
-      "name": "宁夏卫视",
-      "note": "宁夏卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/宁夏卫视.png"
-    },
-    {
-      "epgid": "山西卫视",
-      "name": "山西卫视",
-      "note": "山西卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/山西卫视.png"
-    },
-    {
-      "epgid": "陕西卫视",
-      "name": "陕西卫视",
-      "note": "陕西卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/陕西卫视.png"
-    },
-    {
-      "epgid": "新疆卫视",
-      "name": "新疆卫视",
-      "note": "新疆卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/新疆卫视.png"
-    },
-    {
-      "epgid": "西藏卫视",
-      "name": "西藏卫视",
-      "note": "西藏卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/西藏卫视.png"
-    },
-    {
-      "epgid": "兵团卫视",
-      "name": "兵团卫视",
-      "note": "兵团卫视",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/兵团卫视.png"
-    },
-    {
-      "epgid": "卡酷动画",
-      "name": "卡酷动画,北京卡酷",
-      "note": "卡酷动画",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/卡酷动画.png"
-    },
-    {
-      "epgid": "嘉佳卡通",
-      "name": "嘉佳卡通",
-      "note": "嘉佳卡通",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/嘉佳卡通.png"
-    },
-    {
-      "epgid": "河南乡村",
-      "name": "河南乡村,乡村频道，河南乡村频道",
-
-      "note": "河南乡村",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/河南乡村.png"
-    },
-    {
-      "epgid": "IPTV热播剧场",
-      "name": "IPTV热播剧场,热播剧场",
-      "note": "IPTV热播剧场",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/IPTV热播剧场.png"
-    },
-    {
-      "epgid": "CCTV4世界地理",
-      "name": "CCTV4世界地理",
-      "note": "CCTV4世界地理",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/CCTV4.png"
-    },
-    {
-      "epgid": "CCTV高网",
-      "name": "CCTV高网",
-      "note": "CCTV高网",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/CCTV4.png"
-    },
-    {
-      "epgid": "CCTV4欧洲",
-      "name": "CCTV4欧洲",
-      "note": "CCTV4欧洲",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/CCTV4.png"
-    },
-    {
-      "epgid": "CCTV4美洲",
-      "name": "CCTV4美洲",
-      "note": "CCTV4美洲",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/CCTV4.png"
-    }
+   
   ]
 }

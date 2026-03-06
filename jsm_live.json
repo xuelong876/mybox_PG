@@ -6,7 +6,7 @@
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
     {
@@ -15,7 +15,7 @@
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
 
@@ -25,7 +25,7 @@
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
       "playerType": 1,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
 
@@ -35,7 +35,7 @@
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LTHotel.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
 
@@ -46,7 +46,7 @@
       "url": "https://taoiptv.com/lives/41023.m3u?token=6626de1e0b8b2ccc",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     }
   ],

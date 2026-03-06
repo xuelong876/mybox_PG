@@ -4,7 +4,7 @@
     {
       "key": "豆瓣",
       "name": "🏠豆瓣🚥本地👨",
-      "jar": "./wex.png",
+      "jar": "./wex.zip",
       "type": 3,
       "api": "csp_DoubanGuard",
       "searchable": 0,
@@ -100,21 +100,15 @@
       "changeable": 0,
       "filterable": 0
     },
-
     {
-      "key": "盘它",
-      "name": "☁盘它｜移动",
+      "key": "移动",
+      "name": "☁移动｜影视",
       "type": 3,
       "jar": "./spider.jar",
-
-      "api": "csp_PanWebShareCloudPT",
+      "api": "csp_YD",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
       "changeable": 0,
-      "style": {
-        "type": "list"
-      }
+      "quickSearch": 1
     },
     {
       "key": "猎手影视",
@@ -247,7 +241,7 @@
       "type": 1,
       "api": "http://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "changeable": 0,
+      "changeable": 1,
       "categories": [
         "动作片",
         "喜剧片",
@@ -306,7 +300,10 @@
       "filterable": 1,
       "jar": "https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=og",
       "ext": {
-        "site_urls": ["https://woog.nxog.eu.org", "https://woog.nxog.fun"],
+        "site_urls": [
+          "https://woog.nxog.eu.org",
+          "https://woog.nxog.fun"
+        ],
         "url_key": "woog",
         "threadinfo": {
           "chunksize": 380,
@@ -401,7 +398,9 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "site": ["https://woog.nxog.eu.org"]
+        "site": [
+          "https://woog.nxog.eu.org"
+        ]
       }
     },
     {
@@ -434,7 +433,9 @@
       "filterable": 1,
       "changeable": 0,
       "ext": {
-        "site": ["http://103.45.162.207:20720"]
+        "site": [
+          "http://103.45.162.207:20720"
+        ]
       }
     },
     {
@@ -1162,7 +1163,7 @@
 
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
     {
@@ -1172,7 +1173,7 @@
 
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
 
@@ -1183,7 +1184,7 @@
 
       "playerType": 1,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
 
@@ -1193,7 +1194,7 @@
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/ltHotel.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
 
@@ -1209,28 +1210,36 @@
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
       }
     },
+
+    
     {
-      "name": "最强国内直播",
+      "name": "肥羊B站直播.音质增强",
       "type": 0,
-      "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/tv.m3u",
+      "url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/bililive.m3u",
       "ua": "okhttp/3.15",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "肥羊虎牙一起看.音质增强",
+      "type": 0,
+      "url": "http://127.0.0.1:10079/mp4/3600/null/http://127.0.0.1:35456/huyayqk.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "直播(合并版)——咪咕体育",
+      "type": 0,
+      "url": "http://127.0.0.1:10079/c/3600/null/http://127.0.0.1:35456/all.m3u",
+      "ua": "okhttp/3.15",
+      "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
       "catchup": {
         "type": "append",
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
       }
     },
-    {
-      "name": "AI直播",
-      "type": 0,
-      "url": "https://ghproxy.net/raw.githubusercontent.com/PizazzGY/TV/master/output/user_result.txt",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.cn/tv/{name}.png",
-      "playerType": 2,
-      "timeout": 10
-    },
-
     {
       "name": "快直播(python)",
       "type": 3,
@@ -1246,7 +1255,7 @@
       "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.txt",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
     {
@@ -1263,7 +1272,10 @@
     {
       "name": "Google",
       "url": "https://dns.google/dns-query",
-      "ips": ["8.8.4.4", "8.8.8.8"]
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
     },
     {
       "name": "Cloudflare",
@@ -1278,17 +1290,26 @@
     {
       "name": "AdGuard",
       "url": "https://dns.adguard.com/dns-query",
-      "ips": ["94.140.14.140", "94.140.14.141"]
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
     },
     {
       "name": "DNSWatch",
       "url": "https://resolver2.dns.watch/dns-query",
-      "ips": ["84.200.69.80", "84.200.70.40"]
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
     },
     {
       "name": "Quad9",
       "url": "https://dns.quad9.net/dns-quer",
-      "ips": ["9.9.9.9", "149.112.112.112"]
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
     }
   ],
   "rules": [
@@ -1314,80 +1335,132 @@
     },
     {
       "host": "www.djuu.com",
-      "rule": ["mp4.djuu.com", "m4a"]
+      "rule": [
+        "mp4.djuu.com",
+        "m4a"
+      ]
     },
     {
       "host": "www.sharenice.net",
-      "rule": ["huoshan.com", "/item/video/"],
+      "rule": [
+        "huoshan.com",
+        "/item/video/"
+      ],
       "filter": []
     },
     {
       "host": "www.sharenice.net",
-      "rule": ["sovv.qianpailive.com", "vid="],
+      "rule": [
+        "sovv.qianpailive.com",
+        "vid="
+      ],
       "filter": []
     },
     {
       "host": "www.sharenice.net",
-      "rule": ["douyin.com", "/play/"]
+      "rule": [
+        "douyin.com",
+        "/play/"
+      ]
     },
     {
       "host": "m.ysxs8.vip",
-      "rule": ["ysting.ysxs8.vip:81", "xmcdn.com"],
+      "rule": [
+        "ysting.ysxs8.vip:81",
+        "xmcdn.com"
+      ],
       "filter": []
     },
     {
       "host": "hdmoli.com",
-      "rule": [".m3u8"]
+      "rule": [
+        ".m3u8"
+      ]
     },
     {
       "host": "https://api.live.bilibili.com",
-      "rule": ["bilivideo.com", "/index.m3u8"],
-      "filter": ["data.bilibili.com/log/web", "i0.hdslb.com/bfs/live/"]
+      "rule": [
+        "bilivideo.com",
+        "/index.m3u8"
+      ],
+      "filter": [
+        "data.bilibili.com/log/web",
+        "i0.hdslb.com/bfs/live/"
+      ]
     },
     {
       "host": "www.agemys.cc",
-      "rule": ["cdn-tos", "obj/tos-cn"]
+      "rule": [
+        "cdn-tos",
+        "obj/tos-cn"
+      ]
     },
     {
       "host": "www.fun4k.com",
-      "rule": ["https://hd.ijycnd.com/play", "index.m3u8"]
+      "rule": [
+        "https://hd.ijycnd.com/play",
+        "index.m3u8"
+      ]
     },
     {
       "host": "zjmiao.com",
-      "rule": ["play.videomiao.vip/API.php", "time=", "key=", "path="]
+      "rule": [
+        "play.videomiao.vip/API.php",
+        "time=",
+        "key=",
+        "path="
+      ]
     },
     {
       "name": "火山嗅探",
-      "hosts": ["huoshan.com"],
-      "regex": ["item_id="]
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
     },
     {
       "name": "抖音嗅探",
-      "hosts": ["douyin.com"],
-      "regex": ["is_play_url="]
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
     },
     {
       "name": "農民嗅探",
-      "hosts": ["toutiaovod.com"],
-      "regex": ["video/tos/cn"]
+      "hosts": [
+        "toutiaovod.com"
+      ],
+      "regex": [
+        "video/tos/cn"
+      ]
     },
     {
       "name": "夜市",
-      "hosts": ["yeslivetv.com"],
+      "hosts": [
+        "yeslivetv.com"
+      ],
       "script": [
         "document.getElementsByClassName('vjs-big-play-button')[0].click()"
       ]
     },
     {
       "name": "毛驢",
-      "hosts": ["www.maolvys.com"],
+      "hosts": [
+        "www.maolvys.com"
+      ],
       "script": [
         "document.getElementsByClassName('swal-button swal-button--confirm')[0].click()"
       ]
     },
     {
       "name": "磁力广告",
-      "hosts": ["magnet"],
+      "hosts": [
+        "magnet"
+      ],
       "regex": [
         "更多",
         "社 區",
@@ -1543,5 +1616,5 @@
   ],
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img",
-  "logo": "https://gitee.com/xuelong88/logo/raw/master/pg.gif"
+  "logo": "https://cdn.jsdelivr.net/gh/xuelong876/mybox_PG@main/pg.gif"
 }

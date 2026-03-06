@@ -115,6 +115,9 @@ var rule = {
                 "n": "全部年份",
                 "v": ""
             }, {
+                "n": "2026",
+                "v": "2026"
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -344,6 +347,9 @@ var rule = {
             "value": [{
                 "n": "全部年份",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -585,6 +591,9 @@ var rule = {
             "value": [{
                 "n": "全部年份",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -890,6 +899,9 @@ var rule = {
             "value": [{
                 "n": "全部年份",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -1287,6 +1299,9 @@ var rule = {
                 "n": "全部年份",
                 "v": ""
             }, {
+                "n": "2026",
+                "v": "2026"
+            }, {
                 "n": "2025",
                 "v": "2025"
             }, {
@@ -1439,6 +1454,9 @@ var rule = {
             "value": [{
                 "n": "全部年份",
                 "v": ""
+            }, {
+                "n": "2026",
+                "v": "2026"
             }, {
                 "n": "2025",
                 "v": "2025"
@@ -2132,14 +2150,14 @@ var rule = {
                     parse: 0,
                     url: bata.url,
                     jx: 0,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
                 };
             } else {
                 input = {
                     parse: 0,
                     url: input.split("?")[0],
                     jx: 1,
-                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                    danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
                 };
             }
         } catch {
@@ -2147,7 +2165,7 @@ var rule = {
                 parse: 0,
                 url: input.split("?")[0],
                 jx: 1,
-                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=http://dm.qxq6.com/zy/api.php?url=" + input.split("?")[0]
+                danmaku: "http://127.0.0.1:9978/proxy?do=danmu&site=js&url=" + input.split("?")[0]
             };
         }
     }),
@@ -2217,7 +2235,6 @@ var rule = {
             let json = /__INITIAL_DATA__/.test(html) ? html.split("window.__INITIAL_DATA__ =")[1].split(";")[0] : "{}";
             if (json === "{}") {
                 log("触发了优酷人机验证");
-                VOD.vod_remarks = ourl;
                 VOD.vod_pic = _img;
                 VOD.vod_name = video_lists[0].title.replace(/(\d+)/g, "");
                 VOD.vod_content = "触发了优酷人机验证,本次未获取详情,但不影响播放(" + ourl + ")"
