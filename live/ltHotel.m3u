@@ -1,527 +1,527 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV1.png", CCTV1
+#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png", CCTV1
 http://125.46.133.17:4000/rtp/225.1.2.47:10276
-#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV1.png", CCTV1
+#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png", CCTV1
 http://182.127.7.145:40000/rtp/225.1.2.47:10276
-#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV1.png", CCTV1
+#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png", CCTV1
 http://www.siyao.xin:4000/rtp/225.1.2.47:10276
-#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV1.png", CCTV1
+#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png", CCTV1
 http://115.48.162.186:9901/tsfile/live/0001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV1.png", CCTV1
+#EXTINF:-1 tvg-name="CCTV1" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png", CCTV1
 http://123.13.246.86:9901/tsfile/live/0001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV2.png", CCTV2
+#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png", CCTV2
 http://125.46.133.17:4000/rtp/225.1.2.78:10462
-#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV2.png", CCTV2
+#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png", CCTV2
 http://182.127.7.145:40000/rtp/225.1.2.78:10462
-#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV2.png", CCTV2
+#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png", CCTV2
 http://www.siyao.xin:4000/rtp/225.1.2.78:10462
-#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV2.png", CCTV2
+#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png", CCTV2
 http://115.48.162.186:9901/tsfile/live/0002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV2.png", CCTV2
+#EXTINF:-1 tvg-name="CCTV2" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png", CCTV2
 http://123.13.246.86:9901/tsfile/live/0002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV3.png", CCTV3
+#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png", CCTV3
 http://125.46.133.17:4000/rtp/225.1.2.141:10864
-#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV3.png", CCTV3
+#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png", CCTV3
 http://182.127.7.145:40000/rtp/225.1.2.141:10864
-#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV3.png", CCTV3
+#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png", CCTV3
 http://www.siyao.xin:4000/rtp/225.1.2.141:10864
-#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV3.png", CCTV3
+#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png", CCTV3
 http://115.48.162.186:9901/tsfile/live/0003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV3.png", CCTV3
+#EXTINF:-1 tvg-name="CCTV3" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png", CCTV3
 http://123.13.246.86:9901/tsfile/live/0003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV4.png", CCTV4
+#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png", CCTV4
 http://125.46.133.17:4000/rtp/225.1.2.197:11806
-#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV4.png", CCTV4
+#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png", CCTV4
 http://182.127.7.145:40000/rtp/225.1.2.197:11806
-#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV4.png", CCTV4
+#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png", CCTV4
 http://www.siyao.xin:4000/rtp/225.1.2.197:11806
-#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV4.png", CCTV4
+#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png", CCTV4
 http://115.48.162.186:9901/tsfile/live/0004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV4.png", CCTV4
+#EXTINF:-1 tvg-name="CCTV4" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png", CCTV4
 http://123.13.246.86:9901/tsfile/live/0004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://125.46.133.17:4000/rtp/225.1.2.142:10870
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://125.46.133.17:4000/rtp/225.1.2.48:10282
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://182.127.7.145:40000/rtp/225.1.2.142:10870
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://182.127.7.145:40000/rtp/225.1.2.48:10282
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://www.siyao.xin:4000/rtp/225.1.2.142:10870
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://www.siyao.xin:4000/rtp/225.1.2.48:10282
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://115.48.162.186:9901/tsfile/live/0005_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV5.png", CCTV5
+#EXTINF:-1 tvg-name="CCTV5" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png", CCTV5
 http://123.13.246.86:9901/tsfile/live/0005_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV6.png", CCTV6
+#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png", CCTV6
 http://125.46.133.17:4000/rtp/225.1.2.143:10876
-#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV6.png", CCTV6
+#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png", CCTV6
 http://182.127.7.145:40000/rtp/225.1.2.143:10876
-#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV6.png", CCTV6
+#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png", CCTV6
 http://www.siyao.xin:4000/rtp/225.1.2.143:10876
-#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV6.png", CCTV6
+#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png", CCTV6
 http://115.48.162.186:9901/tsfile/live/0006_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV6.png", CCTV6
+#EXTINF:-1 tvg-name="CCTV6" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png", CCTV6
 http://123.13.246.86:9901/tsfile/live/0006_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV7.png", CCTV7
+#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png", CCTV7
 http://125.46.133.17:4000/rtp/225.1.2.79:10468
-#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV7.png", CCTV7
+#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png", CCTV7
 http://182.127.7.145:40000/rtp/225.1.2.79:10468
-#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV7.png", CCTV7
+#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png", CCTV7
 http://www.siyao.xin:4000/rtp/225.1.2.79:10468
-#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV7.png", CCTV7
+#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png", CCTV7
 http://115.48.162.186:9901/tsfile/live/0007_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV7.png", CCTV7
+#EXTINF:-1 tvg-name="CCTV7" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png", CCTV7
 http://123.13.246.86:9901/tsfile/live/0007_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV8.png", CCTV8
+#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png", CCTV8
 http://125.46.133.17:4000/rtp/225.1.2.144:10882
-#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV8.png", CCTV8
+#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png", CCTV8
 http://182.127.7.145:40000/rtp/225.1.2.144:10882
-#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV8.png", CCTV8
+#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png", CCTV8
 http://www.siyao.xin:4000/rtp/225.1.2.144:10882
-#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV8.png", CCTV8
+#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png", CCTV8
 http://115.48.162.186:9901/tsfile/live/0008_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV8.png", CCTV8
+#EXTINF:-1 tvg-name="CCTV8" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png", CCTV8
 http://123.13.246.86:9901/tsfile/live/0008_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV9.png", CCTV9
+#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png", CCTV9
 http://125.46.133.17:4000/rtp/225.1.2.80:10474
-#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV9.png", CCTV9
+#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png", CCTV9
 http://182.127.7.145:40000/rtp/225.1.2.80:10474
-#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV9.png", CCTV9
+#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png", CCTV9
 http://www.siyao.xin:4000/rtp/225.1.2.80:10474
-#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV9.png", CCTV9
+#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png", CCTV9
 http://115.48.162.186:9901/tsfile/live/0009_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV9.png", CCTV9
+#EXTINF:-1 tvg-name="CCTV9" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png", CCTV9
 http://123.13.246.86:9901/tsfile/live/0009_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV10.png", CCTV10
+#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png", CCTV10
 http://125.46.133.17:4000/rtp/225.1.2.81:10480
-#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV10.png", CCTV10
+#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png", CCTV10
 http://182.127.7.145:40000/rtp/225.1.2.81:10480
-#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV10.png", CCTV10
+#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png", CCTV10
 http://www.siyao.xin:4000/rtp/225.1.2.81:10480
-#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV10.png", CCTV10
+#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png", CCTV10
 http://115.48.162.186:9901/tsfile/live/0010_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV10.png", CCTV10
+#EXTINF:-1 tvg-name="CCTV10" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png", CCTV10
 http://123.13.246.86:9901/tsfile/live/0010_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV11.png", CCTV11
+#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png", CCTV11
 http://125.46.133.17:4000/rtp/225.1.2.220:11434
-#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV11.png", CCTV11
+#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png", CCTV11
 http://182.127.7.145:40000/rtp/225.1.2.220:11434
-#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV11.png", CCTV11
+#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png", CCTV11
 http://www.siyao.xin:4000/rtp/225.1.2.220:11434
-#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV11.png", CCTV11
+#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png", CCTV11
 http://115.48.162.186:9901/tsfile/live/0011_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV11.png", CCTV11
+#EXTINF:-1 tvg-name="CCTV11" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png", CCTV11
 http://123.13.246.86:9901/tsfile/live/0011_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV12.png", CCTV12
+#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png", CCTV12
 http://125.46.133.17:4000/rtp/225.1.2.82:10486
-#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV12.png", CCTV12
+#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png", CCTV12
 http://182.127.7.145:40000/rtp/225.1.2.82:10486
-#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV12.png", CCTV12
+#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png", CCTV12
 http://www.siyao.xin:4000/rtp/225.1.2.82:10486
-#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV12.png", CCTV12
+#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png", CCTV12
 http://115.48.162.186:9901/tsfile/live/0012_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV12.png", CCTV12
+#EXTINF:-1 tvg-name="CCTV12" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png", CCTV12
 http://123.13.246.86:9901/tsfile/live/0012_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV13" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV13.png", CCTV13
+#EXTINF:-1 tvg-name="CCTV13" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png", CCTV13
 http://125.46.133.17:4000/rtp/225.1.2.74:11584
-#EXTINF:-1 tvg-name="CCTV13" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV13.png", CCTV13
+#EXTINF:-1 tvg-name="CCTV13" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png", CCTV13
 http://182.127.7.145:40000/rtp/225.1.2.74:11584
-#EXTINF:-1 tvg-name="CCTV13" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV13.png", CCTV13
+#EXTINF:-1 tvg-name="CCTV13" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png", CCTV13
 http://www.siyao.xin:4000/rtp/225.1.2.74:11584
-#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV14.png", CCTV14
+#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png", CCTV14
 http://125.46.133.17:4000/rtp/225.1.2.83:10492
-#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV14.png", CCTV14
+#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png", CCTV14
 http://182.127.7.145:40000/rtp/225.1.2.83:10492
-#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV14.png", CCTV14
+#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png", CCTV14
 http://www.siyao.xin:4000/rtp/225.1.2.83:10492
-#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV14.png", CCTV14
+#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png", CCTV14
 http://115.48.162.186:9901/tsfile/live/0014_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV14.png", CCTV14
+#EXTINF:-1 tvg-name="CCTV14" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png", CCTV14
 http://123.13.246.86:9901/tsfile/live/0014_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV15.png", CCTV15
+#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png", CCTV15
 http://125.46.133.17:4000/rtp/225.1.2.221:11440
-#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV15.png", CCTV15
+#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png", CCTV15
 http://182.127.7.145:40000/rtp/225.1.2.221:11440
-#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV15.png", CCTV15
+#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png", CCTV15
 http://www.siyao.xin:4000/rtp/225.1.2.221:11440
-#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV15.png", CCTV15
+#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png", CCTV15
 http://115.48.162.186:9901/tsfile/live/0015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV15.png", CCTV15
+#EXTINF:-1 tvg-name="CCTV15" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png", CCTV15
 http://123.13.246.86:9901/tsfile/live/0015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV17" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV17.png", CCTV17
+#EXTINF:-1 tvg-name="CCTV17" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV17.png", CCTV17
 http://125.46.133.17:4000/rtp/225.1.2.53:10312
-#EXTINF:-1 tvg-name="CCTV17" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV17.png", CCTV17
+#EXTINF:-1 tvg-name="CCTV17" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV17.png", CCTV17
 http://182.127.7.145:40000/rtp/225.1.2.53:10312
-#EXTINF:-1 tvg-name="CCTV17" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/CCTV17.png", CCTV17
+#EXTINF:-1 tvg-name="CCTV17" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV17.png", CCTV17
 http://www.siyao.xin:4000/rtp/225.1.2.53:10312
-#EXTINF:-1 tvg-name="IPTV少儿动画" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV少儿动画.png", IPTV少儿动画
+#EXTINF:-1 tvg-name="IPTV少儿动画" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV少儿动画.png", IPTV少儿动画
 http://125.46.133.17:4000/rtp/225.1.2.172:11050
-#EXTINF:-1 tvg-name="IPTV少儿动画" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV少儿动画.png", IPTV少儿动画
+#EXTINF:-1 tvg-name="IPTV少儿动画" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV少儿动画.png", IPTV少儿动画
 http://182.127.7.145:40000/rtp/225.1.2.172:11050
-#EXTINF:-1 tvg-name="IPTV少儿动画" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV少儿动画.png", IPTV少儿动画
+#EXTINF:-1 tvg-name="IPTV少儿动画" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV少儿动画.png", IPTV少儿动画
 http://www.siyao.xin:4000/rtp/225.1.2.172:11050
-#EXTINF:-1 tvg-name="IPTV热播剧场" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV热播剧场.png", IPTV热播剧场
+#EXTINF:-1 tvg-name="IPTV热播剧场" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV热播剧场.png", IPTV热播剧场
 http://125.46.133.17:4000/rtp/225.1.2.173:11056
-#EXTINF:-1 tvg-name="IPTV热播剧场" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV热播剧场.png", IPTV热播剧场
+#EXTINF:-1 tvg-name="IPTV热播剧场" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV热播剧场.png", IPTV热播剧场
 http://182.127.7.145:40000/rtp/225.1.2.173:11056
-#EXTINF:-1 tvg-name="IPTV热播剧场" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV热播剧场.png", IPTV热播剧场
+#EXTINF:-1 tvg-name="IPTV热播剧场" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV热播剧场.png", IPTV热播剧场
 http://www.siyao.xin:4000/rtp/225.1.2.173:11056
-#EXTINF:-1 tvg-name="IPTV相声小品" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV相声小品.png", IPTV相声小品
+#EXTINF:-1 tvg-name="IPTV相声小品" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV相声小品.png", IPTV相声小品
 http://125.46.133.17:4000/rtp/225.1.2.169:11032
-#EXTINF:-1 tvg-name="IPTV相声小品" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV相声小品.png", IPTV相声小品
+#EXTINF:-1 tvg-name="IPTV相声小品" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV相声小品.png", IPTV相声小品
 http://182.127.7.145:40000/rtp/225.1.2.169:11032
-#EXTINF:-1 tvg-name="IPTV相声小品" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV相声小品.png", IPTV相声小品
+#EXTINF:-1 tvg-name="IPTV相声小品" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV相声小品.png", IPTV相声小品
 http://www.siyao.xin:4000/rtp/225.1.2.169:11032
-#EXTINF:-1 tvg-name="IPTV谍战剧场" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV谍战剧场.png", IPTV谍战剧场
+#EXTINF:-1 tvg-name="IPTV谍战剧场" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV谍战剧场.png", IPTV谍战剧场
 http://125.46.133.17:4000/rtp/225.1.2.168:11026
-#EXTINF:-1 tvg-name="IPTV谍战剧场" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV谍战剧场.png", IPTV谍战剧场
+#EXTINF:-1 tvg-name="IPTV谍战剧场" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV谍战剧场.png", IPTV谍战剧场
 http://182.127.7.145:40000/rtp/225.1.2.168:11026
-#EXTINF:-1 tvg-name="IPTV谍战剧场" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/IPTV谍战剧场.png", IPTV谍战剧场
+#EXTINF:-1 tvg-name="IPTV谍战剧场" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/IPTV谍战剧场.png", IPTV谍战剧场
 http://www.siyao.xin:4000/rtp/225.1.2.168:11026
-#EXTINF:-1 tvg-name="三沙卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/三沙卫视.png", 三沙卫视
+#EXTINF:-1 tvg-name="三沙卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/三沙卫视.png", 三沙卫视
 http://125.46.133.17:4000/rtp/225.1.2.225:11464
-#EXTINF:-1 tvg-name="三沙卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/三沙卫视.png", 三沙卫视
+#EXTINF:-1 tvg-name="三沙卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/三沙卫视.png", 三沙卫视
 http://182.127.7.145:40000/rtp/225.1.2.225:11464
-#EXTINF:-1 tvg-name="三沙卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/三沙卫视.png", 三沙卫视
+#EXTINF:-1 tvg-name="三沙卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/三沙卫视.png", 三沙卫视
 http://www.siyao.xin:4000/rtp/225.1.2.225:11464
-#EXTINF:-1 tvg-name="东南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东南卫视.png", 东南卫视
+#EXTINF:-1 tvg-name="东南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东南卫视.png", 东南卫视
 http://125.46.133.17:4000/rtp/225.1.2.226:11470
-#EXTINF:-1 tvg-name="东南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东南卫视.png", 东南卫视
+#EXTINF:-1 tvg-name="东南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东南卫视.png", 东南卫视
 http://182.127.7.145:40000/rtp/225.1.2.226:11470
-#EXTINF:-1 tvg-name="东南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东南卫视.png", 东南卫视
+#EXTINF:-1 tvg-name="东南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东南卫视.png", 东南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.226:11470
-#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东方卫视.png", 东方卫视
+#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png", 东方卫视
 http://125.46.133.17:4000/rtp/225.1.2.86:10510
-#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东方卫视.png", 东方卫视
+#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png", 东方卫视
 http://182.127.7.145:40000/rtp/225.1.2.86:10510
-#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东方卫视.png", 东方卫视
+#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png", 东方卫视
 http://www.siyao.xin:4000/rtp/225.1.2.86:10510
-#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东方卫视.png", 东方卫视
+#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png", 东方卫视
 http://115.48.162.186:9901/tsfile/live/0107_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/东方卫视.png", 东方卫视
+#EXTINF:-1 tvg-name="东方卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png", 东方卫视
 http://123.13.246.86:9901/tsfile/live/0107_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="中国教育" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/中国教育.png", 中国教育
+#EXTINF:-1 tvg-name="中国教育" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/中国教育.png", 中国教育
 http://115.48.162.186:9901/tsfile/live/1002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="云南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/云南卫视.png", 云南卫视
+#EXTINF:-1 tvg-name="云南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/云南卫视.png", 云南卫视
 http://125.46.133.17:4000/rtp/225.1.2.76:11596
-#EXTINF:-1 tvg-name="云南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/云南卫视.png", 云南卫视
+#EXTINF:-1 tvg-name="云南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/云南卫视.png", 云南卫视
 http://182.127.7.145:40000/rtp/225.1.2.76:11596
-#EXTINF:-1 tvg-name="云南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/云南卫视.png", 云南卫视
+#EXTINF:-1 tvg-name="云南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/云南卫视.png", 云南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.76:11596
-#EXTINF:-1 tvg-name="兵团卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/兵团卫视.png", 兵团卫视
+#EXTINF:-1 tvg-name="兵团卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/兵团卫视.png", 兵团卫视
 http://125.46.133.17:4000/rtp/225.1.2.98:10582
-#EXTINF:-1 tvg-name="兵团卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/兵团卫视.png", 兵团卫视
+#EXTINF:-1 tvg-name="兵团卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/兵团卫视.png", 兵团卫视
 http://182.127.7.145:40000/rtp/225.1.2.98:10582
-#EXTINF:-1 tvg-name="兵团卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/兵团卫视.png", 兵团卫视
+#EXTINF:-1 tvg-name="兵团卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/兵团卫视.png", 兵团卫视
 http://www.siyao.xin:4000/rtp/225.1.2.98:10582
-#EXTINF:-1 tvg-name="内蒙古卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/内蒙古卫视.png", 内蒙古卫视
+#EXTINF:-1 tvg-name="内蒙古卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/内蒙古卫视.png", 内蒙古卫视
 http://125.46.133.17:4000/rtp/225.1.2.38:10222
-#EXTINF:-1 tvg-name="内蒙古卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/内蒙古卫视.png", 内蒙古卫视
+#EXTINF:-1 tvg-name="内蒙古卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/内蒙古卫视.png", 内蒙古卫视
 http://182.127.7.145:40000/rtp/225.1.2.38:10222
-#EXTINF:-1 tvg-name="内蒙古卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/内蒙古卫视.png", 内蒙古卫视
+#EXTINF:-1 tvg-name="内蒙古卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/内蒙古卫视.png", 内蒙古卫视
 http://www.siyao.xin:4000/rtp/225.1.2.38:10222
-#EXTINF:-1 tvg-name="动作电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/动作电影.png", 动作电影
+#EXTINF:-1 tvg-name="动作电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/动作电影.png", 动作电影
 http://125.46.133.17:4000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="动作电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/动作电影.png", 动作电影
+#EXTINF:-1 tvg-name="动作电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/动作电影.png", 动作电影
 http://182.127.7.145:40000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="动作电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/动作电影.png", 动作电影
+#EXTINF:-1 tvg-name="动作电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/动作电影.png", 动作电影
 http://www.siyao.xin:4000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="动感音乐" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/动感音乐.png", 动感音乐
+#EXTINF:-1 tvg-name="动感音乐" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/动感音乐.png", 动感音乐
 http://125.46.133.17:4000/rtp/225.1.2.158:10966
-#EXTINF:-1 tvg-name="动感音乐" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/动感音乐.png", 动感音乐
+#EXTINF:-1 tvg-name="动感音乐" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/动感音乐.png", 动感音乐
 http://182.127.7.145:40000/rtp/225.1.2.158:10966
-#EXTINF:-1 tvg-name="动感音乐" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/动感音乐.png", 动感音乐
+#EXTINF:-1 tvg-name="动感音乐" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/动感音乐.png", 动感音乐
 http://www.siyao.xin:4000/rtp/225.1.2.158:10966
-#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/北京卫视.png", 北京卫视
+#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png", 北京卫视
 http://125.46.133.17:4000/rtp/225.1.2.49:10288
-#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/北京卫视.png", 北京卫视
+#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png", 北京卫视
 http://182.127.7.145:40000/rtp/225.1.2.49:10288
-#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/北京卫视.png", 北京卫视
+#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png", 北京卫视
 http://www.siyao.xin:4000/rtp/225.1.2.49:10288
-#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/北京卫视.png", 北京卫视
+#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png", 北京卫视
 http://115.48.162.186:9901/tsfile/live/0122_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/北京卫视.png", 北京卫视
+#EXTINF:-1 tvg-name="北京卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png", 北京卫视
 http://123.13.246.86:9901/tsfile/live/0122_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="北京少儿" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/北京少儿.png", 北京少儿
+#EXTINF:-1 tvg-name="北京少儿" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京少儿.png", 北京少儿
 http://115.48.162.186:9901/tsfile/live/1003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="卡酷动画" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/卡酷动画.png", 卡酷动画
+#EXTINF:-1 tvg-name="卡酷动画" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/卡酷动画.png", 卡酷动画
 http://125.46.133.17:4000/rtp/225.1.2.45:10264
-#EXTINF:-1 tvg-name="卡酷动画" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/卡酷动画.png", 卡酷动画
+#EXTINF:-1 tvg-name="卡酷动画" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/卡酷动画.png", 卡酷动画
 http://182.127.7.145:40000/rtp/225.1.2.45:10264
-#EXTINF:-1 tvg-name="卡酷动画" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/卡酷动画.png", 卡酷动画
+#EXTINF:-1 tvg-name="卡酷动画" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/卡酷动画.png", 卡酷动画
 http://www.siyao.xin:4000/rtp/225.1.2.45:10264
-#EXTINF:-1 tvg-name="厦门卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/厦门卫视.png", 厦门卫视
+#EXTINF:-1 tvg-name="厦门卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/厦门卫视.png", 厦门卫视
 http://125.46.133.17:4000/rtp/225.1.2.96:10570
-#EXTINF:-1 tvg-name="厦门卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/厦门卫视.png", 厦门卫视
+#EXTINF:-1 tvg-name="厦门卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/厦门卫视.png", 厦门卫视
 http://182.127.7.145:40000/rtp/225.1.2.96:10570
-#EXTINF:-1 tvg-name="厦门卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/厦门卫视.png", 厦门卫视
+#EXTINF:-1 tvg-name="厦门卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/厦门卫视.png", 厦门卫视
 http://www.siyao.xin:4000/rtp/225.1.2.96:10570
-#EXTINF:-1 tvg-name="吉林卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/吉林卫视.png", 吉林卫视
+#EXTINF:-1 tvg-name="吉林卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/吉林卫视.png", 吉林卫视
 http://125.46.133.17:4000/rtp/225.1.2.105:11608
-#EXTINF:-1 tvg-name="吉林卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/吉林卫视.png", 吉林卫视
+#EXTINF:-1 tvg-name="吉林卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/吉林卫视.png", 吉林卫视
 http://182.127.7.145:40000/rtp/225.1.2.105:11608
-#EXTINF:-1 tvg-name="吉林卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/吉林卫视.png", 吉林卫视
+#EXTINF:-1 tvg-name="吉林卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/吉林卫视.png", 吉林卫视
 http://www.siyao.xin:4000/rtp/225.1.2.105:11608
-#EXTINF:-1 tvg-name="嘉佳卡通" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/嘉佳卡通.png", 嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/嘉佳卡通.png", 嘉佳卡通
 http://125.46.133.17:4000/rtp/225.1.2.93:10552
-#EXTINF:-1 tvg-name="嘉佳卡通" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/嘉佳卡通.png", 嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/嘉佳卡通.png", 嘉佳卡通
 http://182.127.7.145:40000/rtp/225.1.2.93:10552
-#EXTINF:-1 tvg-name="嘉佳卡通" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/嘉佳卡通.png", 嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/嘉佳卡通.png", 嘉佳卡通
 http://www.siyao.xin:4000/rtp/225.1.2.93:10552
-#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/四川卫视.png", 四川卫视
+#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png", 四川卫视
 http://125.46.133.17:4000/rtp/225.1.2.108:11626
-#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/四川卫视.png", 四川卫视
+#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png", 四川卫视
 http://182.127.7.145:40000/rtp/225.1.2.108:11626
-#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/四川卫视.png", 四川卫视
+#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png", 四川卫视
 http://www.siyao.xin:4000/rtp/225.1.2.108:11626
-#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/四川卫视.png", 四川卫视
+#EXTINF:-1 tvg-name="四川卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png", 四川卫视
 http://115.48.162.186:9901/tsfile/live/0123_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/天津卫视.png", 天津卫视
+#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png", 天津卫视
 http://125.46.133.17:4000/rtp/225.1.2.87:10516
-#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/天津卫视.png", 天津卫视
+#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png", 天津卫视
 http://182.127.7.145:40000/rtp/225.1.2.87:10516
-#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/天津卫视.png", 天津卫视
+#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png", 天津卫视
 http://www.siyao.xin:4000/rtp/225.1.2.87:10516
-#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/天津卫视.png", 天津卫视
+#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png", 天津卫视
 http://115.48.162.186:9901/tsfile/live/0135_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/天津卫视.png", 天津卫视
+#EXTINF:-1 tvg-name="天津卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png", 天津卫视
 http://123.13.246.86:9901/tsfile/live/0135_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/安徽卫视.png", 安徽卫视
+#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png", 安徽卫视
 http://125.46.133.17:4000/rtp/225.1.2.88:10522
-#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/安徽卫视.png", 安徽卫视
+#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png", 安徽卫视
 http://182.127.7.145:40000/rtp/225.1.2.88:10522
-#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/安徽卫视.png", 安徽卫视
+#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png", 安徽卫视
 http://www.siyao.xin:4000/rtp/225.1.2.88:10522
-#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/安徽卫视.png", 安徽卫视
+#EXTINF:-1 tvg-name="安徽卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png", 安徽卫视
 http://115.48.162.186:9901/tsfile/live/0130_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="家庭影院" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/家庭影院.png", 家庭影院
+#EXTINF:-1 tvg-name="家庭影院" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/家庭影院.png", 家庭影院
 http://125.46.133.17:4000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="家庭影院" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/家庭影院.png", 家庭影院
+#EXTINF:-1 tvg-name="家庭影院" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/家庭影院.png", 家庭影院
 http://182.127.7.145:40000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="家庭影院" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/家庭影院.png", 家庭影院
+#EXTINF:-1 tvg-name="家庭影院" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/家庭影院.png", 家庭影院
 http://www.siyao.xin:4000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东卫视.png", 山东卫视
+#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png", 山东卫视
 http://125.46.133.17:4000/rtp/225.1.2.89:10528
-#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东卫视.png", 山东卫视
+#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png", 山东卫视
 http://182.127.7.145:40000/rtp/225.1.2.89:10528
-#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东卫视.png", 山东卫视
+#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png", 山东卫视
 http://www.siyao.xin:4000/rtp/225.1.2.89:10528
-#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东卫视.png", 山东卫视
+#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png", 山东卫视
 http://115.48.162.186:9901/tsfile/live/0131_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东卫视.png", 山东卫视
+#EXTINF:-1 tvg-name="山东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png", 山东卫视
 http://123.13.246.86:9901/tsfile/live/0131_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="山东教育" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东教育.png", 山东教育
+#EXTINF:-1 tvg-name="山东教育" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东教育.png", 山东教育
 http://125.46.133.17:4000/rtp/225.1.2.150:10918
-#EXTINF:-1 tvg-name="山东教育" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东教育.png", 山东教育
+#EXTINF:-1 tvg-name="山东教育" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东教育.png", 山东教育
 http://182.127.7.145:40000/rtp/225.1.2.150:10918
-#EXTINF:-1 tvg-name="山东教育" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山东教育.png", 山东教育
+#EXTINF:-1 tvg-name="山东教育" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东教育.png", 山东教育
 http://www.siyao.xin:4000/rtp/225.1.2.150:10918
-#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山西卫视.png", 山西卫视
+#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png", 山西卫视
 http://125.46.133.17:4000/rtp/225.1.2.37:10216
-#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山西卫视.png", 山西卫视
+#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png", 山西卫视
 http://182.127.7.145:40000/rtp/225.1.2.37:10216
-#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山西卫视.png", 山西卫视
+#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png", 山西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.37:10216
-#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/山西卫视.png", 山西卫视
+#EXTINF:-1 tvg-name="山西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png", 山西卫视
 http://115.48.162.186:9901/tsfile/live/0118_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广东卫视.png", 广东卫视
+#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png", 广东卫视
 http://125.46.133.17:4000/rtp/225.1.2.151:10924
-#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广东卫视.png", 广东卫视
+#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png", 广东卫视
 http://182.127.7.145:40000/rtp/225.1.2.151:10924
-#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广东卫视.png", 广东卫视
+#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png", 广东卫视
 http://www.siyao.xin:4000/rtp/225.1.2.151:10924
-#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广东卫视.png", 广东卫视
+#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png", 广东卫视
 http://115.48.162.186:9901/tsfile/live/0125_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广东卫视.png", 广东卫视
+#EXTINF:-1 tvg-name="广东卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png", 广东卫视
 http://123.13.246.86:9901/tsfile/live/0125_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="广西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广西卫视.png", 广西卫视
+#EXTINF:-1 tvg-name="广西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广西卫视.png", 广西卫视
 http://125.46.133.17:4000/rtp/225.1.2.34:10198
-#EXTINF:-1 tvg-name="广西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广西卫视.png", 广西卫视
+#EXTINF:-1 tvg-name="广西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广西卫视.png", 广西卫视
 http://182.127.7.145:40000/rtp/225.1.2.34:10198
-#EXTINF:-1 tvg-name="广西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/广西卫视.png", 广西卫视
+#EXTINF:-1 tvg-name="广西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广西卫视.png", 广西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.34:10198
-#EXTINF:-1 tvg-name="影迷电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/影迷电影.png", 影迷电影
+#EXTINF:-1 tvg-name="影迷电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/影迷电影.png", 影迷电影
 http://125.46.133.17:4000/rtp/225.1.2.210:11398
-#EXTINF:-1 tvg-name="影迷电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/影迷电影.png", 影迷电影
+#EXTINF:-1 tvg-name="影迷电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/影迷电影.png", 影迷电影
 http://182.127.7.145:40000/rtp/225.1.2.210:11398
-#EXTINF:-1 tvg-name="影迷电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/影迷电影.png", 影迷电影
+#EXTINF:-1 tvg-name="影迷电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/影迷电影.png", 影迷电影
 http://www.siyao.xin:4000/rtp/225.1.2.210:11398
-#EXTINF:-1 tvg-name="梨园" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/梨园.png", 梨园
+#EXTINF:-1 tvg-name="梨园" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园.png", 梨园
 http://125.46.133.17:4000/rtp/225.1.2.100:10594
-#EXTINF:-1 tvg-name="梨园" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/梨园.png", 梨园
+#EXTINF:-1 tvg-name="梨园" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园.png", 梨园
 http://182.127.7.145:40000/rtp/225.1.2.100:10594
-#EXTINF:-1 tvg-name="梨园" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/梨园.png", 梨园
+#EXTINF:-1 tvg-name="梨园" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园.png", 梨园
 http://www.siyao.xin:4000/rtp/225.1.2.100:10594
-#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江苏卫视.png", 江苏卫视
+#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png", 江苏卫视
 http://125.46.133.17:4000/rtp/225.1.2.84:10498
-#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江苏卫视.png", 江苏卫视
+#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png", 江苏卫视
 http://182.127.7.145:40000/rtp/225.1.2.84:10498
-#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江苏卫视.png", 江苏卫视
+#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png", 江苏卫视
 http://www.siyao.xin:4000/rtp/225.1.2.84:10498
-#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江苏卫视.png", 江苏卫视
+#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png", 江苏卫视
 http://115.48.162.186:9901/tsfile/live/0127_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江苏卫视.png", 江苏卫视
+#EXTINF:-1 tvg-name="江苏卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png", 江苏卫视
 http://123.13.246.86:9901/tsfile/live/0127_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江西卫视.png", 江西卫视
+#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png", 江西卫视
 http://125.46.133.17:4000/rtp/225.1.2.77:11602
-#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江西卫视.png", 江西卫视
+#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png", 江西卫视
 http://182.127.7.145:40000/rtp/225.1.2.77:11602
-#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江西卫视.png", 江西卫视
+#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png", 江西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.77:11602
-#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/江西卫视.png", 江西卫视
+#EXTINF:-1 tvg-name="江西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png", 江西卫视
 http://115.48.162.186:9901/tsfile/live/0138_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河北卫视.png", 河北卫视
+#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png", 河北卫视
 http://125.46.133.17:4000/rtp/225.1.2.106:11614
-#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河北卫视.png", 河北卫视
+#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png", 河北卫视
 http://182.127.7.145:40000/rtp/225.1.2.106:11614
-#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河北卫视.png", 河北卫视
+#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png", 河北卫视
 http://www.siyao.xin:4000/rtp/225.1.2.106:11614
-#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河北卫视.png", 河北卫视
+#EXTINF:-1 tvg-name="河北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png", 河北卫视
 http://115.48.162.186:9901/tsfile/live/0117_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="河南乡村" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南乡村.png", 河南乡村
+#EXTINF:-1 tvg-name="河南乡村" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南乡村.png", 河南乡村
 http://125.46.133.17:4000/rtp/225.1.2.104:10618
-#EXTINF:-1 tvg-name="河南乡村" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南乡村.png", 河南乡村
+#EXTINF:-1 tvg-name="河南乡村" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南乡村.png", 河南乡村
 http://182.127.7.145:40000/rtp/225.1.2.104:10618
-#EXTINF:-1 tvg-name="河南乡村" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南乡村.png", 河南乡村
+#EXTINF:-1 tvg-name="河南乡村" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南乡村.png", 河南乡村
 http://www.siyao.xin:4000/rtp/225.1.2.104:10618
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://125.46.133.17:4000/rtp/225.1.2.237:11530
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://125.46.133.17:4000/rtp/225.1.2.99:10588
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://182.127.7.145:40000/rtp/225.1.2.237:11530
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://182.127.7.145:40000/rtp/225.1.2.99:10588
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.237:11530
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.99:10588
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://115.48.162.186:9901/tsfile/live/0139_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南卫视.png", 河南卫视
+#EXTINF:-1 tvg-name="河南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png", 河南卫视
 http://123.13.246.86:9901/tsfile/live/0139_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="河南电视剧" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南电视剧.png", 河南电视剧
+#EXTINF:-1 tvg-name="河南电视剧" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南电视剧.png", 河南电视剧
 http://125.46.133.17:4000/rtp/225.1.2.59:10348
-#EXTINF:-1 tvg-name="河南电视剧" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南电视剧.png", 河南电视剧
+#EXTINF:-1 tvg-name="河南电视剧" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南电视剧.png", 河南电视剧
 http://182.127.7.145:40000/rtp/225.1.2.59:10348
-#EXTINF:-1 tvg-name="河南电视剧" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南电视剧.png", 河南电视剧
+#EXTINF:-1 tvg-name="河南电视剧" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南电视剧.png", 河南电视剧
 http://www.siyao.xin:4000/rtp/225.1.2.59:10348
-#EXTINF:-1 tvg-name="河南移动" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南移动.png", 河南移动
+#EXTINF:-1 tvg-name="河南移动" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南移动.png", 河南移动
 http://125.46.133.17:4000/rtp/225.1.2.190:11866
-#EXTINF:-1 tvg-name="河南移动" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南移动.png", 河南移动
+#EXTINF:-1 tvg-name="河南移动" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南移动.png", 河南移动
 http://182.127.7.145:40000/rtp/225.1.2.190:11866
-#EXTINF:-1 tvg-name="河南移动" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/河南移动.png", 河南移动
+#EXTINF:-1 tvg-name="河南移动" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南移动.png", 河南移动
 http://www.siyao.xin:4000/rtp/225.1.2.190:11866
-#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/浙江卫视.png", 浙江卫视
+#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png", 浙江卫视
 http://125.46.133.17:4000/rtp/225.1.2.85:10504
-#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/浙江卫视.png", 浙江卫视
+#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png", 浙江卫视
 http://182.127.7.145:40000/rtp/225.1.2.85:10504
-#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/浙江卫视.png", 浙江卫视
+#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png", 浙江卫视
 http://www.siyao.xin:4000/rtp/225.1.2.85:10504
-#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/浙江卫视.png", 浙江卫视
+#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png", 浙江卫视
 http://115.48.162.186:9901/tsfile/live/0124_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/浙江卫视.png", 浙江卫视
+#EXTINF:-1 tvg-name="浙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png", 浙江卫视
 http://123.13.246.86:9901/tsfile/live/0124_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="海南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/海南卫视.png", 海南卫视
+#EXTINF:-1 tvg-name="海南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/海南卫视.png", 海南卫视
 http://125.46.133.17:4000/rtp/225.1.2.107:11620
-#EXTINF:-1 tvg-name="海南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/海南卫视.png", 海南卫视
+#EXTINF:-1 tvg-name="海南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/海南卫视.png", 海南卫视
 http://182.127.7.145:40000/rtp/225.1.2.107:11620
-#EXTINF:-1 tvg-name="海南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/海南卫视.png", 海南卫视
+#EXTINF:-1 tvg-name="海南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/海南卫视.png", 海南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.107:11620
-#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/深圳卫视.png", 深圳卫视
+#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png", 深圳卫视
 http://125.46.133.17:4000/rtp/225.1.2.91:10540
-#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/深圳卫视.png", 深圳卫视
+#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png", 深圳卫视
 http://182.127.7.145:40000/rtp/225.1.2.91:10540
-#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/深圳卫视.png", 深圳卫视
+#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png", 深圳卫视
 http://www.siyao.xin:4000/rtp/225.1.2.91:10540
-#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/深圳卫视.png", 深圳卫视
+#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png", 深圳卫视
 http://115.48.162.186:9901/tsfile/live/0126_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/深圳卫视.png", 深圳卫视
+#EXTINF:-1 tvg-name="深圳卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png", 深圳卫视
 http://123.13.246.86:9901/tsfile/live/0126_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖北卫视.png", 湖北卫视
+#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png", 湖北卫视
 http://125.46.133.17:4000/rtp/225.1.2.90:10534
-#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖北卫视.png", 湖北卫视
+#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png", 湖北卫视
 http://182.127.7.145:40000/rtp/225.1.2.90:10534
-#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖北卫视.png", 湖北卫视
+#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png", 湖北卫视
 http://www.siyao.xin:4000/rtp/225.1.2.90:10534
-#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖北卫视.png", 湖北卫视
+#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png", 湖北卫视
 http://115.48.162.186:9901/tsfile/live/0132_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖北卫视.png", 湖北卫视
+#EXTINF:-1 tvg-name="湖北卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png", 湖北卫视
 http://123.13.246.86:9901/tsfile/live/0132_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖南卫视.png", 湖南卫视
+#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png", 湖南卫视
 http://125.46.133.17:4000/rtp/225.1.2.50:10294
-#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖南卫视.png", 湖南卫视
+#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png", 湖南卫视
 http://182.127.7.145:40000/rtp/225.1.2.50:10294
-#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖南卫视.png", 湖南卫视
+#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png", 湖南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.50:10294
-#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖南卫视.png", 湖南卫视
+#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png", 湖南卫视
 http://115.48.162.186:9901/tsfile/live/0108_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/湖南卫视.png", 湖南卫视
+#EXTINF:-1 tvg-name="湖南卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png", 湖南卫视
 http://123.13.246.86:9901/tsfile/live/0128_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="甘肃卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/甘肃卫视.png", 甘肃卫视
+#EXTINF:-1 tvg-name="甘肃卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/甘肃卫视.png", 甘肃卫视
 http://125.46.133.17:4000/rtp/225.1.2.44:10258
-#EXTINF:-1 tvg-name="甘肃卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/甘肃卫视.png", 甘肃卫视
+#EXTINF:-1 tvg-name="甘肃卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/甘肃卫视.png", 甘肃卫视
 http://182.127.7.145:40000/rtp/225.1.2.44:10258
-#EXTINF:-1 tvg-name="甘肃卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/甘肃卫视.png", 甘肃卫视
+#EXTINF:-1 tvg-name="甘肃卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/甘肃卫视.png", 甘肃卫视
 http://www.siyao.xin:4000/rtp/225.1.2.44:10258
-#EXTINF:-1 tvg-name="经典电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/经典电影.png", 经典电影
+#EXTINF:-1 tvg-name="经典电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/经典电影.png", 经典电影
 http://125.46.133.17:4000/rtp/225.1.2.167:11020
-#EXTINF:-1 tvg-name="经典电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/经典电影.png", 经典电影
+#EXTINF:-1 tvg-name="经典电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/经典电影.png", 经典电影
 http://182.127.7.145:40000/rtp/225.1.2.167:11020
-#EXTINF:-1 tvg-name="经典电影" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/经典电影.png", 经典电影
+#EXTINF:-1 tvg-name="经典电影" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/经典电影.png", 经典电影
 http://www.siyao.xin:4000/rtp/225.1.2.167:11020
-#EXTINF:-1 tvg-name="贵州卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/贵州卫视.png", 贵州卫视
+#EXTINF:-1 tvg-name="贵州卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/贵州卫视.png", 贵州卫视
 http://125.46.133.17:4000/rtp/225.1.2.109:11632
-#EXTINF:-1 tvg-name="贵州卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/贵州卫视.png", 贵州卫视
+#EXTINF:-1 tvg-name="贵州卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/贵州卫视.png", 贵州卫视
 http://182.127.7.145:40000/rtp/225.1.2.109:11632
-#EXTINF:-1 tvg-name="贵州卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/贵州卫视.png", 贵州卫视
+#EXTINF:-1 tvg-name="贵州卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/贵州卫视.png", 贵州卫视
 http://www.siyao.xin:4000/rtp/225.1.2.109:11632
-#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/重庆卫视.png", 重庆卫视
+#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png", 重庆卫视
 http://125.46.133.17:4000/rtp/225.1.2.75:11590
-#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/重庆卫视.png", 重庆卫视
+#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png", 重庆卫视
 http://182.127.7.145:40000/rtp/225.1.2.75:11590
-#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/重庆卫视.png", 重庆卫视
+#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png", 重庆卫视
 http://www.siyao.xin:4000/rtp/225.1.2.75:11590
-#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/重庆卫视.png", 重庆卫视
+#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png", 重庆卫视
 http://115.48.162.186:9901/tsfile/live/0142_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/重庆卫视.png", 重庆卫视
+#EXTINF:-1 tvg-name="重庆卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png", 重庆卫视
 http://123.13.246.86:9901/tsfile/live/0142_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="金鹰卡通" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/金鹰卡通.png", 金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/金鹰卡通.png", 金鹰卡通
 http://125.46.133.17:4000/rtp/225.1.2.46:10270
-#EXTINF:-1 tvg-name="金鹰卡通" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/金鹰卡通.png", 金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/金鹰卡通.png", 金鹰卡通
 http://182.127.7.145:40000/rtp/225.1.2.46:10270
-#EXTINF:-1 tvg-name="金鹰卡通" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/金鹰卡通.png", 金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/金鹰卡通.png", 金鹰卡通
 http://www.siyao.xin:4000/rtp/225.1.2.46:10270
-#EXTINF:-1 tvg-name="金鹰纪实" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/金鹰纪实.png", 金鹰纪实
+#EXTINF:-1 tvg-name="金鹰纪实" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/金鹰纪实.png", 金鹰纪实
 http://125.46.133.17:4000/rtp/225.1.2.97:10576
-#EXTINF:-1 tvg-name="金鹰纪实" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/金鹰纪实.png", 金鹰纪实
+#EXTINF:-1 tvg-name="金鹰纪实" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/金鹰纪实.png", 金鹰纪实
 http://182.127.7.145:40000/rtp/225.1.2.97:10576
-#EXTINF:-1 tvg-name="金鹰纪实" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/金鹰纪实.png", 金鹰纪实
+#EXTINF:-1 tvg-name="金鹰纪实" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/金鹰纪实.png", 金鹰纪实
 http://www.siyao.xin:4000/rtp/225.1.2.97:10576
-#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/陕西卫视.png", 陕西卫视
+#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png", 陕西卫视
 http://125.46.133.17:4000/rtp/225.1.2.36:10210
-#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/陕西卫视.png", 陕西卫视
+#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png", 陕西卫视
 http://182.127.7.145:40000/rtp/225.1.2.36:10210
-#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/陕西卫视.png", 陕西卫视
+#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png", 陕西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.36:10210
-#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/陕西卫视.png", 陕西卫视
+#EXTINF:-1 tvg-name="陕西卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png", 陕西卫视
 http://115.48.162.186:9901/tsfile/live/0136_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="魅力时尚" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/魅力时尚.png", 魅力时尚
+#EXTINF:-1 tvg-name="魅力时尚" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/魅力时尚.png", 魅力时尚
 http://125.46.133.17:4000/rtp/225.1.2.145:10888
-#EXTINF:-1 tvg-name="魅力时尚" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/魅力时尚.png", 魅力时尚
+#EXTINF:-1 tvg-name="魅力时尚" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/魅力时尚.png", 魅力时尚
 http://182.127.7.145:40000/rtp/225.1.2.145:10888
-#EXTINF:-1 tvg-name="魅力时尚" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/魅力时尚.png", 魅力时尚
+#EXTINF:-1 tvg-name="魅力时尚" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/魅力时尚.png", 魅力时尚
 http://www.siyao.xin:4000/rtp/225.1.2.145:10888
-#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/黑龙江卫视.png", 黑龙江卫视
+#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png", 黑龙江卫视
 http://125.46.133.17:4000/rtp/225.1.2.92:10546
-#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/黑龙江卫视.png", 黑龙江卫视
+#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png", 黑龙江卫视
 http://182.127.7.145:40000/rtp/225.1.2.92:10546
-#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/黑龙江卫视.png", 黑龙江卫视
+#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png", 黑龙江卫视
 http://www.siyao.xin:4000/rtp/225.1.2.92:10546
-#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/黑龙江卫视.png", 黑龙江卫视
+#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png", 黑龙江卫视
 http://115.48.162.186:9901/tsfile/live/0143_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://gitee.com/xuelong88/channel-logo/raw/master/黑龙江卫视.png", 黑龙江卫视
+#EXTINF:-1 tvg-name="黑龙江卫视" "tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png", 黑龙江卫视
 http://123.13.246.86:9901/tsfile/live/0143_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0

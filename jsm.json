@@ -1158,16 +1158,18 @@
     {
       "name": "移动4m",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.txt",
+      "url": "./live/YD4M.m3u",
+
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
     {
       "name": "移动8m",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.txt",
+      "url": "./live/YD8M.m3u",
+
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -1177,7 +1179,8 @@
     {
       "name": "联通内网",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.txt",
+      "url": "./live/LT8M.m3u",
+
       "playerType": 1,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
@@ -1187,23 +1190,13 @@
     {
       "name": "联通Hotel",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LTHotel.txt",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LTHotel.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
       "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
     },
 
-    {
-      "name": "电信Hotel",
-
-      "type": 0,
-      "url": "https://taoiptv.com/lives/41023.m3u?token=6626de1e0b8b2ccc",
-      "playerType": 2,
-      "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
-    },
     {
       "name": "最强国内直播(合并版)",
       "type": 0,
@@ -1237,24 +1230,7 @@
       "playerType": 2,
       "timeout": 10
     },
-    {
-      "name": "郑州电信直播",
-      "type": 0,
-      "url": "./live/zzdx.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-    },
-    {
-      "name": "南阳电信直播",
-      "type": 0,
-      "url": "./live/nydx.txt",
-      "playerType": 1,
-      "ua": "okhttp/3.12.13",
-      "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
-    },
+
     {
       "name": "快直播(python)",
       "type": 3,
@@ -1267,7 +1243,7 @@
       "boot": true,
       "pass": false,
       "type": 0,
-      "url": "./live/yd4m.txt",
+      "url": "./live/YD4M.txt",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
