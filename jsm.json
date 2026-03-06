@@ -1158,7 +1158,7 @@
     {
       "name": "移动4m",
       "type": 0,
-      "url": "./live/YD4M.m3u",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
 
       "playerType": 2,
       "ua": "okhttp/3.12.13",
@@ -1168,23 +1168,23 @@
     {
       "name": "移动8m",
       "type": 0,
-      "url": "./live/YD8M.m3u",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u",
 
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
 
     {
       "name": "联通内网",
       "type": 0,
-      "url": "./live/LT8M.m3u",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
 
       "playerType": 1,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
 
     {
@@ -1194,7 +1194,7 @@
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
-      "epg": "https://epg.zsdc.eu.org/t.xml?ch={name}&date={date}"
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
 
     {
@@ -1234,7 +1234,7 @@
     {
       "name": "快直播(python)",
       "type": 3,
-      "api": "./live/kzb.py",
+      "api": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/kzb.py",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "ext": {}
     },
@@ -1243,7 +1243,7 @@
       "boot": true,
       "pass": false,
       "type": 0,
-      "url": "./live/YD4M.txt",
+      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.txt",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://gitee.com/xuelong88/logo/raw/master/{name}.png",
