@@ -1197,7 +1197,24 @@
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
-
+    {
+      "name": "刺桐自营",
+      "type": 0,
+      "url": "https://www.cttv.vip/ys/json/ctzb.txt",
+      "playerType": 2,
+      "ua": "okhttp/3.12.13",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+    },
+    {
+      "name": "饭太硬",
+      "type": 0,
+      "url": "https://gh.llkk.cc/http://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt ",
+      "playerType": 2,
+      "ua": "okhttp/3.12.13",
+      "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
+      "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
+    },
     {
       "name": "最强国内直播(合并版)",
       "type": 0,
