@@ -1,49 +1,49 @@
 #EXTM3U
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-1.png" "group-title="党建戏曲",CCTV-1
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-1.png" group-title="党建戏曲",CCTV-1
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-1/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-3.png" "group-title="党建戏曲",CCTV-3
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-3.png" group-title="党建戏曲",CCTV-3
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-3/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-5.png" "group-title="党建戏曲",CCTV-5
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-5.png" group-title="党建戏曲",CCTV-5
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-5/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-6.png" "group-title="党建戏曲",CCTV-6
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-6.png" group-title="党建戏曲",CCTV-6
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-6/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-7.png" "group-title="党建戏曲",CCTV-7
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-7.png" group-title="党建戏曲",CCTV-7
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-7/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-9.png" "group-title="党建戏曲",CCTV-9
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-9.png" group-title="党建戏曲",CCTV-9
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-9/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-10.png" "group-title="党建戏曲",CCTV-10
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-10.png" group-title="党建戏曲",CCTV-10
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-10/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-11.png" "group-title="党建戏曲",CCTV-11
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-11.png" group-title="党建戏曲",CCTV-11
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-11/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-12.png" "group-title="党建戏曲",CCTV-12
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-12.png" group-title="党建戏曲",CCTV-12
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-12/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-13.png" "group-title="党建戏曲",CCTV-13
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-13.png" group-title="党建戏曲",CCTV-13
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-cctv-13/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png" "group-title="党建戏曲",浙江卫视
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png" group-title="党建戏曲",浙江卫视
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-zhejiangweishi/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png" "group-title="党建戏曲",北京卫视
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png" group-title="党建戏曲",北京卫视
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-beijingweishi/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png" "group-title="党建戏曲",河南卫视
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png" group-title="党建戏曲",河南卫视
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-hnweishi/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南都市.png" "group-title="党建戏曲",河南都市
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南都市.png" group-title="党建戏曲",河南都市
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-henandushi/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南民生.png" "group-title="党建戏曲",河南民生
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南民生.png" group-title="党建戏曲",河南民生
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-henanminsheng/live.m3u8
-#XTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园频道.png" "group-title="党建戏曲",梨园频道
-#EXTKU9OPT:HEADERS={ 'Referer': 'https://www.hndyjyfw.gov.cn/', 'User-Agent': 'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007','Origin':'https://www.hndyjyfw.gov.cn'}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园频道.png" group-title="党建戏曲",梨园频道
+#EXTKU9OPT:HEADERS={'Referer':'https://www.hndyjyfw.gov.cn/','User-Agent':'Mozilla/5.0 (Linux; Android 14; 22122RK93C Build/UP1A.231005.007)','Origin':'https://www.hndyjyfw.gov.cn'}
 https://media.hndyjyfw.gov.cn/live/jz-henanliyuan/live.m3u8
