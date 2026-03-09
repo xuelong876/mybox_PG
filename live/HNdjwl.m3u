@@ -29,5 +29,5 @@ https://media.hndyjyfw.gov.cn/live/jz-hnweishi/live.m3u8#headers#{"Referer":"htt
 https://media.hndyjyfw.gov.cn/live/jz-henandushi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
 #EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南民生.png",河南民生
 https://media.hndyjyfw.gov.cn/live/jz-henanminsheng/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
-#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南梨园.png",河南梨园
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园频道.png",梨园频道
 https://media.hndyjyfw.gov.cn/live/jz-henanliyuan/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
