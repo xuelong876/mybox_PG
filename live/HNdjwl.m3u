@@ -1,33 +1,33 @@
 #EXTM3U
-#EXTINF:-1,CCTV-1
-https://media.hndyjyfw.gov.cn/live/jz-cctv-1/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-3
-https://media.hndyjyfw.gov.cn/live/jz-cctv-3/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-5
-https://media.hndyjyfw.gov.cn/live/jz-cctv-5/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-6
-https://media.hndyjyfw.gov.cn/live/jz-cctv-6/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-7
-https://media.hndyjyfw.gov.cn/live/jz-cctv-7/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-9
-https://media.hndyjyfw.gov.cn/live/jz-cctv-9/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-10
-https://media.hndyjyfw.gov.cn/live/jz-cctv-10/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-11
-https://media.hndyjyfw.gov.cn/live/jz-cctv-11/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-12
-https://media.hndyjyfw.gov.cn/live/jz-cctv-12/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,CCTV-13
-https://media.hndyjyfw.gov.cn/live/jz-cctv-13/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,浙江卫视
-https://media.hndyjyfw.gov.cn/live/jz-zhejiangweishi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,北京卫视
-https://media.hndyjyfw.gov.cn/live/jz-beijingweishi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,河南卫视
-https://media.hndyjyfw.gov.cn/live/jz-hnweishi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,河南都市
-https://media.hndyjyfw.gov.cn/live/jz-henandushi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,河南民生
-https://media.hndyjyfw.gov.cn/live/jz-henanminsheng/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
-#EXTINF:-1,河南梨园
-https://media.hndyjyfw.gov.cn/live/jz-henanliyuan/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn","User-Agent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-1.png",CCTV-1
+https://media.hndyjyfw.gov.cn/live/jz-cctv-1/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-3.png",CCTV-3
+https://media.hndyjyfw.gov.cn/live/jz-cctv-3/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-5.png",CCTV-5
+https://media.hndyjyfw.gov.cn/live/jz-cctv-5/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-6.png",CCTV-6
+https://media.hndyjyfw.gov.cn/live/jz-cctv-6/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-7.png",CCTV-7
+https://media.hndyjyfw.gov.cn/live/jz-cctv-7/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-9.png",CCTV-9
+https://media.hndyjyfw.gov.cn/live/jz-cctv-9/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-10.png",CCTV-10
+https://media.hndyjyfw.gov.cn/live/jz-cctv-10/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-11.png",CCTV-11
+https://media.hndyjyfw.gov.cn/live/jz-cctv-11/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-12.png",CCTV-12
+https://media.hndyjyfw.gov.cn/live/jz-cctv-12/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV-13.png",CCTV-13
+https://media.hndyjyfw.gov.cn/live/jz-cctv-13/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png",浙江卫视
+https://media.hndyjyfw.gov.cn/live/jz-zhejiangweishi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png",北京卫视
+https://media.hndyjyfw.gov.cn/live/jz-beijingweishi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png",河南卫视
+https://media.hndyjyfw.gov.cn/live/jz-hnweishi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南都市.png",河南都市
+https://media.hndyjyfw.gov.cn/live/jz-henandushi/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南民生.png",河南民生
+https://media.hndyjyfw.gov.cn/live/jz-henanminsheng/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
+#EXTINF:-1 tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南梨园.png",河南梨园
+https://media.hndyjyfw.gov.cn/live/jz-henanliyuan/live.m3u8#headers#{"Referer":"https://www.hndyjyfw.gov.cn"}
