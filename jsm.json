@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "🏠豆瓣🚥本地👨",
+      "name": "🏠豆瓣🚥网络👨",
       "jar": "./wex.zip",
       "type": 3,
       "api": "csp_DoubanGuard",
