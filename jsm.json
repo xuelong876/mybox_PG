@@ -107,7 +107,7 @@
       "filterable": 1,
       "changeable": 0,
       "style": {
-          "type": "list"
+        "type": "list"
       },
       "timeout": 60
     },
@@ -710,16 +710,7 @@
       "changeable": 0,
       "timeout": 120
     },
-    {
-      "key": "WexTuanZhangGuard",
-      "name": "⛅团长┃4K🍓",
-      "type": 3,
-      "jar": "./wex.zip",
-      "api": "csp_WexTuanZhangGuard",
-      "searchable": 1,
-      "changeable": 0,
-      "timeout": 120
-    },
+
     {
       "key": "Wexmuougg",
       "name": "⛅木偶┃4K🍓",
@@ -769,10 +760,7 @@
       "searchable": 1,
       "changeable": 0
     },
- 
 
-
- 
     {
       "key": "WexbaidusoGuard",
       "name": "⛅给力┃百度🍓",
