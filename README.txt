@@ -1,3 +1,11 @@
+github仓库（单仓）
+	        https://gitee.com/xuelong88/ck/raw/main/xianlu.json
+github(单仓)
+           https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/xianlu.json
+GitHub单线
+           https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm.json
+
+
 有缘人注意：本zip目前僅支持"影視","OK影視","EasyBox"使用，其他播放器或基於影視魔改的播放器使用本zip都會導致網盤内容無法播放。對本zip内的核心jar所作的任何魔改、縫合都會導致網盤原畫不可播放。
 
 
