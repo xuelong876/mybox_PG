@@ -459,6 +459,7 @@
       "jar": "./spider.jar",
       "type": 3,
       "api": "csp_AppGet",
+      "changeable": 0,
       "ext": {
         "site": "https://xy4k.com/url.txt",
         "dataKey": "7SDWjknU34zqFbVr",
@@ -596,7 +597,7 @@
       "type": 1,
       "api": "http://api.guangsuapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "categories": [
         "动作片",
         "喜剧片",
@@ -805,7 +806,7 @@
       "jar": "./wex.zip",
       "api": "csp_WexWoydpanGuard",
       "searchable": 1,
-      "changeable": 1,
+      "changeable": 0,
       "timeout": 50,
       "style": {
         "type": "list"
@@ -923,7 +924,7 @@
       "type": 3,
       "api": "csp_FourKZN",
       "quickSearch": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$http://xuexizhinan.com/$$$noproxy$$$1$$$./lib/4kzn.txt$$$4KZN"
@@ -934,7 +935,7 @@
       "type": 3,
       "api": "csp_FourKFox",
       "quickSearch": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$http://4kfox.com/$$$noproxy$$$1$$$./lib/4kfox.txt$$$4KFOX"
@@ -1045,7 +1046,7 @@
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 1,
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$https://revohd.com/$$$noproxy$$$1$$$./lib/wogg.json$$$QINGYING"
@@ -1167,7 +1168,7 @@
       "api": "csp_PushShare",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1,
+      "changeable": 0,
       "filterable": 0,
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
