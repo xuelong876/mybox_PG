@@ -5,6 +5,15 @@ github(单仓)
 GitHub单线
            https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm.json
 
+直播地址:
+  酷九：
+		github:	https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm_live.json
+ CND加速：https://cdn.jsdelivr.net/gh/xuelong876/mybox_PG@main/jsm_live.json
+ gitee:  https://gitee.com/xuelong88/mybox_PG/raw/main/jsm_live.json
+河南移动4m
+		URL: https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u
+       移动8M: YD8M 联通8M:   LT8M 联通酒店： ltHotel.m3u  河南党建网络： HNdjwl.m3u  m3u换成txt为txt源
+
 
 有缘人注意：本zip目前僅支持"影視","OK影視","EasyBox"使用，其他播放器或基於影視魔改的播放器使用本zip都會導致網盤内容無法播放。對本zip内的核心jar所作的任何魔改、縫合都會導致網盤原畫不可播放。
 
