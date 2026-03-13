@@ -1204,7 +1204,7 @@
     {
       "name": "移动4m",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
 
       "playerType": 2,
       "ua": "okhttp/3.12.13",
@@ -1214,7 +1214,7 @@
     {
       "name": "移动8m",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u",
 
       "playerType": 2,
       "ua": "okhttp/3.12.13",
@@ -1225,7 +1225,7 @@
     {
       "name": "联通内网",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
 
       "playerType": 1,
       "ua": "okhttp/3.12.13",
@@ -1236,7 +1236,7 @@
     {
       "name": "联通Hotel",
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/ltHotel.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/ltHotel.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
@@ -1304,7 +1304,7 @@
     {
       "name": "快直播(python)",
       "type": 3,
-      "api": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/kzb.py",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/kzb.py",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "ext": {}
     },
@@ -1313,7 +1313,7 @@
       "boot": true,
       "pass": false,
       "type": 0,
-      "url": "https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.txt",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.txt",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
