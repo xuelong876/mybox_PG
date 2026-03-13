@@ -40,7 +40,7 @@
     {
       "name": "联通Hotel",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LTHotel.m3u",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/ltHotel.m3u",
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
