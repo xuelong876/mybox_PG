@@ -1,7 +1,5 @@
 #EXTM3U
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png" group-title="联通酒店", CCTV1
-http://115.48.162.186:9901/tsfile/live/0001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png" group-title="联通酒店", CCTV1
 http://123.13.245.252:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png" group-title="联通酒店", CCTV1
 http://123.13.246.86:9901/tsfile/live/0001_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -32,8 +30,6 @@ http://42.237.159.112:9003/hls/1/index.m3u8
 #EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV1.png" group-title="联通酒店", CCTV1
 http://www.siyao.xin:4000/rtp/225.1.2.47:10276
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png" group-title="联通酒店", CCTV2
-http://115.48.162.186:9901/tsfile/live/0002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png" group-title="联通酒店", CCTV2
 http://123.13.245.252:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png" group-title="联通酒店", CCTV2
 http://123.13.246.86:9901/tsfile/live/0002_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -59,8 +55,6 @@ http://182.124.65.15:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.78:10462
 #EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV2.png" group-title="联通酒店", CCTV2
 http://www.siyao.xin:4000/rtp/225.1.2.78:10462
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png" group-title="联通酒店", CCTV3
-http://115.48.162.186:9901/tsfile/live/0003_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png" group-title="联通酒店", CCTV3
 http://123.13.245.252:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png" group-title="联通酒店", CCTV3
@@ -92,8 +86,6 @@ http://42.237.159.112:9003/hls/3/index.m3u8
 #EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV3.png" group-title="联通酒店", CCTV3
 http://www.siyao.xin:4000/rtp/225.1.2.141:10864
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png" group-title="联通酒店", CCTV4
-http://115.48.162.186:9901/tsfile/live/0004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png" group-title="联通酒店", CCTV4
 http://123.13.245.252:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png" group-title="联通酒店", CCTV4
 http://123.13.246.86:9901/tsfile/live/0004_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -119,8 +111,6 @@ http://182.124.65.15:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.197:11806
 #EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4.png" group-title="联通酒店", CCTV4
 http://www.siyao.xin:4000/rtp/225.1.2.197:11806
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png" group-title="联通酒店", CCTV5
-http://115.48.162.186:9901/tsfile/live/0005_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png" group-title="联通酒店", CCTV5
 http://123.13.245.252:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png" group-title="联通酒店", CCTV5
@@ -160,8 +150,6 @@ http://www.siyao.xin:4000/rtp/225.1.2.142:10870
 #EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV5.png" group-title="联通酒店", CCTV5
 http://www.siyao.xin:4000/rtp/225.1.2.48:10282
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png" group-title="联通酒店", CCTV6
-http://115.48.162.186:9901/tsfile/live/0006_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png" group-title="联通酒店", CCTV6
 http://123.13.245.252:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png" group-title="联通酒店", CCTV6
 http://123.13.246.86:9901/tsfile/live/0006_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -191,8 +179,6 @@ http://42.237.156.23:9003/hls/6/index.m3u8
 http://42.237.159.112:9003/hls/6/index.m3u8
 #EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV6.png" group-title="联通酒店", CCTV6
 http://www.siyao.xin:4000/rtp/225.1.2.143:10876
-#EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png" group-title="联通酒店", CCTV7
-http://115.48.162.186:9901/tsfile/live/0007_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png" group-title="联通酒店", CCTV7
 http://123.13.245.252:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png" group-title="联通酒店", CCTV7
@@ -224,8 +210,6 @@ http://42.237.159.112:9003/hls/7/index.m3u8
 #EXTINF:-1 tvg-name="CCTV7" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV7.png" group-title="联通酒店", CCTV7
 http://www.siyao.xin:4000/rtp/225.1.2.79:10468
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png" group-title="联通酒店", CCTV8
-http://115.48.162.186:9901/tsfile/live/0008_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png" group-title="联通酒店", CCTV8
 http://123.13.245.252:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png" group-title="联通酒店", CCTV8
 http://123.13.246.86:9901/tsfile/live/0008_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -256,8 +240,6 @@ http://42.237.159.112:9003/hls/8/index.m3u8
 #EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV8.png" group-title="联通酒店", CCTV8
 http://www.siyao.xin:4000/rtp/225.1.2.144:10882
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png" group-title="联通酒店", CCTV9
-http://115.48.162.186:9901/tsfile/live/0009_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png" group-title="联通酒店", CCTV9
 http://123.13.245.252:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png" group-title="联通酒店", CCTV9
 http://123.13.246.86:9901/tsfile/live/0009_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -284,8 +266,6 @@ http://182.127.7.145:40000/rtp/225.1.2.80:10474
 #EXTINF:-1 tvg-name="CCTV9" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV9.png" group-title="联通酒店", CCTV9
 http://www.siyao.xin:4000/rtp/225.1.2.80:10474
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png" group-title="联通酒店", CCTV10
-http://115.48.162.186:9901/tsfile/live/0010_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png" group-title="联通酒店", CCTV10
 http://123.13.245.252:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png" group-title="联通酒店", CCTV10
 http://123.13.246.86:9901/tsfile/live/0010_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -311,8 +291,6 @@ http://182.124.65.15:9901/tsfile/live/0010_3.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.81:10480
 #EXTINF:-1 tvg-name="CCTV10" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV10.png" group-title="联通酒店", CCTV10
 http://www.siyao.xin:4000/rtp/225.1.2.81:10480
-#EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png" group-title="联通酒店", CCTV11
-http://115.48.162.186:9901/tsfile/live/0011_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png" group-title="联通酒店", CCTV11
 http://123.13.245.252:9901/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png" group-title="联通酒店", CCTV11
@@ -344,8 +322,6 @@ http://42.237.159.112:9003/hls/11/index.m3u8
 #EXTINF:-1 tvg-name="CCTV11" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV11.png" group-title="联通酒店", CCTV11
 http://www.siyao.xin:4000/rtp/225.1.2.220:11434
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png" group-title="联通酒店", CCTV12
-http://115.48.162.186:9901/tsfile/live/0012_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png" group-title="联通酒店", CCTV12
 http://123.13.245.252:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png" group-title="联通酒店", CCTV12
 http://123.13.246.86:9901/tsfile/live/0012_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -372,8 +348,6 @@ http://182.127.7.145:40000/rtp/225.1.2.82:10486
 #EXTINF:-1 tvg-name="CCTV12" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV12.png" group-title="联通酒店", CCTV12
 http://www.siyao.xin:4000/rtp/225.1.2.82:10486
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png" group-title="联通酒店", CCTV13
-http://115.48.162.186:9901/tsfile/live/0013_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png" group-title="联通酒店", CCTV13
 http://123.13.245.252:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png" group-title="联通酒店", CCTV13
 http://123.13.246.86:9901/tsfile/live/0013_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -399,8 +373,6 @@ http://182.124.65.15:9901/tsfile/live/0013_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.74:11584
 #EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV13.png" group-title="联通酒店", CCTV13
 http://www.siyao.xin:4000/rtp/225.1.2.74:11584
-#EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png" group-title="联通酒店", CCTV14
-http://115.48.162.186:9901/tsfile/live/0014_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png" group-title="联通酒店", CCTV14
 http://123.13.245.252:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png" group-title="联通酒店", CCTV14
@@ -432,8 +404,6 @@ http://42.237.159.112:9003/hls/14/index.m3u8
 #EXTINF:-1 tvg-name="CCTV14" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV14.png" group-title="联通酒店", CCTV14
 http://www.siyao.xin:4000/rtp/225.1.2.83:10492
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png" group-title="联通酒店", CCTV15
-http://115.48.162.186:9901/tsfile/live/0015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png" group-title="联通酒店", CCTV15
 http://123.13.245.252:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV15.png" group-title="联通酒店", CCTV15
 http://123.13.246.86:9901/tsfile/live/0015_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -461,8 +431,6 @@ http://182.124.65.15:9901/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.53:10312
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV17.png" group-title="联通酒店", CCTV17
 http://www.siyao.xin:4000/rtp/225.1.2.53:10312
-#EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png" group-title="联通酒店", 河南卫视
-http://115.48.162.186:9901/tsfile/live/0139_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png" group-title="联通酒店", 河南卫视
 http://123.13.245.252:9901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png" group-title="联通酒店", 河南卫视
@@ -500,8 +468,6 @@ http://42.237.156.23:9003/hls/100/index.m3u8
 #EXTINF:-1 tvg-name="河南卫视4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视4K.png" group-title="联通酒店", 河南卫视4K
 http://42.237.159.112:9003/hls/100/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png" group-title="联通酒店", 湖南卫视
-http://115.48.162.186:9901/tsfile/live/0108_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png" group-title="联通酒店", 湖南卫视
 http://123.13.245.252:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png" group-title="联通酒店", 湖南卫视
 http://123.13.246.86:9901/tsfile/live/0128_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -527,8 +493,6 @@ http://182.124.65.15:9901/tsfile/live/0128_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.50:10294
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png" group-title="联通酒店", 湖南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.50:10294
-#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png" group-title="联通酒店", 江苏卫视
-http://115.48.162.186:9901/tsfile/live/0127_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png" group-title="联通酒店", 江苏卫视
 http://123.13.245.252:9901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png" group-title="联通酒店", 江苏卫视
@@ -556,8 +520,6 @@ http://182.127.7.145:40000/rtp/225.1.2.84:10498
 #EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江苏卫视.png" group-title="联通酒店", 江苏卫视
 http://www.siyao.xin:4000/rtp/225.1.2.84:10498
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png" group-title="联通酒店", 浙江卫视
-http://115.48.162.186:9901/tsfile/live/0124_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png" group-title="联通酒店", 浙江卫视
 http://123.13.245.252:9901/tsfile/live/0124_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png" group-title="联通酒店", 浙江卫视
 http://123.13.246.86:9901/tsfile/live/0124_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -581,8 +543,6 @@ http://182.124.65.15:9901/tsfile/live/0124_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.85:10504
 #EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/浙江卫视.png" group-title="联通酒店", 浙江卫视
 http://www.siyao.xin:4000/rtp/225.1.2.85:10504
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png" group-title="联通酒店", 北京卫视
-http://115.48.162.186:9901/tsfile/live/0122_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png" group-title="联通酒店", 北京卫视
 http://123.13.245.252:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png" group-title="联通酒店", 北京卫视
@@ -614,8 +574,6 @@ http://42.237.159.112:9003/hls/31/index.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/北京卫视.png" group-title="联通酒店", 北京卫视
 http://www.siyao.xin:4000/rtp/225.1.2.49:10288
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png" group-title="联通酒店", 东方卫视
-http://115.48.162.186:9901/tsfile/live/0107_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png" group-title="联通酒店", 东方卫视
 http://123.13.245.252:9901/tsfile/live/0107_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png" group-title="联通酒店", 东方卫视
 http://123.13.246.86:9901/tsfile/live/0107_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -640,8 +598,6 @@ http://182.127.7.145:40000/rtp/225.1.2.86:10510
 #EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东方卫视.png" group-title="联通酒店", 东方卫视
 http://www.siyao.xin:4000/rtp/225.1.2.86:10510
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png" group-title="联通酒店", 天津卫视
-http://115.48.162.186:9901/tsfile/live/0135_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png" group-title="联通酒店", 天津卫视
 http://123.13.245.252:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png" group-title="联通酒店", 天津卫视
 http://123.13.246.86:9901/tsfile/live/0135_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -661,8 +617,6 @@ http://42.237.156.23:9003/hls/32/index.m3u8
 http://42.237.159.112:9003/hls/32/index.m3u8
 #EXTINF:-1 tvg-name="天津卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/天津卫视.png" group-title="联通酒店", 天津卫视
 http://www.siyao.xin:4000/rtp/225.1.2.87:10516
-#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png" group-title="联通酒店", 山东卫视
-http://115.48.162.186:9901/tsfile/live/0131_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png" group-title="联通酒店", 山东卫视
 http://123.13.245.252:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png" group-title="联通酒店", 山东卫视
@@ -688,8 +642,6 @@ http://42.237.159.112:9003/hls/33/index.m3u8
 #EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山东卫视.png" group-title="联通酒店", 山东卫视
 http://www.siyao.xin:4000/rtp/225.1.2.89:10528
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png" group-title="联通酒店", 安徽卫视
-http://115.48.162.186:9901/tsfile/live/0130_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png" group-title="联通酒店", 安徽卫视
 http://125.43.252.199:85/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png" group-title="联通酒店", 安徽卫视
 http://125.46.133.17:4000/rtp/225.1.2.88:10522
@@ -713,8 +665,6 @@ http://42.237.156.23:9003/hls/34/index.m3u8
 http://42.237.159.112:9003/hls/34/index.m3u8
 #EXTINF:-1 tvg-name="安徽卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/安徽卫视.png" group-title="联通酒店", 安徽卫视
 http://www.siyao.xin:4000/rtp/225.1.2.88:10522
-#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png" group-title="联通酒店", 深圳卫视
-http://115.48.162.186:9901/tsfile/live/0126_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png" group-title="联通酒店", 深圳卫视
 http://123.13.245.252:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png" group-title="联通酒店", 深圳卫视
@@ -742,8 +692,6 @@ http://42.237.159.112:9003/hls/35/index.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/深圳卫视.png" group-title="联通酒店", 深圳卫视
 http://www.siyao.xin:4000/rtp/225.1.2.91:10540
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png" group-title="联通酒店", 江西卫视
-http://115.48.162.186:9901/tsfile/live/0138_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png" group-title="联通酒店", 江西卫视
 http://125.43.252.199:85/tsfile/live/1034_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png" group-title="联通酒店", 江西卫视
 http://125.46.133.17:4000/rtp/225.1.2.77:11602
@@ -757,8 +705,6 @@ http://182.124.65.15:9901/tsfile/live/0138_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.77:11602
 #EXTINF:-1 tvg-name="江西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/江西卫视.png" group-title="联通酒店", 江西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.77:11602
-#EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png" group-title="联通酒店", 湖北卫视
-http://115.48.162.186:9901/tsfile/live/0132_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png" group-title="联通酒店", 湖北卫视
 http://123.13.245.252:9901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png" group-title="联通酒店", 湖北卫视
@@ -788,8 +734,6 @@ http://42.237.159.112:9003/hls/37/index.m3u8
 #EXTINF:-1 tvg-name="湖北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖北卫视.png" group-title="联通酒店", 湖北卫视
 http://www.siyao.xin:4000/rtp/225.1.2.90:10534
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png" group-title="联通酒店", 四川卫视
-http://115.48.162.186:9901/tsfile/live/0123_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png" group-title="联通酒店", 四川卫视
 http://125.43.252.199:85/tsfile/live/1039_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png" group-title="联通酒店", 四川卫视
 http://125.46.133.17:4000/rtp/225.1.2.108:11626
@@ -803,8 +747,6 @@ http://182.124.65.15:9901/tsfile/live/0123_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.108:11626
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/四川卫视.png" group-title="联通酒店", 四川卫视
 http://www.siyao.xin:4000/rtp/225.1.2.108:11626
-#EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png" group-title="联通酒店", 黑龙江卫视
-http://115.48.162.186:9901/tsfile/live/0143_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png" group-title="联通酒店", 黑龙江卫视
 http://123.13.245.252:9901/tsfile/live/0143_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="黑龙江卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/黑龙江卫视.png" group-title="联通酒店", 黑龙江卫视
@@ -896,8 +838,6 @@ http://182.127.7.145:40000/rtp/225.1.2.226:11470
 #EXTINF:-1 tvg-name="东南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/东南卫视.png" group-title="联通酒店", 东南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.226:11470
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png" group-title="联通酒店", 重庆卫视
-http://115.48.162.186:9901/tsfile/live/0142_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png" group-title="联通酒店", 重庆卫视
 http://123.13.245.252:9901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png" group-title="联通酒店", 重庆卫视
 http://123.13.246.86:9901/tsfile/live/0142_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
@@ -919,8 +859,6 @@ http://42.237.156.23:9003/hls/44/index.m3u8
 http://42.237.159.112:9003/hls/44/index.m3u8
 #EXTINF:-1 tvg-name="重庆卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/重庆卫视.png" group-title="联通酒店", 重庆卫视
 http://www.siyao.xin:4000/rtp/225.1.2.75:11590
-#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png" group-title="联通酒店", 广东卫视
-http://115.48.162.186:9901/tsfile/live/0125_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png" group-title="联通酒店", 广东卫视
 http://123.13.245.252:9901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广东卫视.png" group-title="联通酒店", 广东卫视
@@ -956,8 +894,6 @@ http://182.127.7.145:40000/rtp/225.1.2.34:10198
 #EXTINF:-1 tvg-name="广西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/广西卫视.png" group-title="联通酒店", 广西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.34:10198
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png" group-title="联通酒店", 河北卫视
-http://115.48.162.186:9901/tsfile/live/0117_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png" group-title="联通酒店", 河北卫视
 http://125.43.252.199:85/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png" group-title="联通酒店", 河北卫视
 http://125.46.133.17:4000/rtp/225.1.2.106:11614
@@ -988,8 +924,6 @@ http://42.237.159.112:9003/hls/48/index.m3u8
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/吉林卫视.png" group-title="联通酒店", 吉林卫视
 http://www.siyao.xin:4000/rtp/225.1.2.105:11608
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png" group-title="联通酒店", 山西卫视
-http://115.48.162.186:9901/tsfile/live/0118_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
-#EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png" group-title="联通酒店", 山西卫视
 http://125.43.252.199:85/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png" group-title="联通酒店", 山西卫视
 http://125.46.133.17:4000/rtp/225.1.2.37:10216
@@ -1009,8 +943,6 @@ http://182.124.65.15:9901/tsfile/live/0118_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.37:10216
 #EXTINF:-1 tvg-name="山西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/山西卫视.png" group-title="联通酒店", 山西卫视
 http://www.siyao.xin:4000/rtp/225.1.2.37:10216
-#EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png" group-title="联通酒店", 陕西卫视
-http://115.48.162.186:9901/tsfile/live/0136_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png" group-title="联通酒店", 陕西卫视
 http://125.46.133.17:4000/rtp/225.1.2.36:10210
 #EXTINF:-1 tvg-name="陕西卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/陕西卫视.png" group-title="联通酒店", 陕西卫视
@@ -1053,8 +985,6 @@ http://182.124.65.15:9901/tsfile/live/0112_2.m3u8?key=txiptv&playlive=0&authid=0
 http://182.127.7.145:40000/rtp/225.1.2.41:10240
 #EXTINF:-1 tvg-name="宁夏卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/宁夏卫视.png" group-title="联通酒店", 宁夏卫视
 http://www.siyao.xin:4000/rtp/225.1.2.41:10240
-#EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/青海卫视.png" group-title="联通酒店", 青海卫视
-http://115.48.162.186:9901/tsfile/live/0140_1.m3u8?key=txiptv&amp;playlive=1&amp;authid=0
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/青海卫视.png" group-title="联通酒店", 青海卫视
 http://125.46.133.17:4000/rtp/225.1.2.39:10228
 #EXTINF:-1 tvg-name="青海卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/青海卫视.png" group-title="联通酒店", 青海卫视
