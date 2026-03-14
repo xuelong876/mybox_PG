@@ -463,10 +463,6 @@ http://182.127.7.145:40000/rtp/225.1.2.99:10588
 http://www.siyao.xin:4000/rtp/225.1.2.237:11530
 #EXTINF:-1 tvg-name="河南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视.png" group-title="联通酒店", 河南卫视
 http://www.siyao.xin:4000/rtp/225.1.2.99:10588
-#EXTINF:-1 tvg-name="河南卫视4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视4K.png" group-title="联通酒店", 河南卫视4K
-http://42.237.156.23:9003/hls/100/index.m3u8
-#EXTINF:-1 tvg-name="河南卫视4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视4K.png" group-title="联通酒店", 河南卫视4K
-http://42.237.159.112:9003/hls/100/index.m3u8
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png" group-title="联通酒店", 湖南卫视
 http://123.13.245.252:9901/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/湖南卫视.png" group-title="联通酒店", 湖南卫视
