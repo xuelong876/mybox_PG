@@ -731,6 +731,7 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
+        "changeable": 0,
         "style": {
             "type": "list",
             "ratio": 1.433
@@ -752,6 +753,7 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
+        "changeable": 0,
         "style": {
             "type": "list",
             "ratio": 1.433
@@ -772,6 +774,7 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
+        "changeable": 0,
         "style": {
             "type": "list",
             "ratio": 1.433
@@ -792,6 +795,7 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
+        "changeable": 0,
         "timeout": 60
     },
     {
@@ -802,6 +806,7 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
+        "changeable": 0,
         "style": {
             "type": "list"
         },
@@ -815,25 +820,13 @@
         "searchable": 1,
         "quickSearch": 0,
         "filterable": 0,
+        "changeable": 0,
         "style": {
             "type": "list"
         },
         "timeout": 60
     },
-    {
-      {
-        "key": "AList",
-        "name": "💿AList｜合集🍅",
-        "type": 3,
-        "api": "csp_Alist",
-        "searchable": 1,
-        "filterable": 1,
-        "changeable": 0,
-        "style": {
-          "type": "list"
-        },
-        "ext": "./xiaosa/alist.json"
-      },
+    
       {
         "key": "双星",
         "name": "⛅双星｜JS",
