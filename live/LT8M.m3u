@@ -199,7 +199,7 @@ rtsp://10.254.192.94/PLTV/88888888/224/3221225659/100001000000000600000000000097
 rtsp://10.254.192.94/PLTV/88888888/224/3221225660/10000100000000060000000000009725_0.smil
 #EXTINF:-1 tvg-name="爱体育" tvg-logo=" https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/爱体育.png" "group-title="联通内网", 爱体育
 rtsp://10.254.192.94/PLTV/88888888/224/3221225909/10000100000000060000000000273213_0.smil
-#EXTINF:-1 tvg-name="河南梨园" tvg-logo=" https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南梨园.png" "group-title="联通内网", 河南梨园
+#EXTINF:-1 tvg-name="梨园频道" tvg-logo=" https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园频道.png" "group-title="联通内网", 梨园频道
 rtsp://10.254.192.94/PLTV/88888888/224/3221225822/10000100000000060000000000154389_0.smil
 #EXTINF:-1 tvg-name="郑州影视戏曲" tvg-logo=" https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/郑州影视戏曲.png" "group-title="联通内网", 郑州影视戏曲
 rtsp://10.254.192.94/PLTV/88888888/224/3221225832/10000100000000060000000000154399_0.smil
