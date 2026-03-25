@@ -32,24 +32,18 @@
       "name": "🐧本地_综合🐧"
     },
     {
-      "url": "clan://localhost/mybox_PG/jsm.json",
+      "url": "clan://localhost/mybox_PG/xiaosa.json",
       "name": "🐧本地_潇洒🐧"
     },
     {
-      "url": "clan://localhost/mybox_PG/jsm.json",
+      "url": "clan://localhost/mybox_PG/erxiao.json",
       "name": "🐧本地_王二小🐧"
     },
     {
-      "url": "clan://localhost/mybox_PG/jsm.json",
+      "url": "clan://localhost/mybox_PG/pg.json",
       "name": "🐧本地_PG🐧"
     },
-
-    {
-      "url": "clan://localhost/mybox_PG/jsm.json",
-      "name": "🐧本地_线路🐧"
-    },
- 
-      {
+   {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm.json",
       "name": "🐼雪龙_github🐼"
     }
