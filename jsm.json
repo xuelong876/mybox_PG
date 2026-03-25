@@ -76,7 +76,6 @@
       "api": "csp_TTian",
       "ext": "http://tt.ysdqjs.cn$$$null$$$1"
     },
-
     {
       "key": "荐片",
       "name": "🚀荐片｜影视🍅",
@@ -121,7 +120,6 @@
       "quickSearch": 1,
       "filterable": 1
     },
-
     {
       "key": "爱看机器人",
       "name": "👾Ikanbot🍅",
@@ -229,13 +227,11 @@
     {
       "key": "奇奇",
       "name": "🐞奇奇｜APP🍅",
-
       "jar": "./spider.jar",
       "type": 3,
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "url": "http://110.42.67.221:8009",
         "dataKey": "123456789abcdefg",
@@ -252,7 +248,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://maotouyinghubei.oss-cn-wuhan-lr.aliyuncs.com/maotouyinghb.txt",
         "dataKey": "zxPtEUDGVllIUhDB",
@@ -268,7 +263,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "url": "http://117.50.204.35:520",
         "dataKey": "ca94b06ca3c7d80e",
@@ -286,7 +280,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://rxysyyds.oss-cn-chengdu.aliyuncs.com/qiji.txt",
         "dataKey": "sjvlwnhk6h9znl61",
@@ -303,7 +296,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q19.txt",
         "dataKey": "fff32466kkfff616",
@@ -319,7 +311,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/xinjian.txt",
         "dataKey": "k5t2fp3h9d25hn9y",
@@ -335,7 +326,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt",
         "dataKey": "jasaFBcdV3zrUDf2",
@@ -353,7 +343,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
         "dataKey": "UrWKPnmQWJA8AQzd",
@@ -369,7 +358,6 @@
       "api": "csp_AppQi",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
         "dataKey": "ca94b06ca359d80e",
@@ -386,7 +374,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://gitee.com/wmmoliill/wimg/raw/master/img/bk/9.txt",
         "dataKey": "88689667dce61725",
@@ -401,7 +388,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "url": "https://shangjihuoke.com",
         "dataKey": "8E2DC386FD452D05",
@@ -416,7 +402,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "url": "http://app1-0-0.87333.cc",
         "dataKey": "VwsHxkCViDXEExWa",
@@ -431,7 +416,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://bind.315999.xyz/89.txt",
         "dataKey": "#getapp@TMD@2025",
@@ -446,7 +430,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "site": "https://dyyztvappapigoodgx.68.gy:12689/ciwk28vu38io8/apiurl.txt",
         "dataKey": "dyyztvapiappyyds",
@@ -474,7 +457,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "url": "https://qiyiys.cc",
         "dataKey": "45452893929B40D9",
@@ -489,7 +471,6 @@
       "api": "csp_AppGet",
       "searchable": 1,
       "changeable": 0,
-
       "ext": {
         "url": "http://rqxk.gdata.fun",
         "dataKey": "yangruiqiYsapp00",
@@ -524,7 +505,6 @@
       "jar": "./spider.jar",
       "type": 3,
       "api": "csp_XBPQ",
-
       "searchable": 1,
       "changeable": 0,
       "quickSearch": 1,
@@ -555,7 +535,6 @@
       "filterable": 1,
       "ext": "https://www.xb6v.com"
     },
-
     {
       "key": "迅雷吧",
       "name": "🧲迅雷吧｜磁力🍅",
@@ -590,7 +569,6 @@
       "quickSearch": 1,
       "filterable": 1
     },
-
     {
       "key": "光速资源",
       "name": "🎬光速｜采集",
@@ -633,7 +611,6 @@
       },
       "ext": "./xiaosa/alist.json"
     },
-
     {
       "key": "双星",
       "name": "⛅双星｜JS",
@@ -711,7 +688,6 @@
       "changeable": 0,
       "timeout": 120
     },
-
     {
       "key": "Wexmuougg",
       "name": "⛅木偶┃4K🍓",
@@ -751,7 +727,6 @@
         "type": "list"
       }
     },
-
     {
       "key": "海绵",
       "name": "⛅‍海绵┃4K🍓‍",
@@ -761,7 +736,6 @@
       "searchable": 1,
       "changeable": 0
     },
-
     {
       "key": "WexbaidusoGuard",
       "name": "⛅给力┃百度🍓",
@@ -798,7 +772,6 @@
       "searchable": 1,
       "changeable": 0
     },
-
     {
       "key": "异动",
       "name": "⛅我的┃移动‍🍓",
@@ -859,7 +832,6 @@
       "searchable": 1,
       "quickSearch": 1
     },
-
     {
       "key": "混合盘",
       "name": "☁混合盘|网盘搜索🍇",
@@ -873,7 +845,6 @@
         "ratio": 1.1
       }
     },
-
     {
       "key": "QuarkShare",
       "name": "☁夸克云盘分享🍇",
@@ -890,7 +861,6 @@
         "ratio": 1.1
       }
     },
-
     {
       "key": "UCShare",
       "name": "☁UC云盘分享🍇",
@@ -951,7 +921,6 @@
       "timeout": 60,
       "ext": "./lib/tokenm.json$$$https://4kfm.com/$$$noproxy$$$1$$$./lib/4kfm.txt$$$4KFM"
     },
-
     {
       "key": "校长影视",
       "name": "☁校长影视|网盘🍇",
@@ -1066,7 +1035,6 @@
         "ratio": 1.1
       }
     },
-
     {
       "key": "YingSo",
       "name": "☁影搜|网盘搜索🍇",
@@ -1205,7 +1173,6 @@
       "name": "移动4m",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u",
-
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
@@ -1215,24 +1182,20 @@
       "name": "移动8m",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD8M.m3u",
-
       "playerType": 2,
       "ua": "okhttp/3.12.13",
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
-
     {
       "name": "联通内网",
       "type": 0,
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/LT8M.m3u",
-
       "playerType": 1,
       "ua": "okhttp/3.12.13",
       "logo": "https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/{name}.png",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}"
     },
-
     {
       "name": "联通Hotel",
       "type": 0,
@@ -1272,7 +1235,6 @@
         "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
       }
     },
-
     {
       "name": "肥羊B站直播.音质增强",
       "type": 0,
