@@ -5,11 +5,11 @@
         "key": "豆瓣",
         "name": "🏠豆瓣🚥PG👨",
         "type": 3,
-        "api": "csp_DoubanGuard",
+        "api": "csp_Douban",
         "searchable": 0,
         "changeable": 0,
         "indexs": 1,
-        "ext": "./lib/douban.json"
+        "ext": "./lib/tokenm.json$$$./lib/douban.json"
       },
       {
         "key": "bili",
