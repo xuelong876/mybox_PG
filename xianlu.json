@@ -1,6 +1,6 @@
 {
   "urls": [
-   {
+    {
       "url": " https://9877.kstore.space/AnotherD/api.json",
       "name": "🐼潇洒_凯速🐼"
     },
@@ -9,41 +9,41 @@
       "url": "https://qist.ugigc.dpdns.org/xiaosa/api.json",
       "name": "🐼潇洒_github🐼"
     },
-  {
+    {
       "url": "http://tv.999888987.xyz",
       "name": "🐼王二小_在线🐼"
     },
-  
+
     {
       "url": "https://9280.kstore.space/wex.json",
       "name": "🐼王二小_凯速🐼"
     },
 
-   {
-      "url": "https://www.252035.xyz/p/jsm.json",
-      "name": "🐼PG_github🐼"
-    },
     {
       "url": "https://www.252035.xyz/p/jsm.json",
       "name": "🐼PG_github🐼"
     },
     {
-      "url": "clan://localhost/mybox_PG/jsm.json",
+      "url": "https://www.252035.xyz/p/jsm.json",
+      "name": "🐼PG_github🐼"
+    },
+    {
+      "url": "file://localhost/mybox_PG/jsm.json",
       "name": "🐧本地_综合🐧"
     },
     {
-      "url": "clan://localhost/mybox_PG/xiaosa.json",
+      "url": "file://localhost/mybox_PG/xiaosa.json",
       "name": "🐧本地_潇洒🐧"
     },
     {
-      "url": "clan://localhost/mybox_PG/erxiao.json",
+      "url": "file://localhost/mybox_PG/erxiao.json",
       "name": "🐧本地_王二小🐧"
     },
     {
-      "url": "clan://localhost/mybox_PG/pg.json",
+      "url": "file://localhost/mybox_PG/pg.json",
       "name": "🐧本地_PG🐧"
     },
-   {
+    {
       "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm.json",
       "name": "🐼雪龙_github🐼"
     }
