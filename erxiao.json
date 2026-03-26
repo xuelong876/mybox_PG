@@ -8,19 +8,24 @@
       "api": "csp_DoubanGuard",
       "searchable": 0,
       "changeable": 0,
-      "indexs": 1,
+     
       "ext": "./lib/douban.json"
     },
     {
-      "key": "双星",
-      "name": "⛅双星｜JS",
+      "key": "賤賤",
+      "name": "🍓賤片┃p2p🍓",
       "type": 3,
-      "changeable": 0,
-      "api": "./xiaosa/drpy2.min.js",
-      "ext": "./xiaosa/双星.js",
-      "style": {
-        "type": "list"
-      }
+      "api": "csp_WexJianpianGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "盘他",
+      "name": "⛅‍盘他┃4K🍓‍",
+      "type": 3,
+      "api": "csp_WexYDpantaGuard",
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "Wexokconfig",
@@ -30,6 +35,14 @@
       "searchable": 0,
       "changeable": 0,
       "indexs": 0
+    },
+    {
+      "key": "WexshuangzixingGuard",
+      "name": "⛅双星┃4K🍓",
+      "type": 3,
+      "api": "csp_WexshuangzixingGuard",
+      "searchable": 1,
+      "changeable": 0
     },
     {
       "key": "Wexerxiaoziyuan",
@@ -153,6 +166,14 @@
       "name": "⛅找盘┃综合🍓",
       "type": 3,
       "api": "csp_WexZhaoPansoGuard",
+      "searchable": 1,
+      "changeable": 0
+    },
+    {
+      "key": "新6V",
+      "name": "🧲新6V┃P2P🛩",
+      "type": 3,
+      "api": "csp_WexXb6vGuard",
       "searchable": 1,
       "changeable": 0
     },
