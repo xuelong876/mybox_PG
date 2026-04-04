@@ -119,7 +119,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226413/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4K.png" group-title="4M",CCTV-4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227354/index.m3u8
-#EXTINF:-1 tvg-name="欢笑剧场4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/欢笑剧场4K.png" group-title="4M",欢笑剧场4K
+#EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/多彩文体4K.png" group-title="4M",多彩文体4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226323/index.m3u8
 #EXTINF:-1 tvg-name="三门峡" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/三门峡.png" group-title="4M",三门峡
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226523/index.m3u8
