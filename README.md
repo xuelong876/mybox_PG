@@ -13,6 +13,16 @@
   - URL: https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u
   - 移动8M: YD8M 联通8M:   LT8M 联通酒店： ltHotel.m3u  河南党建网络： HNdjwl.m3u  m3u换成txt为txt源
 ---
+### EPG地址 :
+- https://epg.catvod.com/epg.xml
+- http://epg.51zmt.top:8000/e.xml.xz
+- https://epg.zsdc.eu.org/t.xml.gz
+- https://epg.pw/xmltv/epg_CN.xml.gz
+- https://github.com/mytv-android/myEPG/raw/refs/heads/master/output/epg.xml
+- https://github.com/mytv-android/myEPG/raw/refs/heads/master/output/epg.gz    
+- https://gitee.com/mytv-android/myepg/raw/master/output/epg.xml
+- https://gitee.com/mytv-android/myepg/raw/master/output/epg.gz
+---
 ### 有缘人注意：本zip目前僅支持"影視","OK影視","EasyBox"使用，其他播放器或基於影視魔改的播放器使用本zip都會導致網盤内容無法播放。對本zip内的核心jar所作的任何魔改、縫合都會導致網盤原畫不可播放。
 ---
   - 把本zip文件解壓縮到安卓設備的任意目錄                       
