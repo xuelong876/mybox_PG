@@ -146,28 +146,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8
 #EXTINF:-1 tvg-name="移动戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/移动戏曲.png" group-title="高码率",  移动戏曲
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8 
 
-#EXTM3U
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/经典电影.png" group-title="高码率",  经典电影
-http://219.156.52.252:4000/rtp/225.1.2.167:11020
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/经典电影.png" group-title="高码率",  经典电影
-http://222.141.236.207:8003/rtp/225.1.2.167:11020
-#EXTINF:-1 tvg-name="经典电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/经典电影.png" group-title="高码率",  经典电影
-http://yhms.aylzline.top:8899/rtp/225.1.2.167:11020
-
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC家庭影院.png" group-title="高码率",  CHC家庭影院
-http://219.156.52.252:4000/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC家庭影院.png" group-title="高码率",  CHC家庭影院
-http://222.141.236.207:8003/rtp/225.1.2.214:11422
-#EXTINF:-1 tvg-name="CHC家庭影院" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC家庭影院.png" group-title="高码率",  CHC家庭影院
-http://yhms.aylzline.top:8899/rtp/225.1.2.214:11422
-
-
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC动作电影.png" group-title="高码率" ,  CHC动作电影
-http://219.156.52.252:4000/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC动作电影.png" group-title="高码率",  CHC动作电影
-http://222.141.236.207:8003/rtp/225.1.2.215:11428
-#EXTINF:-1 tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC动作电影.png" group-title="高码率",  CHC动作电影
-http://yhms.aylzline.top:8899/rtp/225.1.2.215:11428
 
 
 
