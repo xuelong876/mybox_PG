@@ -22,6 +22,7 @@
         "ratio": 1.597
       }
     },
+    
     {
       "key": "荐片",
       "name": "🧲荐片｜磁力🍅",
@@ -654,7 +655,7 @@
     },
     {
       "key": "二小",
-      "name": "🍅二小｜4🍅K",
+      "name": "🍅二小｜4K🍅",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
@@ -812,6 +813,29 @@
       },
       "timeout": 60
     },
+    {
+      "key": "盘搜",
+      "name": "🍅盘搜｜搜索🍅",
+      "type": 3,
+      "api": "csp_PanSou",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "timeout": 60
+  },
+  {
+    "key": "百度网盘",
+    "name": "🍅百度｜网盘🍅",
+    "type": 3,
+    "api": "csp_PanBaidu",
+    "searchable": 0,
+    "filterable": 0,
+    "changeable": 0,
+    "style": {
+        "type": "list",
+        "ratio": 1.433
+    }
+},
     {
       "key": "双星",
       "name": "🍅双星｜4K🍅",
