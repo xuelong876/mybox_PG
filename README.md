@@ -2,6 +2,7 @@
 - https://gitee.com/xuelong88/ck/raw/main/xianlu.json
 #### Github(单仓)
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/xianlu.json
+- https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/network_line.json
 #### GitHub单线
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm.json
 #### 直播地址:
