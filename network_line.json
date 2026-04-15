@@ -14,15 +14,15 @@
     },
  
     {
-      "url": "file://localhost/mybox_PG/xiaosa.json",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/xiaosa.json",
       "name": "🐧Github_潇洒🐧"
     },
     {
-      "url": "file://localhost/mybox_PG/erxiao.json",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main//erxiao.json",
       "name": "🐧Github_王二小🐧"
     },
     {
-      "url": "file://localhost/mybox_PG/pg.json",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main//pg.json",
       "name": "🐧Github_PG🐧"
     }
   ]
