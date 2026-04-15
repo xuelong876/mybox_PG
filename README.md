@@ -5,7 +5,9 @@
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/xianlu.json
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/network_line.json
 #### GitHub单线
-- https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm.json
+- https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/xiaosa.json
+- https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main//erxiao.json
+- https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main//pg.json
 #### 直播地址:
 - 酷九：
   - Github:	https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm_live.json
