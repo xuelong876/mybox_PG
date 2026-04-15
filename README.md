@@ -10,9 +10,9 @@
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main//pg.json
 #### 直播地址:
 - 酷九：
-  - Github:	https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/jsm_live.json
-  - CND加速：https://cdn.jsdelivr.net/gh/xuelong876/mybox_PG@main/jsm_live.json
-  - Gitee:  https://gitee.com/xuelong88/mybox_PG/raw/main/jsm_live.json
+  - Github:	https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/lives_list.json
+  - CND加速：https://cdn.jsdelivr.net/gh/xuelong876/mybox_PG@main/lives_list.json
+  - Gitee:  https://gitee.com/xuelong88/mybox_PG/raw/main/lives_list.json
 - 河南移动4m
   - URL: https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/live/YD4M.m3u
   - 移动8M: YD8M 联通8M:   LT8M 联通酒店： ltHotel.m3u  河南党建网络： HNdjwl.m3u  m3u换成txt为txt源
