@@ -1,0 +1,29 @@
+{
+  "urls": [
+    {
+      "url": " https://9877.kstore.space/AnotherD/api.json",
+      "name": "🐼潇洒_凯速🐼"
+    },
+    {
+      "url": "https://9280.kstore.space/wex.json",
+      "name": "🐼王二小_凯速🐼"
+    },
+    {
+      "url": "https://www.252035.xyz/p/jsm.json",
+      "name": "🐼PG_Githubhub🐼"
+    },
+ 
+    {
+      "url": "file://localhost/mybox_PG/xiaosa.json",
+      "name": "🐧Github_潇洒🐧"
+    },
+    {
+      "url": "file://localhost/mybox_PG/erxiao.json",
+      "name": "🐧Github_王二小🐧"
+    },
+    {
+      "url": "file://localhost/mybox_PG/pg.json",
+      "name": "🐧Github_PG🐧"
+    }
+  ]
+}
