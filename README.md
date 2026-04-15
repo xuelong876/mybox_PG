@@ -1,5 +1,6 @@
 #### Github仓库（单仓）
 - https://gitee.com/xuelong88/ck/raw/main/xianlu.json
+- https://gitee.com/xuelong88/ck/raw/main/network_line
 #### Github(单仓)
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/xianlu.json
 - https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/network_line.json
