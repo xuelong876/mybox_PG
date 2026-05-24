@@ -213,41 +213,6 @@
             "ext": "./lib/tokenm.json$$$https://ddys.pro/$$$proxy$$$1$$$"
         },
         {
-            "key": "美剧迷",
-            "name": "☁美剧迷|网盘👌",
-            "type": 3,
-            "api": "csp_Meijumi",
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 1,
-            "timeout": 120,
-            "ext": "./lib/tokenm.json$$$https://www.meijumi.net/$$$proxy$$$1"
-        },
-        {
-            "key": "WebDAV",
-            "name": "👌WebDAV[jar]👌",
-            "type": 3,
-            "api": "csp_WebDAV",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "timeout": 60,
-            "playerType": 2,
-            "ext": "./lib/webdav.json"
-        },
-        {
-            "key": "AList",
-            "name": "👌网盘|Alist[jar]👌",
-            "type": 3,
-            "api": "csp_AList",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "timeout": 60,
-            "playerType": 2,
-            "ext": "./lib/alistjar.json"
-        },
-        {
             "key": "PushShare",
             "name": "☁我的资源分享👌",
             "type": 3,
@@ -328,38 +293,6 @@
             }
         },
         {
-            "key": "123Share",
-            "name": "☁123云盘分享👌",
-            "type": 3,
-            "api": "csp_P123Share",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 120,
-            "ext": "./lib/tokenm.json$$$./lib/123share.txt$$$db$$$1",
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            }
-        },
-        {
-            "key": "189Share",
-            "name": "☁189云盘分享👌",
-            "type": 3,
-            "api": "csp_P189Share",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 120,
-            "ext": "./lib/tokenm.json$$$./lib/189share.txt$$$db$$$1",
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            }
-        },
-        {
             "key": "ThunderShare",
             "name": "☁迅雷云盘分享👌",
             "type": 3,
@@ -402,22 +335,6 @@
             "filterable": 0,
             "timeout": 120,
             "ext": "./lib/tokenm.json$$$./lib/115share.txt$$$db$$$1",
-            "style": {
-                "type": "list",
-                "ratio": 1.1
-            }
-        },
-        {
-            "key": "PikPakShare",
-            "name": "☁PikPak分享👌",
-            "type": 3,
-            "api": "csp_PikPakShare",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 0,
-            "filterable": 0,
-            "timeout": 60,
-            "ext": "./lib/tokenm.json$$$./lib/pikpakclass.json$$$./lib/pikpakclass.json.txt.gz",
             "style": {
                 "type": "list",
                 "ratio": 1.1
@@ -739,16 +656,6 @@
             "timeout": 60
         },
         {
-            "key": "ikun",
-            "name": "👌ikun👌",
-            "type": 1,
-            "api": "http://127.0.0.1:10079/p/0/proxy/https://ikunzyapi.com/api.php/provide/vod/?",
-            "playUrl": "json:http://127.0.0.1:10079/parse/?thread=0&proxy=proxy&url=",
-            "playerType": 1,
-            "searchable": 1,
-            "changeable": 0
-        },
-        {
             "key": "暴風",
             "name": "👌暴風👌",
             "type": 1,
@@ -807,16 +714,6 @@
                 "港台动漫",
                 "海外动漫"
             ]
-        },
-        {
-            "key": "drpy_js_Alist",
-            "name": "👌网盘 | Alist[js]👌",
-            "type": 3,
-            "api": "./lib/alist.min.js",
-            "searchable": 1,
-            "filterable": 1,
-            "changeable": 0,
-            "ext": "./js/alist.json"
         }
     ],
     "lives": [
