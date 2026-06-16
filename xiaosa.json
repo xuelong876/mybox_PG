@@ -649,27 +649,6 @@
             "changeable": 0
         },
         {
-            "key": "123",
-            "name": "☁123｜4K🍅",
-            "type": 3,
-            "api": "csp_PanWebShare123",
-            "searchable": 1,
-            "quickSearch": 0,
-            "filterable": 0,
-            "style": {
-                "type": "list",
-                "ratio": 1.433
-            },
-            "ext": {
-                "site": [
-                    "https://123panfx.com",
-                    "https://pan1.me"
-                ]
-            },
-            "timeout": 60,
-            "changeable": 0
-        },
-        {
             "key": "指南",
             "name": "☁指南｜4K🍅",
             "type": 3,
@@ -879,6 +858,16 @@
             "changeable": 0
         },
         {
+            "key": "美剧迷",
+            "name": "🧲美剧迷｜磁力🍅",
+            "type": 3,
+            "api": "csp_MeijuMi",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0
+        },
+        {
             "key": "迅雷吧",
             "name": "🧲迅雷吧｜磁力🍅",
             "type": 3,
@@ -1082,6 +1071,31 @@
             "changeable": 0
         },
         {
+            "key": "爱听音乐",
+            "name": "🍅爱听｜音乐🍅",
+            "type": 3,
+            "api": "./xiaosa/爱听音乐.py",
+            "changeable": 0
+        },
+        {
+            "key": "哔哩合集",
+            "name": "🅱️哔哩｜合集🍅",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 1,
+            "quickSearch": 0,
+            "filterable": 0,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 1.433
+            },
+            "ext": {
+                "json": "./xiaosa/哔哩合集.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            }
+        },
+        {
             "key": "哔哩哔哩相声",
             "name": "🅱️哔哩｜相声🍅",
             "type": 3,
@@ -1091,6 +1105,24 @@
             "filterable": 0,
             "ext": {
                 "json": "./json/哔哩哔哩相声.json",
+                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
+            },
+            "style": {
+                "type": "rect",
+                "ratio": 1.597
+            },
+            "changeable": 0
+        },
+        {
+            "key": "哔哩哔哩小品",
+            "name": "🅱️哔哩｜小品🍅",
+            "type": 3,
+            "api": "csp_Bili",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 0,
+            "ext": {
+                "json": "./json/哔哩哔哩小品.json",
                 "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
             },
             "style": {
