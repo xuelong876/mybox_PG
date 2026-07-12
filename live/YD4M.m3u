@@ -121,7 +121,8 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227354/index.m3u8
 #EXTINF:-1 tvg-name="多彩文体4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/多彩文体4K.png" group-title="4M",多彩文体4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226323/index.m3u8
-TINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC影迷电影.png" group-title="高码率",CHC影迷电影
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC影迷电影.png" group-title="高码率",CHC影迷电影
+
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227522/index.m3u8
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC动作电影.png" group-title="高码率",CHC动作电影
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227479/index.m3u8
@@ -150,11 +151,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227514/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226523/index.m3u8
 
 
-#EXTINF:-1 tvg-name="晴彩中原" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/晴彩中原.png" group-title="4M",晴彩中原
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8   
-#EXTINF:-1 tvg-name="移动戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/移动戏曲.png" group-title="4M",移动戏曲
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8   
- 
+
 #EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园频道.png" group-title="4M",梨园频道
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226438/index.m3u8   
 #EXTINF:-1 tvg-name="梨园频道" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/梨园频道.png" group-title="4M",梨园频道
