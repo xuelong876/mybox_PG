@@ -139,7 +139,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226845/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226877/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="都市剧场" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/都市剧场.png" group-title="高码率",  都市剧场
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226884/1.m3u8?fmt=ts2hls
-TINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC影迷电影.png" group-title="高码率",CHC影迷电影
+#EXTINF:-1 tvg-id="CHC影迷电影" tvg-name="CHC影迷电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC影迷电影.png" group-title="高码率",CHC影迷电影
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227522/index.m3u8
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CHC动作电影.png" group-title="高码率",CHC动作电影
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227479/index.m3u8
@@ -166,10 +166,6 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227516/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227514/index.m3u8
 #EXTINF:-1 tvg-name="三门峡" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/三门峡.png" group-title="高码率",  三门峡
 http://vod.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227034/10000100000000060000000008223613_0.smil/index.m3u8?fmt=ts2hls&servicetype=1 
-#EXTINF:-1 tvg-name="晴彩中原" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/晴彩中原.png" group-title="高码率",  晴彩中原
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226445/index.m3u8   
-#EXTINF:-1 tvg-name="移动戏曲" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/移动戏曲.png" group-title="高码率",  移动戏曲
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226436/index.m3u8 
 
 
 
