@@ -1,12 +1,12 @@
 {
-    "spider": "https://gitee.com/xuelong88/xiaosa_box/raw/master/spider.jar",
+    "spider": "https://github.com/qist/tvbox/tree/master/xiaosa",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "logo": "https://raw.giteeusercontent.com/xuelong88/xiaosa_box/raw/master/pg.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🍅豆瓣 • 首页🍅",
+            "name": "🏠豆瓣🚥github潇洒👨",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -14,7 +14,7 @@
         },
         {
             "key": "配置中心",
-            "name": "🍅配置 • 中心🍅",
+            "name": "⚙️配置中心🍅",
             "type": 3,
             "api": "csp_Config",
             "searchable": 0,
@@ -972,48 +972,6 @@
             "filterable": 0,
             "timeout": 60,
             "changeable": 0
-        },
-        {
-            "key": "戏曲多多",
-            "name": "🍅戏曲 • 多多🍅",
-            "type": 3,
-            "api": "csp_AppLY",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "list"
-            }
-        },
-        {
-            "key": "网络直播",
-            "name": "🍅网络 • 直播🍅",
-            "type": 3,
-            "api": "csp_ALLLive",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 1.618
-            }
-        },
-        {
-            "key": "哔哩哔哩音乐",
-            "name": "🅱️哔哩 • 音乐🍅",
-            "type": 3,
-            "api": "csp_Bili",
-            "searchable": 0,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": {
-                "n": "哔哩音乐",
-                "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt"
-            },
-            "style": {
-                "type": "rect",
-                "ratio": 1.618
-            }
         },
         {
             "key": "哔哩哔哩相声",
