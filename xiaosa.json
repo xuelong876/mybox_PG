@@ -1,5 +1,5 @@
 {
-    "spider": "https://github.com/qist/tvbox/tree/master/xiaosa/spider.jar",
+    "spider": "https://gitee.com/xuelong88/xiaosa_box/raw/master/spider.jar",
     "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
     "logo": "https://raw.giteeusercontent.com/xuelong88/xiaosa_box/raw/master/pg.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
