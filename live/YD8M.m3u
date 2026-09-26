@@ -75,8 +75,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226843/1.m3u8?fmt=ts2hl
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226895/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="海南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/海南卫视.png" group-title="高码率",  海南卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226973/1.m3u8?fmt=ts2hls
-#EXTINF:-1  tvg-name="云南卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/云南卫视.png" group-title="高码率",  云南卫视
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227211/index.m3u8
+
 #EXTINF:-1  tvg-name="吉林卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/吉林卫视.png" group-title="高码率",  吉林卫视
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226425/index.m3u8    
 #EXTINF:-1  tvg-name="河北卫视" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河北卫视.png" group-title="高码率",  河北卫视
@@ -108,8 +107,7 @@ http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227444/index.m3u8
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226936/1.m3u8?fmt=ts2hls
 #EXTINF:-1  tvg-name="河南卫视4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/河南卫视4K.png"  group-title="高码率",  河南卫视4K 
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221226526/index.m3u8
-#EXTINF:-1  tvg-name="求索记录4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/求索纪录4K.png"  group-title="高码率",  求索纪录4K
-http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227381/index.m3u8
+
 #EXTINF:-1  tvg-name="CCTV4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4K.png" group-title="高码率",  CCTV4K
 http://iptv.cdn.ha.chinamobile.com/PLTV/88888888/224/3221227382/index.m3u8
 #EXTINF:-1  tvg-name="CCTV4K" tvg-logo="https://cdn.jsdelivr.net/gh/xuelong876/channal_logo2@master/CCTV4K.png" group-title="高码率",  CCTV4K
