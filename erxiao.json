@@ -616,14 +616,7 @@
             "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
             "ext": {}
         },
-        {
-            "name": "央视频(python)",
-            "type": 3,
-            "url": "http://127.0.0.1:9978/all.m3u",
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/py/ysp_live.py",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "ext": {}
-        },
+
         {
             "name": "央视频2(python)",
             "type": 3,
