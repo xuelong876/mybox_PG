@@ -617,14 +617,7 @@
             "ext": {}
         },
 
-        {
-            "name": "央视频2(python)",
-            "type": 3,
-            "url": "http://127.0.0.1:9978/all.m3u",
-            "api": "https://garysclub.sharewithyou.dpdns.org/others/ysp-live.py",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "ext": {}
-        },
+
         {
             "name": "自启动Custom",
             "boot": true,
