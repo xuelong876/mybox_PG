@@ -1,24 +1,36 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Author  : Doubebly
-# @Time    : 2026/10/05
+"""
+ysp-live v2: 央视频全频道直播代理
+
+双协议:
+- JCE PidTimeShift (jacc.ysp.cctv.cn): 主协议, 时移转直播
+- bkliveinfo (bkliveinfo.ysp.cctv.cn + cKey): 备用, JCE 返回坏域名时自动切换
+
+播放器直连央视 CDN 拉分片, 本机只下发清单, 不跑视频流量。
+仅标准库, 无第三方依赖。
+"""
+
+import argparse
 import base64
-import sys
-import time
-import json
-import re
 import gzip
+import json
 import os
-import struct
 import random
+import re
+import struct
+import sys
+import threading
+import time
 import urllib.parse
 import urllib.request
 import urllib.error
 import uuid
+from collections import deque
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-sys.path.append('..')
-from base.spider import Spider
+# ================================================================ JCE 协议
 
-# ====================== 原版JCE / bkliveinfo 解密工具函数 完整保留 ======================
 class W:
     def __init__(self): self.b = bytearray()
     def head(self, typ, tag):
@@ -52,6 +64,7 @@ class W:
     def struct(self, fn, tag): self.head(10, tag); fn(self); self.head(11, 0)
     def list(self, items, tag, wf): self.head(9, tag); self.int(len(items), 0)
     def out(self): return bytes(self.b)
+
 
 class R:
     def __init__(self, data): self.d = memoryview(data); self.p = 0
@@ -90,14 +103,14 @@ class R:
             m[tag] = self.value(t)
         return m
 
+
 VER_NAME, VER_CODE = '3.2.7.26212', '302070'
 APP_ID, QMF_APP_ID, QMF_PLATFORM, BIZ_ID = '1200013', 10012, 1, 0
 CHAN_ID = '10070'
+GUID = ''.join(random.choice('0123456789abcdef') for _ in range(32))
 
-def get_guid():
-    return ''.join(random.choice('0123456789abcdef') for _ in range(32))
 
-def _qua(w, guid):
+def _qua(w):
     w.string(VER_NAME, 0); w.string(VER_CODE, 1)
     w.int(1080, 2); w.int(2400, 3); w.int(3, 4); w.string('12', 5)
     w.int(1, 6); w.int(1, 7); w.int(420, 8); w.string(CHAN_ID, 9)
@@ -105,23 +118,24 @@ def _qua(w, guid):
     w.struct(lambda ww: (ww.int(0, 0), ww.byte(0, 1), ww.string('', 2)), 15)
     w.string('', 16); w.string('', 17); w.string('', 18)
     w.struct(lambda ww: (ww.int(0, 0), ww.float(0, 1), ww.float(0, 2), ww.double(0, 3)), 19)
-    w.string(guid[:16], 20); w.string('Pixel 6', 21)
+    w.string(GUID[:16], 20); w.string('Pixel 6', 21)
     w.int(1, 22)
     for i in range(23, 27): w.int(0, i)
-    w.string('', 27); w.string('', 28); w.string(guid, 29)
+    w.string('', 27); w.string('', 28); w.string(GUID, 29)
 
-def _head(w, cmd, reqid, guid):
+
+def _head(w, cmd, reqid):
     w.int(reqid, 0); w.int(cmd, 1)
-    w.struct(lambda ww: _qua(ww, guid), 2)
-    w.string(APP_ID, 3); w.string(guid, 4)
+    w.struct(lambda ww: _qua(ww), 2)
+    w.string(APP_ID, 3); w.string(GUID, 4)
     w.list([], 5, None); w.struct(lambda ww: None, 6)
     w.list([], 7, None)
     w.int(0, 8); w.int(0, 9); w.int(0, 10)
 
+
 def _wrap(cmd, body, reqid):
-    guid = get_guid()
     w = W()
-    w.struct(lambda ww: _head(ww, cmd, reqid, guid), 0)
+    w.struct(lambda ww: _head(ww, cmd, reqid), 0)
     w.bytes(body, 1)
     reqcmd = w.out()
     inner = bytearray([38]) + struct.pack('>i', len(reqcmd) + 17) + bytes([1]) + b'\x00' * 10 + reqcmd + bytes([40])
@@ -129,27 +143,27 @@ def _wrap(cmd, body, reqid):
     out = bytearray([19]) + struct.pack('>i', 0) + struct.pack('>H', 2) + struct.pack('>H', 65281)
     out += struct.pack('>H', cmd) + struct.pack('>H', 0) + struct.pack('>q', reqid)
     out += struct.pack('>i', 531) + struct.pack('>i', QMF_APP_ID) + struct.pack('>q', BIZ_ID)
-    g = guid.encode()[:32]; out += g + b'\x00' * (32 - len(g))
+    g = GUID.encode()[:32]; out += g + b'\x00' * (32 - len(g))
     out += struct.pack('>b', QMF_PLATFORM) + struct.pack('>i', int(VER_CODE)) + b'\x00' * 6
     out += bytes([0]) + struct.pack('>H', 0) + struct.pack('>H', 0)
     out += struct.pack('>i', len(inner)) + comp + bytes([3])
     struct.pack_into('>i', out, 1, len(out))
     return bytes(out)
 
+
 def _unwrap(data):
     if data[:1] != b'\x13' or len(data) < 90: return None
+    flags = struct.unpack('>i', data[21:25])[0]
     payload = data[89:-1]
-    try:
-        flags = struct.unpack('>i', data[21:25])[0]
-        if flags & 2: payload = gzip.decompress(payload)
-    except Exception:
-        return None
+    if flags & 2: payload = gzip.decompress(payload)
     if payload[:1] != b'&' or payload[-1:] != b'(': return None
     rc = R(payload[16:-1]).struct()
     return rc.get(1) or b''
 
+
 class DeadHostError(RuntimeError):
     pass
+
 
 def jce_timeshift_url(pid, sid, start, end, stream='fhd'):
     w = W()
@@ -172,6 +186,11 @@ def jce_timeshift_url(pid, sid, start, end, stream='fhd'):
     if 'liverecord.video.cloud.cctv.com' in url:
         raise DeadHostError('dead cdn host')
     return url
+    return url
+
+
+# ================================================================ cKey + bkliveinfo
+# 移植自 akiralereal/iptv extractors/yangshipin/ckey.js
 
 _CK_PLATFORM = 4330403
 _CK_APPVER = 'V8.22.1035.3031'
@@ -180,7 +199,9 @@ _CK_GTEA = bytes.fromhex('110DBEC10C23E7D2E56A1CAD6914EF1B')
 _CK_XOR = bytes([0x84, 0x2e, 0xed, 0x08, 0xf0, 0x66, 0xe6, 0xea, 0x48, 0xb4, 0xca, 0xa9, 0x91, 0xed, 0x6f, 0xf3])
 _CK_GXOR = bytes([0xb3, 0xc9, 0x53, 0xa0, 0x69, 0x13, 0xad, 0x4d])
 
+
 def _u32(v): return v & 0xFFFFFFFF
+
 
 def _tea_blk(blk, key):
     y, z = struct.unpack('>2I', blk)
@@ -192,10 +213,12 @@ def _tea_blk(blk, key):
         z = _u32(z + _u32(_u32(_u32(y << 4) + k[2]) ^ _u32(y + s) ^ _u32((y >> 5) + k[3])))
     return struct.pack('>2I', y, z)
 
+
 def _cksum(buf):
     v = 0
     for b in buf: v = (0x83 * v + b) & 0x7fffffff
     return v
+
 
 def _tea_pkt(data, key):
     pad = (8 - ((len(data) + 10) % 8)) % 8
@@ -209,9 +232,11 @@ def _tea_pkt(data, key):
         pp, pc = mixed, cipher
     return out
 
+
 def _lp(s):
     d = s.encode() if isinstance(s, str) else s
     return struct.pack('>H', len(d)) + d
+
 
 def _ck_guard(ts, guid):
     def tail(v):
@@ -221,6 +246,7 @@ def _ck_guard(ts, guid):
     enc = _tea_pkt(plain, _CK_GTEA) + struct.pack('>I', _cksum(plain))
     enc = bytes(a ^ _CK_GXOR[i & 7] for i, a in enumerate(enc))
     return enc.hex().upper()
+
 
 def _ckey(channel_id):
     ts = int(time.time())
@@ -243,7 +269,9 @@ def _ckey(channel_id):
     return {'cKey': '--01' + b64, 'guid': guid, 'ts': ts,
             'flowId': '%s_%d' % (uuid.uuid4().hex.upper(), _CK_PLATFORM)}
 
+
 _BK_H264 = base64.b64encode(b'H(30:1080,60:1080|30:1080,60:1080)').decode()
+
 
 def bk_playurls(channel_id, live_pid, defn='fhd'):
     t = _ckey(channel_id)
@@ -270,34 +298,45 @@ def bk_playurls(channel_id, live_pid, defn='fhd'):
     if p.get('playurl'): urls.append(p['playurl'])
     bu = p.get('backurl_list') or p.get('backurlList') or p.get('backurl')
     if isinstance(bu, list):
-        for it in bu:
-            u = it.get('url') or it.get('playurl') or '' if isinstance(it, dict) else it
-            if u: urls.append(u)
+        for it in bu: urls.append(it if isinstance(it, str) else (it.get('url') or it.get('playurl') or ''))
     elif isinstance(bu, str):
         urls += [x for x in re.split(r'[;,]', bu) if x.strip()]
     urls = [u for u in dict.fromkeys(urls) if u and '.cctv.' in u]
     if not urls: raise RuntimeError('no playurl')
+    # bklive- 备用 CDN 更稳定, 优先用
     urls.sort(key=lambda u: (0 if 'bklive-' in u else 1, u))
     return urls
 
-def fetch_abs_playlist(url):
+
+def fetch_abs_playlist(url, depth=0):
     req = urllib.request.Request(url, headers={
         'User-Agent': 'qqlive', 'Referer': 'https://live.cctv.cn/',
         'Accept': 'application/vnd.apple.mpegurl,application/json,*/*'})
     with urllib.request.urlopen(req, timeout=20) as r:
         text = r.read().decode('utf-8', 'replace')
         final = r.geturl()
-    lines = text.splitlines()
-    output = []
-    for ln in lines:
+    if depth < 2:
+        lines = text.splitlines()
+        for i, ln in enumerate(lines):
+            if ln.strip().startswith('#EXT-X-STREAM-INF'):
+                for j in range(i + 1, len(lines)):
+                    s = lines[j].strip()
+                    if s and not s.startswith('#'):
+                        return fetch_abs_playlist(urllib.parse.urljoin(final, s), depth + 1)
+                break
+    out = []
+    for ln in text.splitlines():
         s = ln.strip()
         if s and not s.startswith('#'):
-            output.append(urllib.parse.urljoin(final, s))
+            out.append(urllib.parse.urljoin(final, s))
         else:
-            output.append(ln)
-    return '\n'.join(output)
+            out.append(ln)
+    return '\n'.join(out)
+    return '\n'.join(out)
 
-# ===================== 频道表 =====================
+
+# ================================================================ 频道表
+
 CHANNELS = [
     ('cctv1', 'CCTV-1 综合', '2024078201', '600001859', 'fhd'),
     ('cctv2', 'CCTV-2 财经', '2024075401', '600001800', 'fhd'),
@@ -321,6 +360,14 @@ CHANNELS = [
     ('cctv4k', 'CCTV-4K 超高清', '2029810301', '600002264', 'fhd'),
     ('cctv8k', 'CCTV-8K 超高清', '2026774101', '600156816', 'fhd'),
     ('cgtn', 'CGTN', '2024181701', '600014550', 'fhd'),
+    ('cgtnfr', 'CGTN 法语', '2024181801', '600084704', 'fhd'),
+    ('cgtnru', 'CGTN 俄语', '2024181901', '600084758', 'fhd'),
+    ('cgtnar', 'CGTN 阿拉伯语', '2024182001', '600084782', 'fhd'),
+    ('cgtnes', 'CGTN 西班牙语', '2024182101', '600084744', 'fhd'),
+    ('cgtndoc', 'CGTN 纪录', '2024182301', '600084781', 'fhd'),
+    ('cctvfyjc', 'CCTV 风云剧场', '2025637103', '600099658', 'shd'),
+    ('cctvdyjc', 'CCTV 第一剧场', '2026874203', '600099655', 'shd'),
+    ('cctvhjjc', 'CCTV 怀旧剧场', '2026874303', '600099620', 'shd'),
     ('bjws', '北京卫视', '2024052703', '600002309', 'fhd'),
     ('jsws', '江苏卫视', '2024171103', '600002521', 'fhd'),
     ('dfws', '东方卫视', '2024054503', '600002483', 'fhd'),
@@ -328,137 +375,307 @@ CHANNELS = [
     ('hnws', '湖南卫视', '2024054803', '600002475', 'fhd'),
     ('hbws', '湖北卫视', '2024171203', '600002508', 'fhd'),
     ('gdws', '广东卫视', '2024060903', '600002485', 'fhd'),
+    ('gxws', '广西卫视', '2024060703', '600002509', 'fhd'),
+    ('hljws', '黑龙江卫视', '2029797003', '600002498', 'fhd'),
+    ('hainanws', '海南卫视', '2024055603', '600002506', 'fhd'),
+    ('cqws', '重庆卫视', '2024061103', '600002531', 'fhd'),
+    ('szws', '深圳卫视', '2024061303', '600002481', 'fhd'),
+    ('scws', '四川卫视', '2024061403', '600002516', 'fhd'),
     ('henanws', '河南卫视', '2029797303', '600002525', 'fhd'),
+    ('dnws', '东南卫视', '2024061503', '600002484', 'fhd'),
+    ('gzws', '贵州卫视', '2024061603', '600002490', 'fhd'),
+    ('jxws', '江西卫视', '2024061703', '600002503', 'fhd'),
+    ('lnws', '辽宁卫视', '2024171303', '600002505', 'fhd'),
+    ('ahws', '安徽卫视', '2024171403', '600002532', 'fhd'),
+    ('hebws', '河北卫视', '2024171503', '600002493', 'fhd'),
+    ('sdws', '山东卫视', '2029787903', '600002513', 'fhd'),
+    ('tjws', '天津卫视', '2019927003', '600152137', 'fhd'),
+    ('jlws', '吉林卫视', '2025561503', '600190405', 'fhd'),
+    ('saxws', '陕西卫视', '2029795103', '600190400', 'fhd'),
+    ('nxws', '宁夏卫视', '2025608503', '600190737', 'fhd'),
+    ('nmgws', '内蒙古卫视', '2025561203', '600190401', 'fhd'),
+    ('ynws', '云南卫视', '2025561303', '600190402', 'fhd'),
+    ('shanxiws', '山西卫视', '2025560803', '600190407', 'fhd'),
+    ('gsws', '甘肃卫视', '2025561703', '600190408', 'fhd'),
+    ('qhws', '青海卫视', '2025559103', '600190406', 'fhd'),
+    ('xizangws', '西藏卫视', '2025558003', '600190403', 'fhd'),
+    ('xjws', '新疆卫视', '2019927403', '600152138', 'fhd'),
+    ('cetv1', 'CETV-1', '2022823801', '600171827', 'fhd'),
+    ('guoxue', '国学频道', '2029360403', '600213139', 'fhd'),
 ]
 
-FORCE_BK = {'cctv11', 'cctv12', 'cctv14', 'cctv15', 'cctv16', 'cctv164k','cctv17', 'cctv4k'}
-CHAN_MAP = {c[0]: c for c in CHANNELS}
+UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'
 
-# ===================== TVBox Spider 类 =====================
-class Spider(Spider):
-    def getName(self):
-        return "YangShiPin"
+# ================================================================ 直播状态
 
-    def init(self, extend):
-        self.extend = extend
-        try:
-            self.extendDict = json.loads(extend)
-        except:
-            self.extendDict = {}
-        proxy = self.extendDict.get('proxy', None)
-        if proxy is None:
-            self.is_proxy = False
-        else:
-            self.proxy = proxy
-            self.is_proxy = True
+REFRESH_INTERVAL = 15
+IDLE_TIMEOUT = 120
+WINDOW = 300
+MAX_SEGS = 60
+BK_URL_TTL = 600
 
-    def getDependence(self):
-        return []
 
-    def isVideoFormat(self, url):
-        pass
+class Channel:
+    def __init__(self, slug, name, sid, pid, defn):
+        self.slug, self.name, self.sid, self.pid, self.defn = slug, name, sid, pid, defn
+        self.lock = threading.Lock()
+        self.segments = {}
+        self.order = deque()
+        self.seq = 0
+        self.last_access = 0.0
+        self.thread = None
+        self.last_error = ''
+        self.mode = 'jce'
+        self.bk_urls = []
+        self.bk_urls_time = 0.0
+        self.bk_playlist = ''
+        self._starting = False
 
-    def manualVideoCheck(self):
-        pass
 
-    def b64encode(self, data):
-        return base64.b64encode(data.encode('utf-8')).decode('utf-8')
+def seg_key(url, pdt):
+    if pdt: return 'pdt:' + pdt
+    p = urllib.parse.urlsplit(url)
+    return p.scheme + '://' + p.netloc + p.path
 
-    def b64decode(self, data):
-        return base64.b64decode(data.encode('utf-8')).decode('utf-8')
 
-    def liveContent(self, url):
-        """输出m3u直播源列表，pid存放频道slug"""
-        a = ['#EXTM3U']
-        try:
-            for slug,name,sid,pid,defn in CHANNELS:
-                extinf = (f'#EXTINF:-1 tvg-id="{slug}" tvg-name="{name}" '
-                          f'tvg-logo="https://logo.doube.eu.org/{slug}.png" group-title="央视频",{name}')
-                # pid传递slug，localProxy内部解析
-                play_url = f'proxy://do=py&type=m3u8&pid={slug}'
-                a.append(extinf)
-                a.append(play_url)
-        except Exception as e:
-            print(f"liveContent err:{e}")
-            a.append("# 读取频道列表异常")
-        return '\n'.join(a)
+def log(msg):
+    print('[%s] %s' % (time.strftime('%H:%M:%S'), msg), flush=True)
 
-    def localProxy(self, params):
-        """TVBox本地代理入口，处理m3u8、ts"""
-        ptype = params.get('type','')
-        pid = params.get('pid','')
-        if ptype == "m3u8":
-            return self.proxyM3u8(pid)
-        if ptype == "ts":
-            return self.get_ts(params)
-        # 兜底测试视频
-        return [302, "text/plain", None, {'Location': 'https://sf1-cdn-tos.huoshanstatic.com/obj/media-fe/xgplayer_doc_video/mp4/xgplayer-demo-720p.mp4'}]
 
-    def proxyM3u8(self, slug):
-        """根据slug获取真实央视m3u8，分片替换为proxy ts代理"""
-        if slug not in CHAN_MAP:
-            return [500,"text/plain","error: channel not found"]
-        _,name,sid,livepid,defn = CHAN_MAP[slug]
-        use_bk = slug in FORCE_BK
-        real_m3u8 = None
-        try:
-            if not use_bk:
-                now = int(time.time())
-                real_url = jce_timeshift_url(livepid, sid, now-300, now, defn)
-                real_m3u8 = fetch_abs_playlist(real_url)
-        except DeadHostError:
-            use_bk = True
-        except Exception as e:
-            print(f"jce fail {slug}:{e}")
-            use_bk = True
-        if use_bk:
+def jce_fetch(ch):
+    now = int(time.time())
+    m3u8_url = jce_timeshift_url(ch.pid, ch.sid, now - WINDOW, now, ch.defn)
+    req = urllib.request.Request(m3u8_url, headers={'User-Agent': UA})
+    with urllib.request.urlopen(req, timeout=20) as r:
+        text = r.read().decode('utf-8', 'replace')
+    segs, dur, pdt = [], 6.0, ''
+    for line in text.splitlines():
+        line = line.strip()
+        if line.startswith('#EXTINF:'):
+            try: dur = float(line[len('#EXTINF:'):].split(',')[0])
+            except ValueError: dur = 6.0
+        elif line.startswith('#EXT-X-PROGRAM-DATE-TIME:'):
+            pdt = line[len('#EXT-X-PROGRAM-DATE-TIME:'):]
+        elif line and not line.startswith('#'):
+            segs.append((dur, pdt, urllib.parse.urljoin(m3u8_url, line)))
+            pdt = ''
+    if not segs: raise RuntimeError('empty playlist')
+    return segs
+
+
+def jce_refresh(ch):
+    segs = jce_fetch(ch)
+    with ch.lock:
+        added = 0
+        for dur, pdt, url in segs:
+            key = seg_key(url, pdt)
+            if key in ch.segments:
+                ch.segments[key][3] = url
+                continue
+            ch.seq += 1
+            ch.segments[key] = [ch.seq, dur, pdt, url]
+            ch.order.append(key)
+            added += 1
+        while len(ch.order) > MAX_SEGS:
+            ch.segments.pop(ch.order.popleft(), None)
+        ch.last_error = ''
+    if added: log('%s +%d 片 (共%d)' % (ch.slug, added, len(ch.segments)))
+    return True
+
+
+def bk_refresh(ch):
+    now = time.time()
+    if now - ch.bk_urls_time > BK_URL_TTL or not ch.bk_urls:
+        ch.bk_urls = bk_playurls(ch.sid, ch.pid, ch.defn)
+        ch.bk_urls_time = now
+        log('%s bkliveinfo 拿到 %d 个地址' % (ch.slug, len(ch.bk_urls)))
+    last_err = ''
+    for attempt in range(2):
+        for u in ch.bk_urls:
             try:
-                urls = bk_playurls(sid, livepid, defn)
-                real_m3u8 = fetch_abs_playlist(urls[0])
+                pl = fetch_abs_playlist(u)
+                if '#EXTM3U' not in pl: continue
+                with ch.lock:
+                    ch.bk_playlist = pl
+                    ch.last_error = ''
+                return True
+            except urllib.error.HTTPError as e:
+                last_err = 'HTTPError: HTTP %s' % e.code
+                if e.code == 403:
+                    time.sleep(2)
+                continue
             except Exception as e:
-                print(f"bk fail {slug}:{e}")
-                return [500,"text/plain",f"# 获取播放地址失败 {e}"]
-        if not real_m3u8:
-            return [500,"text/plain","# m3u8 empty"]
-        # 将分片url替换成本机proxy ts代理
-        new_lines = []
-        for line in real_m3u8.splitlines():
-            ln = line.strip()
-            if ln and not ln.startswith("#"):
-                b64url = self.b64encode(ln)
-                proxy_ts = f"proxy://do=py&type=ts&url={b64url}"
-                new_lines.append(proxy_ts)
-            else:
-                new_lines.append(line)
-        out_text = "\n".join(new_lines)
-        return [200, "application/vnd.apple.mpegurl", out_text]
+                last_err = '%s: %s' % (type(e).__name__, e)
+        if attempt == 0:
+            try:
+                ch.bk_urls = bk_playurls(ch.sid, ch.pid, ch.defn)
+                ch.bk_urls_time = time.time()
+                log('%s 地址疑似过期, 已重取' % ch.slug)
+            except Exception:
+                pass
+    ch.bk_urls_time = 0
+    raise RuntimeError(last_err[:120] or 'bk playlist failed')
 
-    def get_ts(self, params):
-        """代理ts分片，走配置的代理"""
-        raw_url = self.b64decode(params['url'])
-        headers = {'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36'}
-        proxies = self.proxy if self.is_proxy else None
-        req = urllib.request.Request(raw_url, headers=headers)
-        with urllib.request.urlopen(req, timeout=20, proxies=proxies) as resp:
-            content = resp.read()
-        return [206, "application/octet-stream", content]
 
-    def homeContent(self, filter):
-        return {}
-    def homeVideoContent(self):
-        return {}
-    def categoryContent(self, cid, page, filter, ext):
-        return {}
-    def detailContent(self, did):
-        return {}
-    def searchContent(self, key, quick, page='1'):
-        return {}
-    def searchContentPage(self, keywords, quick, page):
-        return {}
-    def playerContent(self, flag, pid, vipFlags):
-        return {}
-    def destroy(self):
-        return "destroy ok"
+def refresh_once(ch):
+    try:
+        if ch.mode == 'bk':
+            return bk_refresh(ch)
+        try:
+            return jce_refresh(ch)
+        except DeadHostError:
+            ch.mode = 'bk'
+            log('%s JCE 返回坏域名, 切换 bkliveinfo' % ch.slug)
+            return bk_refresh(ch)
+    except Exception as e:
+        ch.last_error = ('%s: %s' % (type(e).__name__, e))[:120]
+        log('%s 刷新失败: %s' % (ch.slug, ch.last_error))
+        return False
+
+
+def refresh_loop(ch):
+    log('%s 后台刷新启动 [%s]' % (ch.slug, ch.mode))
+    fails = 0
+    while time.time() - ch.last_access < IDLE_TIMEOUT:
+        ok = refresh_once(ch)
+        fails = 0 if ok else fails + 1
+        time.sleep(REFRESH_INTERVAL if fails < 3 else 60)
+    log('%s 无人观看, 停止刷新' % ch.slug)
+
+
+def ensure_channel(ch):
+    ch.last_access = time.time()
+    with ch.lock:
+        if ch._starting:
+            return
+        need_fetch = not ch.segments and not ch.bk_playlist
+        need_thread = ch.thread is None or not ch.thread.is_alive()
+        if need_fetch or need_thread:
+            ch._starting = True
+        else:
+            return
+    try:
+        if need_fetch:
+            refresh_once(ch)
+        if need_thread:
+            ch.thread = threading.Thread(target=refresh_loop, args=(ch,), daemon=True)
+            ch.thread.start()
+    finally:
+        with ch.lock:
+            ch._starting = False
+
+
+def build_playlist(ch):
+    with ch.lock:
+        if ch.mode == 'bk':
+            return ch.bk_playlist or None
+        keys = list(ch.order)[-30:]
+        segs = [ch.segments[k] for k in keys if k in ch.segments]
+    if not segs: return None
+    target = max(6, max(int(s[1] + 0.5) for s in segs))
+    out = ['#EXTM3U', '#EXT-X-VERSION:3',
+           '#EXT-X-TARGETDURATION:%d' % target,
+           '#EXT-X-MEDIA-SEQUENCE:%d' % segs[0][0]]
+    for _, dur, pdt, url in segs:
+        if pdt: out.append('#EXT-X-PROGRAM-DATE-TIME:' + pdt)
+        out.append('#EXTINF:%.3f,' % dur)
+        out.append(url)
+    return '\n'.join(out) + '\n'
+
+
+CHANNEL_MAP = {c[0]: Channel(*c) for c in CHANNELS}
+
+# 已知 JCE 返回坏域名的频道, 直接走 bkliveinfo, 省掉首次切换等待
+FORCE_BK = {'cctv11', 'cctv12', 'cctv14', 'cctv15', 'cctv16', 'cctv164k',
+            'cctv17', 'cctv4k', 'cctvfyjc', 'cctvdyjc', 'cctvhjjc'}
+for _s in FORCE_BK:
+    if _s in CHANNEL_MAP:
+        CHANNEL_MAP[_s].mode = 'bk'
+
+# ================================================================ HTTP 服务
+
+
+class Handler(BaseHTTPRequestHandler):
+    server_version = 'ysp-live/2.6'
+
+    def log_message(self, fmt, *args):
+        pass
+
+    def _send(self, code, body, ctype='text/plain; charset=utf-8'):
+        data = body.encode('utf-8') if isinstance(body, str) else body
+        self.send_response(code)
+        self.send_header('Content-Type', ctype)
+        self.send_header('Content-Length', str(len(data)))
+        self.send_header('Access-Control-Allow-Origin', '*')
+        self.send_header('Cache-Control', 'no-cache')
+        self.end_headers()
+        self.wfile.write(data)
+
+    def do_GET(self):
+        path = urllib.parse.urlparse(self.path).path
+        if path in ('/', '/index.html'):
+            self._send(200, index_page(), 'text/html; charset=utf-8')
+            return
+        if path == '/health':
+            self._send(200, 'ok')
+            return
+        if path == '/all.m3u':
+            host = self.headers.get('Host', 'localhost:8767')
+            lines = ['#EXTM3U']
+            for slug, name, _s, _p, _d in CHANNELS:
+                lines.append('#EXTINF:-1,%s' % name)
+                lines.append('http://%s/%s.m3u8' % (host, slug))
+            self._send(200, '\n'.join(lines) + '\n', 'application/vnd.apple.mpegurl')
+            return
+        if path == '/diag':
+            info = []
+            for slug, ch in CHANNEL_MAP.items():
+                info.append('%s mode=%s err=%s' % (slug, ch.mode, ch.last_error))
+            self._send(200, '\n'.join(info) + '\n')
+            return
+        m = re.match(r'^/([\w]+)\.m3u8$', path)
+        if m:
+            ch = CHANNEL_MAP.get(m.group(1))
+            if not ch:
+                self._send(404, '未知频道\n')
+                return
+            ensure_channel(ch)
+            pl = build_playlist(ch)
+            if not pl:
+                self._send(503, '频道 %s 暂无数据 (%s), 请稍后重试\n' % (ch.name, ch.last_error or '拉取中'))
+                return
+            self._send(200, pl, 'application/vnd.apple.mpegurl')
+            return
+        self._send(404, 'not found\n')
+
+
+def index_page():
+    items = []
+    for slug, name, _s, _p, _d in CHANNELS:
+        items.append('<li><a href="/%s.m3u8">%s</a> <span>/%s.m3u8</span></li>' % (slug, name, slug))
+    return ('<!DOCTYPE html><html><head><meta charset="utf-8">'
+            '<meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<title>央视频全频道直播</title><style>'
+            'body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:720px;margin:0 auto;padding:20px;}'
+            'li{margin:6px 0;}span{color:#888;font-size:12px;margin-left:8px;}</style></head>'
+            '<body><h2>央视频全频道直播 (%d 路)</h2>'
+            '<p>把链接粘贴到播放器即可观看, 延迟约 20 秒。分片由播放器直连央视 CDN, 本机不跑视频流量。</p>'
+            '<p>聚合订阅: <a href="/all.m3u">/all.m3u</a> (63 路一次导入)</p>'
+            '<ul>%s</ul></body></html>' % (len(items), ''.join(items)))
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument('port', nargs='?', type=int, default=8767)
+    args = ap.parse_args()
+    srv = ThreadingHTTPServer(('0.0.0.0', args.port), Handler)
+    log('ysp-live v2 启动: %d 个频道, 监听端口 %d' % (len(CHANNEL_MAP), args.port))
+    log('首页: http://localhost:%d/' % args.port)
+    try:
+        srv.serve_forever()
+    except KeyboardInterrupt:
+        pass
+
 
 if __name__ == '__main__':
-    pass
+    main()
