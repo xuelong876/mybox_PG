@@ -15,9 +15,9 @@ http://127.0.0.1:9990/ku9/py/proxy?p=cctv6
 #EXTINF:-1,CCTV-7 国防军事
 http://127.0.0.1:9990/ku9/py/proxy?p=cctv7
 #EXTINF:-1,CCTV-8 电视剧
-http://127.0.0.1:9990/ku9/py/proxy?p=cctv8
+http://127.0.0.1:9990/ku9/py/ysp_live.py?p=cctv8
 #EXTINF:-1,CCTV-9 纪录
-http://127.0.0.1:9990/ku9/py/proxy?p=cctv9
+http://127.0.0.1:9990/ku9/py/ysp_live?p=cctv9
 #EXTINF:-1,CCTV-10 科教
 http://127.0.0.1:9990/ku9/py/proxy?p=cctv10
 #EXTINF:-1,CCTV-11 戏曲
