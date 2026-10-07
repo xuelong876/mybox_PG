@@ -1,17 +1,16 @@
-#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ysp-live v2: 央视频全频道直播代理
+央视频全频道直播 - 酷九 PY 版
 
-双协议:
-- JCE PidTimeShift (jacc.ysp.cctv.cn): 主协议, 时移转直播
-- bkliveinfo (bkliveinfo.ysp.cctv.cn + cKey): 备用, JCE 返回坏域名时自动切换
+用法(假设脚本挂载路径为 /ysp):
+  /ysp?p=cctv1           -> 返回该频道 m3u8 正文(列表/EPG 类型, data 字段)
+  /ysp?p=all             -> 返回全部频道聚合 m3u8
+  /ysp?p=diag            -> 返回各频道状态
 
+双协议: JCE PidTimeShift(主) + bkliveinfo(备)
 播放器直连央视 CDN 拉分片, 本机只下发清单, 不跑视频流量。
-仅标准库, 无第三方依赖。
 """
 
-import argparse
 import base64
 import gzip
 import json
@@ -19,7 +18,6 @@ import os
 import random
 import re
 import struct
-import sys
 import threading
 import time
 import urllib.parse
@@ -27,7 +25,10 @@ import urllib.request
 import urllib.error
 import uuid
 from collections import deque
-from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from typing import Any, Dict, Tuple, Union, Iterable
+
+from base.parser import Parser
+
 
 # ================================================================ JCE 协议
 
@@ -186,11 +187,9 @@ def jce_timeshift_url(pid, sid, start, end, stream='fhd'):
     if 'liverecord.video.cloud.cctv.com' in url:
         raise DeadHostError('dead cdn host')
     return url
-    return url
 
 
 # ================================================================ cKey + bkliveinfo
-# 移植自 akiralereal/iptv extractors/yangshipin/ckey.js
 
 _CK_PLATFORM = 4330403
 _CK_APPVER = 'V8.22.1035.3031'
@@ -303,7 +302,6 @@ def bk_playurls(channel_id, live_pid, defn='fhd'):
         urls += [x for x in re.split(r'[;,]', bu) if x.strip()]
     urls = [u for u in dict.fromkeys(urls) if u and '.cctv.' in u]
     if not urls: raise RuntimeError('no playurl')
-    # bklive- 备用 CDN 更稳定, 优先用
     urls.sort(key=lambda u: (0 if 'bklive-' in u else 1, u))
     return urls
 
@@ -331,7 +329,6 @@ def fetch_abs_playlist(url, depth=0):
             out.append(urllib.parse.urljoin(final, s))
         else:
             out.append(ln)
-    return '\n'.join(out)
     return '\n'.join(out)
 
 
@@ -396,7 +393,6 @@ CHANNELS = [
     ('nmgws', '内蒙古卫视', '2025561203', '600190401', 'fhd'),
     ('ynws', '云南卫视', '2025561303', '600190402', 'fhd'),
     ('shanxiws', '山西卫视', '2025560803', '600190407', 'fhd'),
-    ('gsws', '甘肃卫视', '2025561703', '600190408', 'fhd'),
     ('qhws', '青海卫视', '2025559103', '600190406', 'fhd'),
     ('xizangws', '西藏卫视', '2025558003', '600190403', 'fhd'),
     ('xjws', '新疆卫视', '2019927403', '600152138', 'fhd'),
@@ -405,6 +401,7 @@ CHANNELS = [
 ]
 
 UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36'
+
 
 # ================================================================ 直播状态
 
@@ -501,8 +498,7 @@ def bk_refresh(ch):
                 return True
             except urllib.error.HTTPError as e:
                 last_err = 'HTTPError: HTTP %s' % e.code
-                if e.code == 403:
-                    time.sleep(2)
+                if e.code == 403: time.sleep(2)
                 continue
             except Exception as e:
                 last_err = '%s: %s' % (type(e).__name__, e)
@@ -585,97 +581,114 @@ def build_playlist(ch):
 
 CHANNEL_MAP = {c[0]: Channel(*c) for c in CHANNELS}
 
-# 已知 JCE 返回坏域名的频道, 直接走 bkliveinfo, 省掉首次切换等待
+# 已知 JCE 返回坏域名的频道, 直接走 bkliveinfo
 FORCE_BK = {'cctv11', 'cctv12', 'cctv14', 'cctv15', 'cctv16', 'cctv164k',
             'cctv17', 'cctv4k', 'cctvfyjc', 'cctvdyjc', 'cctvhjjc'}
 for _s in FORCE_BK:
     if _s in CHANNEL_MAP:
         CHANNEL_MAP[_s].mode = 'bk'
 
-# ================================================================ HTTP 服务
 
+# ================================================================ 酷九脚本入口
 
-class Handler(BaseHTTPRequestHandler):
-    server_version = 'ysp-live/2.6'
+class Parser(Parser):
 
-    def log_message(self, fmt, *args):
-        pass
+    def __init__(self, *args, **kwargs):
+        # 兼容不同框架版本的初始化参数
+        try:
+            super().__init__(*args, **kwargs)
+        except TypeError:
+            super().__init__()
+        self._stopped = False
+        log('ysp-live 酷九版加载: %d 个频道' % len(CHANNEL_MAP))
 
-    def _send(self, code, body, ctype='text/plain; charset=utf-8'):
-        data = body.encode('utf-8') if isinstance(body, str) else body
-        self.send_response(code)
-        self.send_header('Content-Type', ctype)
-        self.send_header('Content-Length', str(len(data)))
-        self.send_header('Access-Control-Allow-Origin', '*')
-        self.send_header('Cache-Control', 'no-cache')
-        self.end_headers()
-        self.wfile.write(data)
+    # ---------------------------------------------------------- parse
+    def parse(self, params: Dict[str, str]) -> Dict[str, str]:
+        """
+        参数:
+          p / channel / id : 频道 slug, 如 cctv1; 特殊值: all / diag
+          defn             : 可选, 覆盖画质(fhd/shd/hd/sd)
+        返回:
+          列表/EPG 类型 -> {"data": "正文"}
+          需要二次请求 -> {"url": "..."}
+        """
+        p = (params.get('p') or params.get('channel')
+             or params.get('id') or params.get('ch') or '').strip()
 
-    def do_GET(self):
-        path = urllib.parse.urlparse(self.path).path
-        if path in ('/', '/index.html'):
-            self._send(200, index_page(), 'text/html; charset=utf-8')
-            return
-        if path == '/health':
-            self._send(200, 'ok')
-            return
-        if path == '/all.m3u':
-            host = self.headers.get('Host', 'localhost:8767')
-            lines = ['#EXTM3U']
-            for slug, name, _s, _p, _d in CHANNELS:
-                lines.append('#EXTINF:-1,%s' % name)
-                lines.append('http://%s/%s.m3u8' % (host, slug))
-            self._send(200, '\n'.join(lines) + '\n', 'application/vnd.apple.mpegurl')
-            return
-        if path == '/diag':
-            info = []
+        if not p:
+            return {'data': self._all_m3u(params)}
+
+        if p == 'all':
+            return {'data': self._all_m3u(params)}
+
+        if p == 'diag':
+            lines = []
             for slug, ch in CHANNEL_MAP.items():
-                info.append('%s mode=%s err=%s' % (slug, ch.mode, ch.last_error))
-            self._send(200, '\n'.join(info) + '\n')
-            return
-        m = re.match(r'^/([\w]+)\.m3u8$', path)
-        if m:
-            ch = CHANNEL_MAP.get(m.group(1))
-            if not ch:
-                self._send(404, '未知频道\n')
-                return
-            ensure_channel(ch)
-            pl = build_playlist(ch)
-            if not pl:
-                self._send(503, '频道 %s 暂无数据 (%s), 请稍后重试\n' % (ch.name, ch.last_error or '拉取中'))
-                return
-            self._send(200, pl, 'application/vnd.apple.mpegurl')
-            return
-        self._send(404, 'not found\n')
+                lines.append('%s mode=%s err=%s' % (slug, ch.mode, ch.last_error))
+            return {'data': '\n'.join(lines) + '\n'}
 
+        ch = CHANNEL_MAP.get(p)
+        if not ch:
+            return {'data': '# 未知频道: %s\n' % p}
 
-def index_page():
-    items = []
-    for slug, name, _s, _p, _d in CHANNELS:
-        items.append('<li><a href="/%s.m3u8">%s</a> <span>/%s.m3u8</span></li>' % (slug, name, slug))
-    return ('<!DOCTYPE html><html><head><meta charset="utf-8">'
-            '<meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>央视频全频道直播</title><style>'
-            'body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:720px;margin:0 auto;padding:20px;}'
-            'li{margin:6px 0;}span{color:#888;font-size:12px;margin-left:8px;}</style></head>'
-            '<body><h2>央视频全频道直播 (%d 路)</h2>'
-            '<p>把链接粘贴到播放器即可观看, 延迟约 20 秒。分片由播放器直连央视 CDN, 本机不跑视频流量。</p>'
-            '<p>聚合订阅: <a href="/all.m3u">/all.m3u</a> (63 路一次导入)</p>'
-            '<ul>%s</ul></body></html>' % (len(items), ''.join(items)))
+        # 允许外部临时覆盖画质
+        defn = (params.get('defn') or '').strip()
+        if defn and defn != ch.defn:
+            ch.defn = defn
 
+        ensure_channel(ch)
+        pl = build_playlist(ch)
+        if not pl:
+            return {'data': '# 频道 %s 暂无数据 (%s), 请稍后重试\n'
+                            % (ch.name, ch.last_error or '拉取中')}
+        return {'data': pl}
 
-def main():
-    ap = argparse.ArgumentParser()
-    ap.add_argument('port', nargs='?', type=int, default=8767)
-    args = ap.parse_args()
-    srv = ThreadingHTTPServer(('0.0.0.0', args.port), Handler)
-    log('ysp-live v2 启动: %d 个频道, 监听端口 %d' % (len(CHANNEL_MAP), args.port))
-    log('首页: http://localhost:%d/' % args.port)
-    try:
-        srv.serve_forever()
-    except KeyboardInterrupt:
-        pass
+    # ---------------------------------------------------------- proxy
+    def proxy(self, url: str, headers: Dict[str, Any]):
+        """
+        本脚本播放器直连央视 CDN, 不需要代理流, 直接返回 404。
+        如果你想让宿主代理拉分片(比如绕过 CORS/防盗链), 取消下面注释即可。
+        """
+        # try:
+        #     req = urllib.request.Request(url, headers={'User-Agent': UA})
+        #     with urllib.request.urlopen(req, timeout=20) as r:
+        #         data = r.read()
+        #         h = {k: v for k, v in r.getheaders()}
+        #         h.pop('Content-Length', None)
+        #         h.pop('Transfer-Encoding', None)
+        #         return data, h
+        # except Exception as e:
+        #     return ('proxy error: %s' % e).encode(), {'Content-Type': 'text/plain'}
+        return b'', {'Content-Type': 'text/plain'}
 
+    # ---------------------------------------------------------- stop
+    def stop(self):
+        """
+        换台时调用: 停掉所有后台刷新线程, 防止资源泄漏。
+        """
+        self._stopped = True
+        now = time.time()
+        for ch in CHANNEL_MAP.values():
+            ch.last_access = now - IDLE_TIMEOUT - 1  # 让 refresh_loop 尽快退出
+            t = ch.thread
+            if t and t.is_alive():
+                t.join(timeout=1.0)
+            ch.thread = None
+        log('ysp-live 酷九版已停止全部后台刷新')
 
-if __name__ == '__main__':
-    main()
+    # ---------------------------------------------------------- 内部
+    def _all_m3u(self, params: Dict[str, str]) -> str:
+        # 用 self.address 拼回代地址; 若框架没提供 address, 退化用本机占位
+        base = getattr(self, 'address', '') or ''
+        # 去掉可能的 query, 只保留 ?p= 前缀
+        base = base.split('?', 1)[0]
+        qsep = '&' if '?' in base else '?'
+
+        lines = ['#EXTM3U']
+        for slug, name, _s, _p, _d in CHANNELS:
+            lines.append('#EXTINF:-1,%s' % name)
+            if base:
+                lines.append('%s%sp=%s' % (base, qsep, slug))
+            else:
+                lines.append('?p=%s' % slug)
+        return '\n'.join(lines) + '\n'
