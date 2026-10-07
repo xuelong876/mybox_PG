@@ -1,7 +1,8 @@
 #EXTM3U 
-http://127.0.0.1:9990/ku9/py/proxy?p=cctv1
+http://127.0.0.1/ku9/py/ysp_live.py?p=cctv1
 #EXTINF:-1,CCTV-2 财经
-http://127.0.0.1:9990/ku9/py/proxy?p=cctv2
+http://127.0.0.1:9990/ku9/py/ysp_live?p=cctv2
+
 #EXTINF:-1,CCTV-3 综艺
 http://127.0.0.1:9990/ku9/py/proxy?p=cctv3
 #EXTINF:-1,CCTV-4 中文国际
