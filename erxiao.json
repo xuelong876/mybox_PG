@@ -609,14 +609,7 @@
                 "source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
             }
         },
-        {
-            "name": "央视频(python)",
-            "type": 3,
-            "url": "http://127.0.0.1:8767/all.m3u",
-            "api": "https://gh-proxy.com/https://raw.githubusercontent.com/xuelong876/mybox_PG/refs/heads/main/py/ysp_live.py",
-            "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
-            "ext": {}
-        },
+
         {
             "name": "快直播(python)",
             "type": 3,
